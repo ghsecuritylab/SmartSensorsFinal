@@ -85,6 +85,8 @@ int main(void)
   SystemClock_Config();
 
   Periph_Config();
+	
+	//Add comment for Github
   
   BSP_LED_Init(LED_GREEN);
   BSP_PB_Init(BUTTON_USER, BUTTON_MODE_EXTI);
