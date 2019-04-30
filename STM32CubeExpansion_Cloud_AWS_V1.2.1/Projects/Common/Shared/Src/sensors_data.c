@@ -48,15 +48,20 @@
 #include <stdio.h>
 #include "sensors_data.h"
 
+
 #include "stm32l4xx_hal.h"
 #include "stm32l475e_iot01.h"
 #include "stm32l475e_iot01_tsensor.h"
 #include "stm32l475e_iot01_hsensor.h"
+
+//We can remove everything below
 #include "stm32l475e_iot01_psensor.h"
 #include "stm32l475e_iot01_magneto.h"
 #include "stm32l475e_iot01_gyro.h"
 #include "stm32l475e_iot01_accelero.h"
 #include "vl53l0x_proximity.h"
+//end remove
+
 #include "msg.h"
 
 /* Private typedef -----------------------------------------------------------*/
@@ -141,6 +146,7 @@ int PrepareSensorsData(char * Buffer, int Size, char * deviceID)
   int BuffSize = Size;
   int snprintfreturn = 0;
 
+  // Remove all sensor readings except Temperature and Humidity
   TEMPERATURE_Value = BSP_TSENSOR_ReadTemp();
   HUMIDITY_Value = BSP_HSENSOR_ReadHumidity();
   PRESSURE_Value = BSP_PSENSOR_ReadPressure();
@@ -148,7 +154,14 @@ int PrepareSensorsData(char * Buffer, int Size, char * deviceID)
   BSP_ACCELERO_AccGetXYZ(ACC_Value);
   BSP_GYRO_GetXYZ(GYR_Value);
   BSP_MAGNETO_GetXYZ(MAG_Value);
+  // End Remove
 
+  
+/*
+**  This is where the code displays out to the MQTT, let's get rid of everything
+**  except temperature and humidity (don't forget to get rid of the stuff
+**  after the comma.
+*/
 #ifdef BLUEMIX
   snprintfreturn = snprintf( Buff, BuffSize, "{\"d\":{"
            "\"temperature\": %.2f, \"humidity\": %.2f, \"pressure\": %.2f, \"proximity\": %d, "
@@ -161,6 +174,12 @@ int PrepareSensorsData(char * Buffer, int Size, char * deviceID)
            GYR_Value[0], GYR_Value[1], GYR_Value[2],
            MAG_Value[0], MAG_Value[1], MAG_Value[2] );
 
+/*
+**  This is where the code displays out to the MQTT, let's get rid of everything
+**  except temperature and humidity (don't forget to get rid of the stuff
+**  after the comma.
+*/  
+  
 #elif defined(AWS)
   if (deviceID != NULL)
   {
@@ -176,6 +195,13 @@ int PrepareSensorsData(char * Buffer, int Size, char * deviceID)
              GYR_Value[0], GYR_Value[1], GYR_Value[2],
              MAG_Value[0], MAG_Value[1], MAG_Value[2] );
   }
+
+/*
+**  This is where the code displays out to the MQTT, let's get rid of everything
+**  except temperature and humidity (don't forget to get rid of the stuff
+**  after the comma.
+*/  
+
   else
   {
   snprintfreturn = snprintf( Buff, BuffSize, "{\n \"state\": {\n  \"reported\": {\n"
@@ -189,6 +215,13 @@ int PrepareSensorsData(char * Buffer, int Size, char * deviceID)
            GYR_Value[0], GYR_Value[1], GYR_Value[2],
            MAG_Value[0], MAG_Value[1], MAG_Value[2] );
   }
+
+/*
+**  This is where the code displays out to the MQTT, let's get rid of everything
+**  except temperature and humidity (don't forget to get rid of the stuff
+**  after the comma.
+*/  
+  
 #elif defined(EXOSITEHTTP)
   snprintfreturn = snprintf( Buff, BuffSize, 
            "temperature=%.2f&"
