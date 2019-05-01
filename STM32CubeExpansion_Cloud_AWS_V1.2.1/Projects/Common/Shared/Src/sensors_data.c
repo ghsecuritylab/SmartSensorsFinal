@@ -145,14 +145,18 @@ int PrepareSensorsData(char * Buffer, int Size, char * deviceID)
 
   TEMPERATURE_Value = BSP_TSENSOR_ReadTemp();
   HUMIDITY_Value = BSP_HSENSOR_ReadHumidity();
+// We turned off the sensor readings we didn't need below
+//----------------------------------------------------------
 //  PRESSURE_Value = BSP_PSENSOR_ReadPressure();
 //  PROXIMITY_Value = VL53L0X_PROXIMITY_GetDistance();
 //  BSP_ACCELERO_AccGetXYZ(ACC_Value);
 //  BSP_GYRO_GetXYZ(GYR_Value);
 //  BSP_MAGNETO_GetXYZ(MAG_Value);
   
+// Added a function to determine the Farenheit Temp
+//---------------------------------------------------------
   FTemp = (TEMPERATURE_Value * 9/5) + 32;
-  HTemp = (HUMIDITY_Value * 9/5) + 32;
+
 
 #ifdef BLUEMIX
   snprintfreturn = snprintf( Buff, BuffSize, "{\"d\":{"
@@ -185,13 +189,12 @@ int PrepareSensorsData(char * Buffer, int Size, char * deviceID)
   //This is where data is sent to USART and AWS
   else
   {
-   ACC_Value[0] = 0;
-   GYR_Value[0] = 0;
-   MAG_Value[0] = 0;
+  // Function below was changed to only display Temperature and Humidity
+  // ---------------------------------------------------------------------------------------
   snprintfreturn = snprintf( Buff, BuffSize, "{\n \"state\": {\n  \"reported\": {\n"
-           "   \"temperature C\": %.2f,\n   \"temperature F\": %.2f,\n   \"humidity C\":    %.2f,\n   \"humidity F\":    %.2f"
+           "   \"temperature C\": %.2f,\n   \"temperature F\": %.2f,\n   \"humidity C\":    %.2f"
            "  }\n }\n}",
-           TEMPERATURE_Value, FTemp, HUMIDITY_Value, HTemp);
+           TEMPERATURE_Value, FTemp, HUMIDITY_Value);
           
   }
 #elif defined(EXOSITEHTTP)
