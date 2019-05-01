@@ -183,7 +183,7 @@ int PrepareSensorsData(char * Buffer, int Size, char * deviceID)
 #elif defined(AWS)
   if (deviceID != NULL)
   {
- Buff, BuffSize, "{\"deviceId\":\"%s\","
+						snprintfreturn = snprintf( Buff, BuffSize, "{\"deviceId\":\"%s\","
              "\"temperature\": %.2f, \"humidity\": %.2f, \"pressure\": %.2f, \"proximity\": %d, "
              "\"acc_x\": %d, \"acc_y\": %d, \"acc_z\": %d, "
              "\"gyr_x\": %.0f, \"gyr_y\": %.0f, \"gyr_z\": %.0f, "
@@ -193,7 +193,8 @@ int PrepareSensorsData(char * Buffer, int Size, char * deviceID)
              TEMPERATURE_Value, HUMIDITY_Value, PRESSURE_Value, PROXIMITY_Value,
              ACC_Value[0], ACC_Value[1], ACC_Value[2],
              GYR_Value[0], GYR_Value[1], GYR_Value[2],
-             MAG_Value[0], MAG_Value[1], MAG_Value[2] );  }
+             MAG_Value[0], MAG_Value[1], MAG_Value[2] );
+	}
 
 /*
 **  This is where the code displays out to the MQTT, let's get rid of everything
