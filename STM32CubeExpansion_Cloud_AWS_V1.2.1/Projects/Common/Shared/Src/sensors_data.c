@@ -134,8 +134,7 @@ int init_sensors(void)
 int PrepareSensorsData(char * Buffer, int Size, char * deviceID)
 {
 #if (defined(BLUEMIX) || defined(AWS) || defined(EXOSITEHTTP))
-  float    TEMPERATURE_Value;
-  float    HUMIDITY_Value;
+  float    TEMPERATURE_Value, HUMIDITY_Value, FTemp, HTemp;
   //float    PRESSURE_Value;
 //  int16_t  ACC_Value[3];
 //  float    GYR_Value[3];
@@ -149,6 +148,11 @@ int PrepareSensorsData(char * Buffer, int Size, char * deviceID)
   // Remove all sensor readings except Temperature and Humidity
   TEMPERATURE_Value = BSP_TSENSOR_ReadTemp();
   HUMIDITY_Value = BSP_HSENSOR_ReadHumidity();
+  
+  // This section will determine the temp/humidity in degrees F
+  FTemp = (TEMPERATURE_Value * 9/5) + 32;
+  HTemp = (HUMIDITY_Value * 9/5) + 32;
+  
   //PRESSURE_Value = BSP_PSENSOR_ReadPressure();
 //  PROXIMITY_Value = VL53L0X_PROXIMITY_GetDistance();
 //  BSP_ACCELERO_AccGetXYZ(ACC_Value);
@@ -157,16 +161,12 @@ int PrepareSensorsData(char * Buffer, int Size, char * deviceID)
   // End Remove
 
   
-/*
-**  This is where the code displays out to the MQTT, let's get rid of everything
-**  except temperature and humidity (don't forget to get rid of the stuff
-**  after the comma.
-*/
+
 #ifdef BLUEMIX
   snprintfreturn = snprintf( Buff, BuffSize, "{\"d\":{"
-           "\"temperature\": %.2f, \"humidity\": %.2f"
+           "\"temperature\": %.2f, \"temperature\": %.2f, \"humidity\": %.2f, \"humidity\": %.2f"
              "}}",
-           TEMPERATURE_Value, HUMIDITY_Value );
+           TEMPERATURE_Value, FTemp, HUMIDITY_Value, HTemp );
 
 /*
 **  This is where the code displays out to the MQTT, let's get rid of everything
@@ -178,10 +178,10 @@ int PrepareSensorsData(char * Buffer, int Size, char * deviceID)
   if (deviceID != NULL)
   {
     snprintfreturn = snprintf( Buff, BuffSize, "{\"deviceId\":\"%s\","
-             "\"temperature\": %.2f, \"humidity\": %.2f"
+             "\"temperature\": %.2f, \"temperature\": %.2f, \"humidity\": %.2f, \"humidity\": %.2f"
              "}",
              deviceID,
-             TEMPERATURE_Value, HUMIDITY_Value );
+             TEMPERATURE_Value, FTemp, HUMIDITY_Value, HTemp );
   }
 
 /*
@@ -189,13 +189,13 @@ int PrepareSensorsData(char * Buffer, int Size, char * deviceID)
 **  except temperature and humidity (don't forget to get rid of the stuff
 **  after the comma.
 */  
-
+// !! This is where the output to MQTT is!
   else
   {
   snprintfreturn = snprintf( Buff, BuffSize, "{\n \"state\": {\n  \"reported\": {\n"
-           "   \"temperature\": %.2f,\n   \"humidity\": %.2f"
+           "   \"temperature\": %.2f  degrees C, \n   \"temperature\": %.2f  degrees F, \n   \"humidity\":    %.2f  degrees C, \n   \"humidity\":    %.2f  degrees F"
            "  }\n }\n}",
-           TEMPERATURE_Value, HUMIDITY_Value );
+           TEMPERATURE_Value, FTemp, HUMIDITY_Value, HTemp );
   }
 
 /*
@@ -206,9 +206,12 @@ int PrepareSensorsData(char * Buffer, int Size, char * deviceID)
   
 #elif defined(EXOSITEHTTP)
   snprintfreturn = snprintf( Buff, BuffSize, 
-           "temperature=%.2f&"
-           "humidity=%.2f&",
-           TEMPERATURE_Value, HUMIDITY_Value );
+           "temperature=%.2f °C&"
+           "temperature=%.2f °F&"
+           "humidity=%.2f& °C"
+           "humidity=%.2f& °F"
+           ,
+           TEMPERATURE_Value, FTemp, HUMIDITY_Value, HTemp );
 #endif
 
   /* Check total size to be less than buffer size

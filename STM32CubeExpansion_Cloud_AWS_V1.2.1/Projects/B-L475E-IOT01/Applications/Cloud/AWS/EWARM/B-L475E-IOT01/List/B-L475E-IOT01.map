@@ -1,0 +1,2771 @@
+###############################################################################
+#
+# IAR ELF Linker V8.32.3.193/W32 for ARM                  30/Apr/2019  19:35:24
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Exe\B-L475E-IOT01.out
+#    Map file     =  
+#        C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\List\B-L475E-IOT01.map
+#    Command line =  
+#        -f C:\Users\macorbin\AppData\Local\Temp\EW4625.tmp
+#        ("C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aes.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aesni.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\arc4.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\asn1parse.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\asn1write.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_iot_mqtt_client.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_iot_mqtt_client_common_internal.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_iot_mqtt_client_connect.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_iot_mqtt_client_publish.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_iot_mqtt_client_subscribe.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_iot_mqtt_client_unsubscribe.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_iot_mqtt_client_yield.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_network_st_wrapper.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_subscribe_publish_sensor_values.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_timer.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\base64.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\bignum.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\blowfish.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\camellia.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ccm.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\certs.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\cipher.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\cipher_wrap.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\cloud.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\cmac.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ctr_drbg.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\debug.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\des.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\dhm.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ecdh.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ecdsa.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ecjpake.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ecp.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ecp_curves.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\entropy.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\entropy_hardware_poll.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\entropy_poll.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\error.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\es_wifi.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\es_wifi_io.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\firewall_wrapper.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\flash_l4.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\gcm.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\havege.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\heap.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\hmac_drbg.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\hts221.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\http_util.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\iot_flash_config.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\lis3mdl.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\lps22hb.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\lsm6dsl.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\main.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\mbedtls_net.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\mbedtls_patch.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\md.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\md2.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\md4.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\md5.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\md_wrap.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\memory_buffer_alloc.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\net.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\net_tcp_wifi.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\net_tls_mbedtls.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\oid.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\padlock.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\pem.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\pk.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\pk_wrap.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\pkcs11.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\pkcs12.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\pkcs5.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\pkparse.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\pkwrite.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\platform.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\rfu.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ripemd160.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\rsa.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\sensors_data.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\sha1.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\sha256.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\sha512.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ssl_cache.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ssl_ciphersuites.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ssl_cli.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ssl_cookie.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ssl_srv.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ssl_ticket.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ssl_tls.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\startup_stm32l475xx.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\STM32CubeRTCInterface.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l475e_iot01.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l475e_iot01_accelero.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l475e_iot01_gyro.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l475e_iot01_hsensor.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l475e_iot01_magneto.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l475e_iot01_psensor.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l475e_iot01_tsensor.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_can.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_cortex.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_crc.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_cryp.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_cryp_ex.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_dac.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_dac_ex.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_dfsdm.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_dma.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_flash.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_flash_ex.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_gpio.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_hash.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_hash_ex.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_i2c.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_i2c_ex.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_iwdg.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_lptim.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_msp.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_nand.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_nor.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_pwr.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_pwr_ex.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_qspi.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_rcc.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_rcc_ex.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_rng.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_rtc.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_rtc_ex.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_spi.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_spi_ex.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_sram.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_tim.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_tim_ex.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_uart.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_uart_ex.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_usart.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_wwdg.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_it.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_ll_fmc.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\system_stm32l4xx.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\threading.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\timedate.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\timing.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\timingSystem.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\version.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\version_features.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\vl53l0x_api.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\vl53l0x_api_calibration.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\vl53l0x_api_core.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\vl53l0x_api_ranging.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\vl53l0x_api_strings.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\vl53l0x_platform.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\vl53l0x_platform_log.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\vl53l0x_proximity.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\wifi.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\wifi_net.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\x509.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\x509_create.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\x509_crl.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\x509_crt.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\x509_csr.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\x509write_crt.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\x509write_csr.o"
+#        "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\xtea.o"
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull
+#        --no_out_extension -o "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Exe\B-L475E-IOT01.out"
+#        --map "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\List\B-L475E-IOT01.map"
+#        --config "C:\Users\macorbin\OneDrive -
+#        Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM/stm32l475xx_flash.icf"
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__Heap_Handler  = DLMalloc
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The advanced heap was selected because the application calls memory
+allocation functions outside of system library functions, and there
+are calls to deallocation functions in the application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x806'47ff] |
+                [from 0x806'7800 to 0x807'ffff] { ro };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 68K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2001'6400] {
+          block CSTACK, rw, block HEAP };
+initialize by copy { rw };
+
+No sections matched the following patterns:
+
+  ro section INITED_FIXED_LOC  in "P4"
+  ro section UNINIT_FIXED_LOC  in "P3"
+  ro section firewall_section  in "A0"
+
+
+  Section            Kind         Address     Size  Object
+  -------            ----         -------     ----  ------
+"A1":                                        0x188
+  .intvec            ro code   0x800'0000    0x188  startup_stm32l475xx.o [1]
+                             - 0x800'0188    0x188
+
+"P1":                                      0x2f56b
+  .text              ro code   0x800'0188   0x35ac  ssl_tls.o [1]
+  .text              ro code   0x800'3734    0x2a4  md.o [1]
+  .text              ro code   0x800'39d8     0x14  strlen_small.o [4]
+  .text              ro code   0x800'39ec     0x18  ABImemcpy_small.o [4]
+  .text              ro code   0x800'3a04    0x340  cipher.o [1]
+  .text              ro code   0x800'3d44    0x610  debug.o [1]
+  .text              ro code   0x800'4354     0xa4  ssl_ciphersuites.o [1]
+  .text              ro code   0x800'43f8    0xa90  sha256.o [1]
+  .text              ro code   0x800'4e88    0xfd4  sha512.o [1]
+  .text              ro code   0x800'5e5c     0x1e  ABImemmove_small.o [4]
+  .text              ro code   0x800'5e7a     0x3a  zero_init3.o [4]
+  .text              ro code   0x800'5eb4   0x1a74  x509_crt.o [1]
+  .text              ro code   0x800'7928     0x1e  memcmp_small.o [4]
+  .text              ro code   0x800'7946     0x26  xencoding_8859_1.o [2]
+  .text              ro code   0x800'796c    0x2a8  pk.o [1]
+  .text              ro code   0x800'7c14      0x6  ABImemclr.o [4]
+  .text              ro code   0x800'7c1a     0x1e  xsscin.o [2]
+  .text              ro code   0x800'7c38      0x6  ABImemclr4.o [4]
+  .text              ro code   0x800'7c3e     0x1a  xsnprout.o [2]
+  .text              ro code   0x800'7c58    0x188  ecdh.o [1]
+  .text              ro code   0x800'7de0   0x2448  ssl_cli.o [1]
+  .text              ro code   0x800'a228     0x12  ABImemset_small.o [4]
+  .text              ro code   0x800'a23a      0xa  xsprout.o [2]
+  .text              ro code   0x800'a244   0x1dcc  ecp.o [1]
+  .text              ro code   0x800'c010    0x698  gcm.o [1]
+  .text              ro code   0x800'c6a8    0x364  ccm.o [1]
+  .text              ro code   0x800'ca0c     0x3c  vsnprint.o [2]
+  .text              ro code   0x800'ca48     0x44  snprintf.o [2]
+  .text              ro code   0x800'ca8c    0x300  asn1parse.o [1]
+  .text              ro code   0x800'cd8c    0x85c  x509.o [1]
+  .text              ro code   0x800'd5e8    0x238  oid.o [1]
+  .text              ro code   0x800'd820    0xb94  pkparse.o [1]
+  .text              ro code   0x800'e3b4     0x30  strstr.o [2]
+  .text              ro code   0x800'e3e4    0x15c  pem.o [1]
+  .text              ro code   0x800'e540   0x127c  rsa.o [1]
+  .text              ro code   0x800'f7bc     0x3a  ABImemset48.o [4]
+  .text              ro code   0x800'f7f8   0x17e0  bignum.o [1]
+  .text              ro code   0x801'0fd8    0xf98  ecp_curves.o [1]
+  .text              ro code   0x801'1f70    0xf46  xprintffull.o [2]
+  .text              ro code   0x801'2eb8    0x380  pkcs12.o [1]
+  .text              ro code   0x801'3238    0x300  pkcs5.o [1]
+  .text              ro code   0x801'3538     0x16  strchr.o [4]
+  .text              ro code   0x801'3550    0x104  base64.o [1]
+  .text              ro code   0x801'3654    0x106  I64DivMod_small.o [4]
+  .text              ro code   0x801'375c    0x104  xlocale_c.o [2]
+  .text              ro code   0x801'3860     0x40  xfail_s.o [2]
+  .text              ro code   0x801'38a0     0x58  memchr.o [4]
+  .text              ro code   0x801'38f8      0xa  xmbcurmax.o [2]
+  .text              ro code   0x801'3904    0x1a2  DblMul.o [3]
+  .text              ro code   0x801'3aa8     0x70  frexp.o [3]
+  .text              ro code   0x801'3b18     0x2e  DblCmpLe.o [3]
+  .text              ro code   0x801'3b48     0x2e  DblCmpGe.o [3]
+  .text              ro code   0x801'3b78    0x13a  ldexp.o [3]
+  .text              ro code   0x801'3cb4     0x3a  DblToS32.o [3]
+  .text              ro code   0x801'3cf0     0x22  S32ToDbl.o [3]
+  .text              ro code   0x801'3d14     0xe2  DblSub.o [3]
+  .text              ro code   0x801'3df8    0x246  DblDiv.o [3]
+  .text              ro code   0x801'4040     0x28  DblToU32.o [3]
+  .text              ro code   0x801'4068     0x1a  U32ToDbl.o [3]
+  .text              ro code   0x801'4084      0x2  I64DivZer.o [4]
+  .text              ro code   0x801'4086      0x6  abort.o [2]
+  .text              ro code   0x801'408c    0x17a  DblAdd.o [3]
+  .text              ro code   0x801'4208     0x14  exit.o [5]
+  .text              ro code   0x801'421c   0x1520  dlmalloc.o [2]
+  .text              ro code   0x801'573c     0x2c  xgetmemchunk.o [2]
+  .text              ro code   0x801'5768   0x1294  ripemd160.o [1]
+  .rodata            const     0x801'69fc   0x1000  aes.o [1]
+  .text              ro code   0x801'79fc    0xff4  sha1.o [1]
+  .text              ro code   0x801'89f0    0xf6a  stm32l4xx_hal_spi.o [1]
+  .text              ro code   0x801'995a      0x2  stm32l4xx_hal_spi.o [1]
+  .text              ro code   0x801'995c      0xc  stm32l4xx_hal.o [1]
+  .text              ro code   0x801'9968     0x46  stm32l4xx_hal_dma.o [1]
+  .text              ro code   0x801'99ae      0x2  stm32l4xx_hal_spi.o [1]
+  .text              ro code   0x801'99b0      0x2  stm32l4xx_hal_spi.o [1]
+  .text              ro code   0x801'99b4    0x478  es_wifi_io.o [1]
+  .text              ro code   0x801'9e2c    0x230  stm32l4xx_hal_gpio.o [1]
+  .text              ro code   0x801'a05c     0xca  stm32l4xx_hal_cortex.o [1]
+  .text              ro code   0x801'a126     0x1e  stm32l4xx_hal.o [1]
+  .text              ro code   0x801'a144    0x1dc  main.o [1]
+  .text              ro code   0x801'a320     0x18  stm32l4xx_hal.o [1]
+  .text              ro code   0x801'a338    0x6c4  stm32l4xx_hal_rcc.o [1]
+  .text              ro code   0x801'a9fc    0x540  stm32l4xx_hal_rcc_ex.o [1]
+  .text              ro code   0x801'af3c     0x9c  stm32l4xx_hal_msp.o [1]
+  .text              ro code   0x801'afd8    0x346  stm32l475e_iot01.o [1]
+  .text              ro code   0x801'b31e     0x8c  stm32l4xx_hal_rng.o [1]
+  .text              ro code   0x801'b3ac    0x2ca  stm32l4xx_hal_rtc.o [1]
+  .text              ro code   0x801'b678    0x378  cloud.o [1]
+  .text              ro code   0x801'b9f0    0x770  aws_subscribe_publish_sensor_values.o [1]
+  .text              ro code   0x801'c160    0x63a  stm32l4xx_hal_uart.o [1]
+  .text              ro code   0x801'c79c     0x28  stm32l4xx_hal.o [1]
+  .text              ro code   0x801'c7c4     0x7c  stm32l4xx_hal_pwr_ex.o [1]
+  .text              ro code   0x801'c840    0x5be  stm32l4xx_hal_i2c.o [1]
+  .text              ro code   0x801'ce00     0x5a  stm32l4xx_hal_i2c_ex.o [1]
+  .text              ro code   0x801'ce5c     0x28  printf.o [2]
+  .text              ro code   0x801'ce84      0xc  getchar.o [2]
+  .text              ro code   0x801'ce90     0x10  rand.o [2]
+  .text              ro code   0x801'cea0    0x44c  net.o [1]
+  .text              ro code   0x801'd2ec    0x688  iot_flash_config.o [1]
+  .text              ro code   0x801'd974    0x504  timedate.o [1]
+  .text              ro code   0x801'de78    0x1d8  sensors_data.o [1]
+  .text              ro code   0x801'e050    0x1e4  aws_iot_mqtt_client.o [1]
+  .text              ro code   0x801'e234    0x3e0  aws_iot_mqtt_client_connect.o [1]
+  .text              ro code   0x801'e614    0x365  aws_iot_mqtt_client_publish.o [1]
+  .text              ro code   0x801'e97c    0x395  aws_iot_mqtt_client_subscribe.o [1]
+  .text              ro code   0x801'ed14     0x40  sprintf.o [2]
+  .text              ro code   0x801'ed54     0x1e  strcat.o [2]
+  .text              ro code   0x801'ed74    0x214  aws_iot_mqtt_client_yield.o [1]
+  .text              ro code   0x801'ef88      0x2  stm32l4xx_hal_i2c.o [1]
+  .text              ro code   0x801'ef8a      0x4  heaptramp0.o [2]
+  .text              ro code   0x801'ef90    0x1c8  wifi.o [1]
+  .text              ro code   0x801'f158    0x624  net_tcp_wifi.o [1]
+  .text              ro code   0x801'f77c    0x894  net_tls_mbedtls.o [1]
+  .text              ro code   0x802'0010    0x14c  iar_Stoulx.o [2]
+  .text              ro code   0x802'015c     0x12  strcmp.o [4]
+  .text              ro code   0x802'0170    0x230  flash_l4.o [1]
+  .text              ro code   0x802'03a0     0x28  strncmp.o [2]
+  .text              ro code   0x802'03c8     0x28  sscanf.o [2]
+  .text              ro code   0x802'03f0     0x34  stm32l475e_iot01_hsensor.o [1]
+  .text              ro code   0x802'0424     0x2c  stm32l475e_iot01_tsensor.o [1]
+  .text              ro code   0x802'0450     0x48  FltToDbl.o [3]
+  .text              ro code   0x802'0498    0x68c  aws_network_st_wrapper.o [1]
+  .text              ro code   0x802'0b24     0x58  aws_timer.o [1]
+  .text              ro code   0x802'0b7c    0x50d  aws_iot_mqtt_client_common_internal.o [1]
+  .text              ro code   0x802'108c    0xc8c  es_wifi.o [1]
+  .text              ro code   0x802'1d18     0x1e  strncpy_small.o [4]
+  .text              ro code   0x802'1d38     0x10  platform.o [1]
+  .text              ro code   0x802'1d48    0x33c  ctr_drbg.o [1]
+  .text              ro code   0x802'2084    0x1e4  entropy.o [1]
+  .text              ro code   0x802'2268    0x51c  x509_crl.o [1]
+  .text              ro code   0x802'2784     0x3c  fprintf.o [2]
+  .text              ro code   0x802'27c0     0x14  isspace.o [2]
+  .text              ro code   0x802'27d4     0x14  tolower.o [2]
+  .text              ro code   0x802'27e8    0x22c  stm32l4xx_hal_flash.o [1]
+  .text              ro code   0x802'2a14    0x1a0  stm32l4xx_hal_flash_ex.o [1]
+  .text              ro code   0x802'2bb4    0xe58  xscanffull.o [2]
+  .text              ro code   0x802'3a0c     0x4c  strtok.o [2]
+  .text              ro code   0x802'3a58    0xa50  aes.o [1]
+  .text              ro code   0x802'44a8     0x3c  wctob.o [2]
+  .text              ro code   0x802'44e4     0x9e  iar_Stollx.o [2]
+  .text              ro code   0x802'4584    0x1b2  iar_Stoullx.o [2]
+  .text              ro code   0x802'4738    0x514  strto64.o [3]
+  .text              ro code   0x802'4c4c     0x14  isalpha.o [2]
+  .text              ro code   0x802'4c60     0x68  DblToFlt.o [3]
+  .text              ro code   0x802'4cc8     0x22  strspn.o [2]
+  .text              ro code   0x802'4cea     0x22  strcspn.o [2]
+  .text              ro code   0x802'4d0c    0x122  iar_Stopfx.o [2]
+  .text              ro code   0x802'4e30    0x1c4  iar_Stoflt.o [2]
+  .text              ro code   0x802'4ff4    0x21c  iar_Stoxflt.o [2]
+  .rodata            const     0x802'5210    0xb38  oid.o [1]
+  .text              ro code   0x802'5d48    0xa0c  des.o [1]
+  .text              ro code   0x802'6754    0xa00  md5.o [1]
+  .rodata            const     0x802'7154    0x9e0  ssl_cli.o [1]
+  .rodata            const     0x802'7b34    0x5b8  ssl_tls.o [1]
+  .text              ro code   0x802'80ec    0x574  ecdsa.o [1]
+  .text              ro code   0x802'8660    0x21e  hmac_drbg.o [1]
+  .text              ro code   0x802'8880    0x130  asn1write.o [1]
+  .rodata            const     0x802'89b0    0x4e4  ecp_curves.o [1]
+  .rodata            const     0x802'8e94    0x400  aes.o [1]
+  .rodata            const     0x802'9294    0x400  aes.o [1]
+  .rodata            const     0x802'9694    0x400  aes.o [1]
+  .rodata            const     0x802'9a94    0x400  aes.o [1]
+  .rodata            const     0x802'9e94    0x3e8  aws_network_st_wrapper.o [1]
+  .rodata            const     0x802'a27c    0x380  ecp_curves.o [1]
+  .rodata            const     0x802'a5fc    0x33c  net_tls_mbedtls.o [1]
+  .rodata            const     0x802'a938    0x2a0  cloud.o [1]
+  .text              ro code   0x802'abd8    0x294  pk_wrap.o [1]
+  .rodata            const     0x802'ae6c    0x28c  ssl_ciphersuites.o [1]
+  .rodata            const     0x802'b0f8    0x280  sha512.o [1]
+  .rodata            const     0x802'b378    0x270  cipher_wrap.o [1]
+  .rodata            const     0x802'b5e8    0x214  aws_subscribe_publish_sensor_values.o [1]
+  .rodata            const     0x802'b7fc    0x1e0  ssl_ciphersuites.o [1]
+  .text              ro code   0x802'b9dc    0x1d4  wifi_net.o [1]
+  .rodata            const     0x802'bbb0    0x1cc  iot_flash_config.o [1]
+  .text              ro code   0x802'bd7c    0x1c8  hts221.o [1]
+  .rodata            const     0x802'bf44    0x190  oid.o [1]
+  .text              ro code   0x802'c0d4    0x180  mbedtls_net.o [1]
+  .text              ro code   0x802'c254    0x146  md_wrap.o [1]
+  .rodata            const     0x802'c39c    0x144  wifi_net.o [1]
+  .rodata            const     0x802'c4e0    0x138  timedate.o [1]
+  .rodata            const     0x802'c618    0x118  oid.o [1]
+  .rodata            const     0x802'c730    0x114  sensors_data.o [1]
+  .text              ro code   0x802'c844    0x112  cipher_wrap.o [1]
+  .rodata            const     0x802'c958    0x100  aes.o [1]
+  .rodata            const     0x802'ca58    0x100  aes.o [1]
+  .rodata            const     0x802'cb58    0x100  des.o [1]
+  .rodata            const     0x802'cc58    0x100  des.o [1]
+  .rodata            const     0x802'cd58    0x100  des.o [1]
+  .rodata            const     0x802'ce58    0x100  des.o [1]
+  .rodata            const     0x802'cf58    0x100  des.o [1]
+  .rodata            const     0x802'd058    0x100  des.o [1]
+  .rodata            const     0x802'd158    0x100  des.o [1]
+  .rodata            const     0x802'd258    0x100  des.o [1]
+  .rodata            const     0x802'd358    0x100  sha256.o [1]
+  .rodata            const     0x802'd458     0xf0  oid.o [1]
+  .rodata            const     0x802'd548     0xdc  net_tcp_wifi.o [1]
+  .rodata            const     0x802'd624     0xd4  x509_crt.o [1]
+  .rodata            const     0x802'd6f8     0xc4  iot_flash_config.o [1]
+  .rodata            const     0x802'd7bc     0xb8  es_wifi.o [1]
+  .rodata            const     0x802'd874     0xb1  ssl_ciphersuites.o [1]
+  .rodata            const     0x802'd928     0xac  aws_subscribe_publish_sensor_values.o [1]
+  .text              ro code   0x802'd9d4     0x9c  packbits_init.o [4]
+  .rodata            const     0x802'da70     0x90  ecp.o [1]
+  .rodata            const     0x802'db00     0x90  ecp.o [1]
+  .rodata            const     0x802'db90     0x90  flash_l4.o [1]
+  .rodata            const     0x802'dc20     0x8c  oid.o [1]
+  .rodata            const     0x802'dcac     0x84  aws_subscribe_publish_sensor_values.o [1]
+  .rodata            const     0x802'dd30     0x84  mbedtls_net.o [1]
+  .rodata            const     0x802'ddb4     0x80  base64.o [1]
+  .rodata            const     0x802'de34     0x80  des.o [1]
+  .rodata            const     0x802'deb4     0x64  net_tls_mbedtls.o [1]
+  .rodata            const     0x802'df18     0x80  gcm.o [1]
+  .rodata            const     0x802'df98     0x80  sha512.o [1]
+  .rodata            const     0x802'e018     0x78  oid.o [1]
+  .rodata            const     0x802'e090     0x70  oid.o [1]
+  .rodata            const     0x802'e100     0x70  x509_crt.o [1]
+  .rodata            const     0x802'e170     0x68  cipher_wrap.o [1]
+  .text              ro code   0x802'e1d8     0x60  system_stm32l4xx.o [1]
+  .rodata            const     0x802'e238     0x5c  net_tcp_wifi.o [1]
+  .rodata            const     0x802'e294     0x58  cloud.o [1]
+  .rodata            const     0x802'e2ec     0x58  x509_crt.o [1]
+  .rodata            const     0x802'e344     0x54  x509_crt.o [1]
+  .rodata            const     0x802'e398     0x50  net_tls_mbedtls.o [1]
+  .rodata            const     0x802'e3e8     0x50  oid.o [1]
+  .rodata            const     0x802'e438     0x50  iar_Stoulx.o [2]
+  .rodata            const     0x802'e488     0x50  iar_Stoullx.o [2]
+  .rodata            const     0x802'e4d8     0x4c  pkparse.o [1]
+  .rodata            const     0x802'e524     0x4c  x509_crt.o [1]
+  .rodata            const     0x802'e570     0x4c  x509_crt.o [1]
+  .rodata            const     0x802'e5bc     0x4c  xscanffull.o [2]
+  .rodata            const     0x802'e608     0x48  x509_crt.o [1]
+  .rodata            const     0x802'e650     0x48  strto64.o [3]
+  .rodata            const     0x802'e698     0x44  mbedtls_net.o [1]
+  .rodata            const     0x802'e6dc     0x44  mbedtls_net.o [1]
+  .rodata            const     0x802'e720     0x44  x509_crt.o [1]
+  .rodata            const     0x802'e764     0x40  aws_subscribe_publish_sensor_values.o [1]
+  .rodata            const     0x802'e7a4     0x40  md5.o [1]
+  .rodata            const     0x802'e7e4     0x40  ripemd160.o [1]
+  .rodata            const     0x802'e824     0x40  sha1.o [1]
+  .rodata            const     0x802'e864     0x40  sha256.o [1]
+  .rodata            const     0x802'e8a4     0x3c  iot_flash_config.o [1]
+  .rodata            const     0x802'e8e0     0x3c  net.o [1]
+  .rodata            const     0x802'e91c     0x3c  net.o [1]
+  .rodata            const     0x802'e958     0x3c  oid.o [1]
+  .rodata            const     0x802'e994     0x3c  oid.o [1]
+  .rodata            const     0x802'e9d0     0x3c  x509_crt.o [1]
+  .rodata            const     0x802'ea0c     0x38  aws_iot_mqtt_client.o [1]
+  .rodata            const     0x802'ea44     0x38  aws_iot_mqtt_client.o [1]
+  .rodata            const     0x802'ea7c     0x38  md_wrap.o [1]
+  .rodata            const     0x802'eab4     0x38  net.o [1]
+  .rodata            const     0x802'eaec     0x38  x509_crt.o [1]
+  .rodata            const     0x802'eb24     0x34  cloud.o [1]
+  .rodata            const     0x802'eb58     0x34  net.o [1]
+  .rodata            const     0x802'eb8c     0x34  net.o [1]
+  .rodata            const     0x802'ebc0     0x34  x509_crt.o [1]
+  .rodata            const     0x802'ebf4     0x34  x509_crt.o [1]
+  .rodata            const     0x802'ec28     0x30  aws_iot_mqtt_client.o [1]
+  .rodata            const     0x802'ec58     0x30  aws_network_st_wrapper.o [1]
+  .rodata            const     0x802'ec88     0x30  aws_network_st_wrapper.o [1]
+  .rodata            const     0x802'ecb8     0x30  iot_flash_config.o [1]
+  .rodata            const     0x802'ece8     0x30  iot_flash_config.o [1]
+  .rodata            const     0x802'ed18     0x30  md_wrap.o [1]
+  .rodata            const     0x802'ed48     0x30  md_wrap.o [1]
+  .rodata            const     0x802'ed78     0x30  md_wrap.o [1]
+  .rodata            const     0x802'eda8     0x30  md_wrap.o [1]
+  .rodata            const     0x802'edd8     0x30  md_wrap.o [1]
+  .rodata            const     0x802'ee08     0x30  md_wrap.o [1]
+  .rodata            const     0x802'ee38     0x30  md_wrap.o [1]
+  .rodata            const     0x802'ee68     0x30  net_tls_mbedtls.o [1]
+  .rodata            const     0x802'ee98     0x30  net_tls_mbedtls.o [1]
+  .rodata            const     0x802'eec8     0x30  pk_wrap.o [1]
+  .rodata            const     0x802'eef8     0x30  pk_wrap.o [1]
+  .rodata            const     0x802'ef28     0x30  pk_wrap.o [1]
+  .rodata            const     0x802'ef58     0x30  pk_wrap.o [1]
+  .rodata            const     0x802'ef88     0x30  system_stm32l4xx.o [1]
+  .rodata            const     0x802'efb8     0x30  x509_crt.o [1]
+  .rodata            const     0x802'efe8     0x30  x509_crt.o [1]
+  .rodata            const     0x802'f018     0x30  x509_crt.o [1]
+  .rodata            const     0x802'f048     0x30  x509_crt.o [1]
+  .rodata            const     0x802'f078     0x30  x509_crt.o [1]
+  .text              ro code   0x802'f0a8     0x30  entropy_hardware_poll.o [1]
+  .rodata            const     0x802'f0d8     0x2c  x509_crt.o [1]
+  .text              ro code   0x802'f104     0x2c  stm32l4xx_it.o [1]
+  .text              ro code   0x802'f130     0x10  stm32l4xx_hal.o [1]
+  .rodata            const     0x802'f140     0x28  aes.o [1]
+  .rodata            const     0x802'f168     0x28  ssl_ciphersuites.o [1]
+  .rodata            const     0x802'f190     0x28  ssl_ciphersuites.o [1]
+  .rodata            const     0x802'f1b8     0x28  ssl_ciphersuites.o [1]
+  .rodata            const     0x802'f1e0     0x28  ssl_ciphersuites.o [1]
+  .rodata            const     0x802'f208     0x28  x509_crt.o [1]
+  .rodata            const     0x802'f230     0x28  x509_crt.o [1]
+  .rodata            const     0x802'f258     0x28  xscanffull.o [2]
+  .text              ro code   0x802'f280     0x28  data_init.o [4]
+  .rodata            const     0x802'f2a8     0x24  net_tcp_wifi.o [1]
+  .rodata            const     0x802'f2cc     0x24  ssl_ciphersuites.o [1]
+  .rodata            const     0x802'f2f0     0x24  ssl_ciphersuites.o [1]
+  .rodata            const     0x802'f314     0x24  ssl_ciphersuites.o [1]
+  .rodata            const     0x802'f338     0x24  ssl_ciphersuites.o [1]
+  .text              ro code   0x802'f35c     0x22  fpinit_M.o [3]
+  .iar.init_table    const     0x802'f380     0x2c  - Linker created -
+  .text              ro code   0x802'f3ac     0x1e  cmain.o [4]
+  .text              ro code   0x802'f3ca      0x4  low_level_init.o [2]
+  .text              ro code   0x802'f3ce      0x4  exit.o [2]
+  .text              ro code   0x802'f3d4      0xa  cexit.o [4]
+  .rodata            const     0x802'f3e0     0x18  pk_wrap.o [1]
+  .text              ro code   0x802'f3f8     0x18  xfprout.o [2]
+  .text              ro code   0x802'f410     0x16  xprout.o [2]
+  .text              ro code   0x802'f428      0xc  putchar.o [2]
+  .text              ro code   0x802'f434     0x10  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f444      0xc  cstartup_M.o [4]
+  .rodata            const     0x802'f450      0x8  system_stm32l4xx.o [1]
+  .rodata            const     0x802'f458      0x6  xlocale_c.o [2]
+  .text              ro code   0x802'f45e      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f462      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f466      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f46a      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f46e      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f472      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f476      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f47a      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f47e      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f482      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f486      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f48a      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f48e      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f492      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f496      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f49a      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f49e      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f4a2      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f4a6      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f4aa      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f4ae      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f4b2      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f4b6      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f4ba      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f4be      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f4c2      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f4c6      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f4ca      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f4ce      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f4d2      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f4d6      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f4da      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f4de      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f4e2      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f4e6      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f4ea      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f4ee      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f4f2      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f4f6      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f4fa      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f4fe      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f502      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f506      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f50a      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f50e      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f512      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f516      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f51a      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f51e      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f522      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f526      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f52a      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f52e      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f532      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f536      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f53a      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f53e      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f542      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f546      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f54a      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f54e      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f552      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f556      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f55a      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f55e      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f562      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f566      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f56a      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f56e      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f572      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f576      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f57a      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f57e      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f582      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f586      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f58a      0x4  startup_stm32l475xx.o [1]
+  .text              ro code   0x802'f58e      0x4  startup_stm32l475xx.o [1]
+  .rodata            const     0x802'f592      0x0  zero_init3.o [4]
+  .rodata            const     0x802'f592      0x0  packbits_init.o [4]
+  Initializer bytes  const     0x802'f592    0x161  <for P2 s0>
+                             - 0x802'f6f3  0x2f56b
+
+"P2", part 1 of 3:                           0x260
+  P2 s0                       0x2000'0000    0x260  <Init block>
+    .data            inited   0x2000'0000     0xa8  aws_subscribe_publish_sensor_values.o [1]
+    .data            inited   0x2000'00a8     0x48  xfiles.o [2]
+    .data            inited   0x2000'00f0     0x48  xfiles.o [2]
+    .data            inited   0x2000'0138     0x48  xlocale_c.o [2]
+    .data            inited   0x2000'0180     0x38  xlocale_c.o [2]
+    .data            inited   0x2000'01b8     0x30  ssl_tls.o [1]
+    .data            inited   0x2000'01e8     0x14  ssl_tls.o [1]
+    .data            inited   0x2000'01fc     0x10  hts221.o [1]
+    .data            inited   0x2000'020c      0xc  hts221.o [1]
+    .data            inited   0x2000'0218      0xc  stm32l475e_iot01.o [1]
+    .data            inited   0x2000'0224      0x8  ecp_curves.o [1]
+    .data            inited   0x2000'022c      0x8  ecp_curves.o [1]
+    .data            inited   0x2000'0234      0x8  ecp_curves.o [1]
+    .data            inited   0x2000'023c      0x8  platform.o [1]
+    .data            inited   0x2000'0244      0x8  rand.o [2]
+    .data            inited   0x2000'024c      0x4  ecp_curves.o [1]
+    .data            inited   0x2000'0250      0x4  iot_flash_config.o [1]
+    .data            inited   0x2000'0254      0x4  stm32l475e_iot01.o [1]
+    .data            inited   0x2000'0258      0x4  stm32l475e_iot01.o [1]
+    .data            inited   0x2000'025c      0x4  system_stm32l4xx.o [1]
+                            - 0x2000'0260    0x260
+
+"P2", part 2 of 3:                           0xb0c
+  .bss               zero     0x2000'0260    0x6a8  wifi.o [1]
+  .bss               zero     0x2000'0908    0x1d8  dlmalloc.o [2]
+  .bss               zero     0x2000'0ae0     0x78  main.o [1]
+  .bss               zero     0x2000'0b58     0x70  es_wifi_io.o [1]
+  .bss               zero     0x2000'0bc8     0x50  xfiles.o [2]
+  .bss               zero     0x2000'0c18     0x4c  stm32l475e_iot01.o [1]
+  .bss               zero     0x2000'0c64     0x40  ssl_ciphersuites.o [1]
+  .bss               zero     0x2000'0ca4     0x30  main.o [1]
+  .bss               zero     0x2000'0cd4     0x20  stm32l4xx_hal_flash.o [1]
+  .bss               zero     0x2000'0cf4     0x1c  aws_iot_mqtt_client.o [1]
+  .bss               zero     0x2000'0d10     0x18  dlmalloc.o [2]
+  .bss               zero     0x2000'0d28     0x10  ecp.o [1]
+  .bss               zero     0x2000'0d38      0xc  ecp.o [1]
+  .bss               zero     0x2000'0d44      0x4  debug.o [1]
+  .bss               zero     0x2000'0d48      0x4  es_wifi.o [1]
+  .bss               zero     0x2000'0d4c      0x4  main.o [1]
+  .bss               zero     0x2000'0d50      0x4  stm32l475e_iot01_hsensor.o [1]
+  .bss               zero     0x2000'0d54      0x4  stm32l475e_iot01_tsensor.o [1]
+  .bss               zero     0x2000'0d58      0x4  stm32l4xx_hal.o [1]
+  .bss               zero     0x2000'0d5c      0x4  strtok.o [2]
+  .bss               zero     0x2000'0d60      0x4  xfail_s.o [2]
+  .bss               zero     0x2000'0d64      0x4  xgetmemchunk.o [2]
+  .bss               zero     0x2000'0d68      0x1  main.o [1]
+                            - 0x2000'0d69    0xb09
+
+"P2", part 3 of 3:                         0x13000
+  CSTACK                      0x2000'0d70   0x2000  <Block>
+    CSTACK           uninit   0x2000'0d70   0x2000  <Block tail>
+  HEAP                        0x2000'2d70  0x11000  <Block>
+    HEAP             uninit   0x2000'2d70  0x11000  <Block tail>
+                            - 0x2001'3d70  0x13000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x802'f6f3   0x806'47ff  0x3'510d
+   0x806'7800   0x807'ffff  0x1'8800
+  0x2000'0d6c  0x2000'0d6f       0x4
+  0x2001'3d70  0x2001'6400    0x2691
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xb09:
+          0x2000'0260  0xb09
+
+Copy/packbits (__iar_packbits_init3)
+    1 source range, total size 0x161 (58% of destination):
+           0x802'f592  0x161
+    1 destination range, total size 0x260:
+          0x2000'0000  0x260
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                                 ro code  ro data  rw data
+    ------                                 -------  -------  -------
+command line/config:
+    ----------------------------------------------------------------
+    Total:
+
+C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj: [1]
+    aes.o                                    2 640    8 744
+    asn1parse.o                                768
+    asn1write.o                                304
+    aws_iot_mqtt_client.o                      484      160       28
+    aws_iot_mqtt_client_common_internal.o    1 293
+    aws_iot_mqtt_client_connect.o              992
+    aws_iot_mqtt_client_publish.o              869
+    aws_iot_mqtt_client_subscribe.o            917
+    aws_iot_mqtt_client_yield.o                532
+    aws_network_st_wrapper.o                 1 676    1 096
+    aws_subscribe_publish_sensor_values.o    1 904      997      168
+    aws_timer.o                                 88
+    base64.o                                   260      128
+    bignum.o                                 6 112
+    ccm.o                                      868
+    cipher.o                                   832
+    cipher_wrap.o                              274      728
+    cloud.o                                    888      812
+    ctr_drbg.o                                 828
+    debug.o                                  1 552                 4
+    des.o                                    2 572    2 176
+    ecdh.o                                     392
+    ecdsa.o                                  1 396
+    ecp.o                                    7 628      288       28
+    ecp_curves.o                             3 992    2 164       28
+    entropy.o                                  484
+    entropy_hardware_poll.o                     48
+    es_wifi.o                                3 212      184        4
+    es_wifi_io.o                             1 144               112
+    flash_l4.o                                 560      144
+    gcm.o                                    1 688      128
+    hmac_drbg.o                                542
+    hts221.o                                   456       17       28
+    iot_flash_config.o                       1 672      815        4
+    main.o                                     476               173
+    mbedtls_net.o                              384      268
+    md.o                                       676
+    md5.o                                    2 560       64
+    md_wrap.o                                  326      392
+    net.o                                    1 100      280
+    net_tcp_wifi.o                           1 572      348
+    net_tls_mbedtls.o                        2 196    1 104
+    oid.o                                      568    4 364
+    pem.o                                      348
+    pk.o                                       680
+    pk_wrap.o                                  660      216
+    pkcs12.o                                   896
+    pkcs5.o                                    768
+    pkparse.o                                2 964       76
+    platform.o                                  16        4        8
+    ripemd160.o                              4 756       64
+    rsa.o                                    4 732
+    sensors_data.o                             472      276
+    sha1.o                                   4 084       64
+    sha256.o                                 2 704      320
+    sha512.o                                 4 052      768
+    ssl_ciphersuites.o                         164    1 613       64
+    ssl_cli.o                                9 288    2 528
+    ssl_tls.o                               13 740    1 503       68
+    startup_stm32l475xx.o                      716
+    stm32l475e_iot01.o                         838       11       96
+    stm32l475e_iot01_hsensor.o                  52                 4
+    stm32l475e_iot01_tsensor.o                  44                 4
+    stm32l4xx_hal.o                            122                 4
+    stm32l4xx_hal_cortex.o                     202
+    stm32l4xx_hal_dma.o                         70
+    stm32l4xx_hal_flash.o                      556                32
+    stm32l4xx_hal_flash_ex.o                   416
+    stm32l4xx_hal_gpio.o                       560
+    stm32l4xx_hal_i2c.o                      1 472
+    stm32l4xx_hal_i2c_ex.o                      90
+    stm32l4xx_hal_msp.o                        156
+    stm32l4xx_hal_pwr_ex.o                     124
+    stm32l4xx_hal_rcc.o                      1 732
+    stm32l4xx_hal_rcc_ex.o                   1 344
+    stm32l4xx_hal_rng.o                        140
+    stm32l4xx_hal_rtc.o                        714
+    stm32l4xx_hal_spi.o                      3 952
+    stm32l4xx_hal_uart.o                     1 594
+    stm32l4xx_it.o                              44
+    system_stm32l4xx.o                          96       59        4
+    timedate.o                               1 284      312
+    wifi.o                                     456             1 704
+    wifi_net.o                                 468      324
+    x509.o                                   2 140
+    x509_crl.o                               1 308
+    x509_crt.o                               6 772    1 372
+    ----------------------------------------------------------------
+    Total:                                 137 511   34 911    2 565
+
+dl7M_tlf.a: [2]
+    abort.o                                      6
+    dlmalloc.o                               5 408               496
+    exit.o                                       4
+    fprintf.o                                   60
+    getchar.o                                   12
+    heaptramp0.o                                 4
+    iar_Stoflt.o                               452
+    iar_Stollx.o                               158
+    iar_Stopfx.o                               290
+    iar_Stoullx.o                              434       80
+    iar_Stoulx.o                               332       80
+    iar_Stoxflt.o                              540
+    isalpha.o                                   20
+    isspace.o                                   20
+    low_level_init.o                             4
+    printf.o                                    40
+    putchar.o                                   12
+    rand.o                                      16        5        8
+    snprintf.o                                  68
+    sprintf.o                                   64
+    sscanf.o                                    40
+    strcat.o                                    30
+    strcspn.o                                   34
+    strncmp.o                                   40
+    strspn.o                                    34
+    strstr.o                                    48
+    strtok.o                                    76                 4
+    tolower.o                                   20
+    vsnprint.o                                  60
+    wctob.o                                     60
+    xencoding_8859_1.o                          38
+    xfail_s.o                                   64                 4
+    xfiles.o                                             84      224
+    xfprout.o                                   24
+    xgetmemchunk.o                              44                 4
+    xlocale_c.o                                260       80      128
+    xmbcurmax.o                                 10
+    xprintffull.o                            3 910
+    xprout.o                                    22
+    xscanffull.o                             3 672      116
+    xsnprout.o                                  26
+    xsprout.o                                   10
+    xsscin.o                                    30
+    ----------------------------------------------------------------
+    Total:                                  16 496      445      868
+
+m7M_tls.a: [3]
+    DblAdd.o                                   378
+    DblCmpGe.o                                  46
+    DblCmpLe.o                                  46
+    DblDiv.o                                   582
+    DblMul.o                                   418
+    DblSub.o                                   226
+    DblToFlt.o                                 104
+    DblToS32.o                                  58
+    DblToU32.o                                  40
+    FltToDbl.o                                  72
+    S32ToDbl.o                                  34
+    U32ToDbl.o                                  26
+    fpinit_M.o                                  34
+    frexp.o                                    112
+    ldexp.o                                    314
+    strto64.o                                1 300       72
+    ----------------------------------------------------------------
+    Total:                                   3 790       72
+
+rt7M_tl.a: [4]
+    ABImemclr.o                                  6
+    ABImemclr4.o                                 6
+    ABImemcpy_small.o                           24
+    ABImemmove_small.o                          30
+    ABImemset48.o                               58
+    ABImemset_small.o                           18
+    I64DivMod_small.o                          262
+    I64DivZer.o                                  2
+    cexit.o                                     10
+    cmain.o                                     30
+    cstartup_M.o                                12
+    data_init.o                                 40
+    memchr.o                                    88
+    memcmp_small.o                              30
+    packbits_init.o                            156
+    strchr.o                                    22
+    strcmp.o                                    18
+    strlen_small.o                              20
+    strncpy_small.o                             30
+    zero_init3.o                                58
+    ----------------------------------------------------------------
+    Total:                                     920
+
+shb_l.a: [5]
+    exit.o                                      20
+    ----------------------------------------------------------------
+    Total:                                      20
+
+    Gaps                                        71       11
+    Linker created                                       44   77 824
+--------------------------------------------------------------------
+    Grand Total:                           158 808   35 483   81 257
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address    Size  Type      Object
+-----                       -------    ----  ----      ------
+.iar.init_table$$Base    0x802'f380           --   Gb  - Linker created -
+.iar.init_table$$Limit   0x802'f3ac           --   Gb  - Linker created -
+?main                    0x802'f3ad          Code  Gb  cmain.o [4]
+AHBPrescTable            0x802'e228    0x10  Data  Gb  system_stm32l4xx.o [1]
+APBPrescTable            0x802'f450     0x8  Data  Gb  system_stm32l4xx.o [1]
+AT_ExecuteCommand        0x802'12bd    0x64  Code  Lc  es_wifi.o [1]
+AT_ParseConnSettings     0x802'117d    0xa8  Code  Lc  es_wifi.o [1]
+AT_ParseTransportSettings
+                         0x802'1229    0x8e  Code  Lc  es_wifi.o [1]
+AT_RequestReceiveData    0x802'13b1    0x94  Code  Lc  es_wifi.o [1]
+AT_RequestSendData       0x802'1329    0x88  Code  Lc  es_wifi.o [1]
+BSP_COM_Init             0x801'b0dd    0x9e  Code  Gb  stm32l475e_iot01.o [1]
+BSP_HSENSOR_Init         0x802'03f1    0x20  Code  Gb  stm32l475e_iot01_hsensor.o [1]
+BSP_HSENSOR_ReadHumidity
+                         0x802'0411     0xa  Code  Gb  stm32l475e_iot01_hsensor.o [1]
+BSP_LED_Init             0x801'afd9    0x46  Code  Gb  stm32l475e_iot01.o [1]
+BSP_LED_Off              0x801'b02d     0xc  Code  Gb  stm32l475e_iot01.o [1]
+BSP_LED_On               0x801'b01f     0xe  Code  Gb  stm32l475e_iot01.o [1]
+BSP_LED_Toggle           0x801'b051    0x16  Code  Gb  stm32l475e_iot01.o [1]
+BSP_PB_Init              0x801'b067    0x76  Code  Gb  stm32l475e_iot01.o [1]
+BSP_TSENSOR_Init         0x802'0425    0x1a  Code  Gb  stm32l475e_iot01_tsensor.o [1]
+BSP_TSENSOR_ReadTemp     0x802'043f     0xa  Code  Gb  stm32l475e_iot01_tsensor.o [1]
+BUTTON_IRQn              0x801'b30c     0x2  Data  Gb  stm32l475e_iot01.o [1]
+BUTTON_PIN               0x801'b308     0x2  Data  Gb  stm32l475e_iot01.o [1]
+BUTTON_PORT             0x2000'0258     0x4  Data  Gb  stm32l475e_iot01.o [1]
+BusFault_Handler         0x802'f10b     0x2  Code  Gb  stm32l4xx_it.o [1]
+Button_WaitForMultiPush
+                         0x801'a26d    0x28  Code  Gb  main.o [1]
+Button_WaitForPush       0x801'a239    0x34  Code  Gb  main.o [1]
+CLOUD_Error_Handler      0x801'b6a9    0x4c  Code  Gb  cloud.o [1]
+COM_RX_AF                0x801'b31c     0x2  Data  Gb  stm32l475e_iot01.o [1]
+COM_RX_PIN               0x801'b314     0x2  Data  Gb  stm32l475e_iot01.o [1]
+COM_RX_PORT             0x2000'0220     0x4  Data  Gb  stm32l475e_iot01.o [1]
+COM_TX_AF                0x801'b318     0x2  Data  Gb  stm32l475e_iot01.o [1]
+COM_TX_PIN               0x801'b310     0x2  Data  Gb  stm32l475e_iot01.o [1]
+COM_TX_PORT             0x2000'021c     0x4  Data  Gb  stm32l475e_iot01.o [1]
+COM_USART               0x2000'0218     0x4  Data  Gb  stm32l475e_iot01.o [1]
+CSTACK$$Base            0x2000'0d70           --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'2d70           --   Gb  - Linker created -
+CacheMore                0x801'379d    0x24  Code  Lc  xlocale_c.o [2]
+CaptureAndFlashPem       0x801'd4c7    0x70  Code  Gb  iot_flash_config.o [1]
+CaptureAndFlashPem::__func__
+                         0x801'd890    0x14  Data  Lc  iot_flash_config.o [1]
+DebugMon_Handler         0x802'f111     0x2  Code  Gb  stm32l4xx_it.o [1]
+Dtentox                  0x802'48d5   0x190  Code  Lc  strto64.o [3]
+ES_WIFI_Connect          0x802'154b    0x5c  Code  Gb  es_wifi.o [1]
+ES_WIFI_DNS_LookUp       0x802'168d    0x30  Code  Gb  es_wifi.o [1]
+ES_WIFI_GetMACAddress    0x802'1615    0x2c  Code  Gb  es_wifi.o [1]
+ES_WIFI_GetNetworkSettings
+                         0x802'15dd    0x22  Code  Gb  es_wifi.o [1]
+ES_WIFI_Init             0x802'1461    0xb0  Code  Gb  es_wifi.o [1]
+ES_WIFI_IsConnected      0x802'15af    0x2e  Code  Gb  es_wifi.o [1]
+ES_WIFI_ReceiveData      0x802'195b    0xc0  Code  Gb  es_wifi.o [1]
+ES_WIFI_ReceiveDataFrom
+                         0x802'1a25   0x110  Code  Gb  es_wifi.o [1]
+ES_WIFI_RegisterBusIO    0x802'151d    0x2e  Code  Gb  es_wifi.o [1]
+ES_WIFI_SendData         0x802'17a9    0xc6  Code  Gb  es_wifi.o [1]
+ES_WIFI_SendDataTo       0x802'1877    0xda  Code  Gb  es_wifi.o [1]
+ES_WIFI_StartClientConnection
+                         0x802'16d5    0xa0  Code  Gb  es_wifi.o [1]
+ES_WIFI_StopClientConnection
+                         0x802'1787    0x22  Code  Gb  es_wifi.o [1]
+EXTI15_10_IRQHandler     0x802'f123     0x8  Code  Gb  stm32l4xx_it.o [1]
+EXTI1_IRQHandler         0x802'f12b     0x6  Code  Gb  stm32l4xx_it.o [1]
+Error_Handler            0x801'a311    0x10  Code  Gb  main.o [1]
+EsWifiObj               0x2000'0260   0x6a8  Data  Gb  wifi.o [1]
+FLASH_FlushCaches        0x802'2b41    0x5a  Code  Gb  stm32l4xx_hal_flash_ex.o [1]
+FLASH_MassErase          0x802'2ae7    0x24  Code  Lc  stm32l4xx_hal_flash_ex.o [1]
+FLASH_PageErase          0x802'2b0b    0x36  Code  Gb  stm32l4xx_hal_flash_ex.o [1]
+FLASH_Program_DoubleWord
+                         0x802'29c5    0x14  Code  Lc  stm32l4xx_hal_flash.o [1]
+FLASH_Program_Fast       0x802'29d9    0x1e  Code  Lc  stm32l4xx_hal_flash.o [1]
+FLASH_SetErrorCode       0x802'2917    0xae  Code  Lc  stm32l4xx_hal_flash.o [1]
+FLASH_WaitForLastOperation
+                         0x802'2899    0x7e  Code  Gb  stm32l4xx_hal_flash.o [1]
+FLASH_get_bank           0x802'0171    0x36  Code  Lc  flash_l4.o [1]
+FLASH_get_pageInBank     0x802'01a7    0x58  Code  Lc  flash_l4.o [1]
+FLASH_update             0x802'0201   0x138  Code  Gb  flash_l4.o [1]
+FSb                      0x802'c958   0x100  Data  Lc  aes.o [1]
+FT0                      0x801'69fc   0x400  Data  Lc  aes.o [1]
+FT1                      0x801'6dfc   0x400  Data  Lc  aes.o [1]
+FT2                      0x801'71fc   0x400  Data  Lc  aes.o [1]
+FT3                      0x801'75fc   0x400  Data  Lc  aes.o [1]
+GPIO_PIN                 0x801'b304     0x4  Data  Gb  stm32l475e_iot01.o [1]
+GPIO_PORT               0x2000'0254     0x4  Data  Gb  stm32l475e_iot01.o [1]
+HAL_DMA_Abort_IT         0x801'9969    0x46  Code  Gb  stm32l4xx_hal_dma.o [1]
+HAL_Delay                0x801'a127    0x1e  Code  Wk  stm32l4xx_hal.o [1]
+HAL_FLASHEx_Erase        0x802'2a15    0xd2  Code  Gb  stm32l4xx_hal_flash_ex.o [1]
+HAL_FLASH_Program        0x802'27e9    0x90  Code  Gb  stm32l4xx_hal_flash.o [1]
+HAL_FLASH_Unlock         0x802'2879    0x20  Code  Gb  stm32l4xx_hal_flash.o [1]
+HAL_GPIO_EXTI_Callback   0x801'a2d3    0x1a  Code  Gb  main.o [1]
+HAL_GPIO_EXTI_IRQHandler
+                         0x801'a021    0x10  Code  Gb  stm32l4xx_hal_gpio.o [1]
+HAL_GPIO_Init            0x801'9e2d   0x1cc  Code  Gb  stm32l4xx_hal_gpio.o [1]
+HAL_GPIO_ReadPin         0x801'a003     0xc  Code  Gb  stm32l4xx_hal_gpio.o [1]
+HAL_GPIO_TogglePin       0x801'a019     0x8  Code  Gb  stm32l4xx_hal_gpio.o [1]
+HAL_GPIO_WritePin        0x801'a00f     0xa  Code  Gb  stm32l4xx_hal_gpio.o [1]
+HAL_GetTick              0x801'995d     0xc  Code  Wk  stm32l4xx_hal.o [1]
+HAL_I2CEx_ConfigAnalogFilter
+                         0x801'ce01    0x2c  Code  Gb  stm32l4xx_hal_i2c_ex.o [1]
+HAL_I2C_DeInit           0x801'c8e1    0x26  Code  Gb  stm32l4xx_hal_i2c.o [1]
+HAL_I2C_Init             0x801'c841    0xa0  Code  Gb  stm32l4xx_hal_i2c.o [1]
+HAL_I2C_Mem_Read         0x801'ca63    0xd0  Code  Gb  stm32l4xx_hal_i2c.o [1]
+HAL_I2C_Mem_Write        0x801'c939    0xc2  Code  Gb  stm32l4xx_hal_i2c.o [1]
+HAL_IncTick              0x802'f131    0x10  Code  Wk  stm32l4xx_hal.o [1]
+HAL_Init                 0x801'a321    0x16  Code  Gb  stm32l4xx_hal.o [1]
+HAL_InitTick             0x801'c79d    0x28  Code  Wk  stm32l4xx_hal.o [1]
+HAL_NVIC_EnableIRQ       0x801'a0cb    0x16  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority     0x801'a091    0x3a  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_NVIC_SetPriorityGrouping
+                         0x801'a077    0x1a  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_PWREx_ControlVoltageScaling
+                         0x801'c7d1    0x64  Code  Gb  stm32l4xx_hal_pwr_ex.o [1]
+HAL_PWREx_GetVoltageRange
+                         0x801'c7c5     0xc  Code  Gb  stm32l4xx_hal_pwr_ex.o [1]
+HAL_RCCEx_EnableMSIPLLMode
+                         0x801'ad3b     0xc  Code  Gb  stm32l4xx_hal_rcc_ex.o [1]
+HAL_RCCEx_PeriphCLKConfig
+                         0x801'a9fd   0x324  Code  Gb  stm32l4xx_hal_rcc_ex.o [1]
+HAL_RCC_ClockConfig      0x801'a747   0x13e  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK1Freq     0x801'a92b    0x10  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_RCC_GetPCLK2Freq     0x801'a93b     0xe  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                         0x801'a885    0xa6  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_RCC_OscConfig        0x801'a339   0x3ca  Code  Gb  stm32l4xx_hal_rcc.o [1]
+HAL_RNG_GenerateRandomNumber
+                         0x801'b34f    0x5c  Code  Gb  stm32l4xx_hal_rng.o [1]
+HAL_RNG_Init             0x801'b31f    0x30  Code  Gb  stm32l4xx_hal_rng.o [1]
+HAL_RNG_MspInit          0x801'af8b    0x22  Code  Gb  stm32l4xx_hal_msp.o [1]
+HAL_RTC_Init             0x801'b3ad    0x94  Code  Gb  stm32l4xx_hal_rtc.o [1]
+HAL_RTC_MspInit          0x801'afad    0x14  Code  Gb  stm32l4xx_hal_msp.o [1]
+HAL_RTC_SetDate          0x801'b515    0x88  Code  Gb  stm32l4xx_hal_rtc.o [1]
+HAL_RTC_SetTime          0x801'b45b    0xa0  Code  Gb  stm32l4xx_hal_rtc.o [1]
+HAL_RTC_WaitForSynchro   0x801'b5f9    0x32  Code  Gb  stm32l4xx_hal_rtc.o [1]
+HAL_SPI_DeInit           0x801'8aad    0x28  Code  Gb  stm32l4xx_hal_spi.o [1]
+HAL_SPI_IRQHandler       0x801'9241    0xf4  Code  Gb  stm32l4xx_hal_spi.o [1]
+HAL_SPI_Init             0x801'89f1    0xbc  Code  Gb  stm32l4xx_hal_spi.o [1]
+HAL_SPI_Receive          0x801'8ad5   0x1fe  Code  Gb  stm32l4xx_hal_spi.o [1]
+HAL_SPI_Receive_IT       0x801'9051    0xd8  Code  Gb  stm32l4xx_hal_spi.o [1]
+HAL_SPI_RxCpltCallback   0x801'9ddb     0xc  Code  Gb  es_wifi_io.o [1]
+HAL_SPI_TransmitReceive
+                         0x801'8cdf   0x294  Code  Gb  stm32l4xx_hal_spi.o [1]
+HAL_SPI_TransmitReceive_IT
+                         0x801'914b    0xe4  Code  Gb  stm32l4xx_hal_spi.o [1]
+HAL_SPI_Transmit_IT      0x801'8fbf    0x92  Code  Gb  stm32l4xx_hal_spi.o [1]
+HAL_SPI_TxCpltCallback   0x801'9de7     0xc  Code  Gb  es_wifi_io.o [1]
+HAL_SYSTICK_Config       0x801'a0e1    0x28  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_SYSTICK_IRQHandler   0x801'a109     0x4  Code  Gb  stm32l4xx_hal_cortex.o [1]
+HAL_UART_Init            0x801'c161    0x30  Code  Gb  stm32l4xx_hal_uart.o [1]
+HAL_UART_Receive         0x801'c291    0xcc  Code  Gb  stm32l4xx_hal_uart.o [1]
+HAL_UART_Transmit        0x801'c1e1    0xb0  Code  Gb  stm32l4xx_hal_uart.o [1]
+HEAP$$Base              0x2000'2d70           --   Gb  - Linker created -
+HEAP$$Limit             0x2001'3d70           --   Gb  - Linker created -
+HTS221_H_Drv            0x2000'020c     0xc  Data  Gb  hts221.o [1]
+HTS221_H_Init            0x802'bd7d     0x4  Code  Gb  hts221.o [1]
+HTS221_H_ReadHumidity    0x802'bd95    0xce  Code  Gb  hts221.o [1]
+HTS221_H_ReadID          0x802'bd81    0x14  Code  Gb  hts221.o [1]
+HTS221_T_Drv            0x2000'01fc    0x10  Data  Gb  hts221.o [1]
+HTS221_T_Init            0x802'be71     0x2  Code  Gb  hts221.o [1]
+HTS221_T_ReadTemp        0x802'be91    0xa6  Code  Gb  hts221.o [1]
+HardFault_Handler        0x802'f107     0x2  Code  Gb  stm32l4xx_it.o [1]
+Hsensor_drv             0x2000'0d50     0x4  Data  Lc  stm32l475e_iot01_hsensor.o [1]
+I2C_Flush_TXDR           0x801'cc71    0x1c  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2C_IsAcknowledgeFailed
+                         0x801'cd51    0x5a  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2C_RequestMemoryRead    0x801'cbf5    0x46  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2C_RequestMemoryWrite   0x801'cbad    0x48  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2C_TransferConfig       0x801'cdcd    0x22  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2C_WaitOnFlagUntilTimeout
+                         0x801'cc8d    0x3e  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2C_WaitOnSTOPFlagUntilTimeout
+                         0x801'ccfd    0x2c  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2C_WaitOnTXISFlagUntilTimeout
+                         0x801'cccb    0x32  Code  Lc  stm32l4xx_hal_i2c.o [1]
+I2Cx_Error               0x801'b273    0x10  Code  Lc  stm32l475e_iot01.o [1]
+I2Cx_Init                0x801'b185    0xae  Code  Lc  stm32l475e_iot01.o [1]
+I2Cx_ReadMultiple        0x801'b233     0xc  Code  Lc  stm32l475e_iot01.o [1]
+I2Cx_WriteMultiple       0x801'b23f     0xa  Code  Lc  stm32l475e_iot01.o [1]
+K                        0x802'd358   0x100  Data  Lc  sha256.o [1]
+K                        0x802'b0f8   0x280  Data  Lc  sha512.o [1]
+LHs                      0x802'de34    0x40  Data  Lc  des.o [1]
+Led_SetState             0x801'a229    0x10  Code  Gb  main.o [1]
+LoadInt                  0x801'2133    0x7a  Code  Lc  xprintffull.o [2]
+MQTTcallbackHandler      0x801'ba8b    0xd2  Code  Gb  aws_subscribe_publish_sensor_values.o [1]
+MSIRangeTable            0x802'ef88    0x30  Data  Gb  system_stm32l4xx.o [1]
+MemManage_Handler        0x802'f109     0x2  Code  Gb  stm32l4xx_it.o [1]
+NMI_Handler              0x802'f105     0x2  Code  Gb  stm32l4xx_it.o [1]
+ParseIP                  0x802'1147    0x36  Code  Lc  es_wifi.o [1]
+ParseMAC                 0x802'10c7    0x80  Code  Lc  es_wifi.o [1]
+ParseNumber              0x802'108d    0x3a  Code  Lc  es_wifi.o [1]
+PendSV_Handler           0x802'f113     0x2  Code  Gb  stm32l4xx_it.o [1]
+Periph_Config            0x801'af3d    0x4e  Code  Gb  stm32l4xx_hal_msp.o [1]
+PrepareSensorsData       0x801'dec1    0xe6  Code  Gb  sensors_data.o [1]
+PrepareSensorsData::__func__
+                         0x801'e010    0x14  Data  Lc  sensors_data.o [1]
+RCCEx_PLLSAI1_Config     0x801'ad4d    0xc8  Code  Lc  stm32l4xx_hal_rcc_ex.o [1]
+RCCEx_PLLSAI2_Config     0x801'ae19    0xac  Code  Lc  stm32l4xx_hal_rcc_ex.o [1]
+RCC_SetFlashLatencyFromMSIRange
+                         0x801'a94f    0x74  Code  Lc  stm32l4xx_hal_rcc.o [1]
+RCON                     0x802'f140    0x28  Data  Lc  aes.o [1]
+RHs                      0x802'de74    0x40  Data  Lc  des.o [1]
+RSb                      0x802'ca58   0x100  Data  Lc  aes.o [1]
+RT0                      0x802'8e94   0x400  Data  Lc  aes.o [1]
+RT1                      0x802'9294   0x400  Data  Lc  aes.o [1]
+RT2                      0x802'9694   0x400  Data  Lc  aes.o [1]
+RT3                      0x802'9a94   0x400  Data  Lc  aes.o [1]
+RTC_ByteToBcd2           0x801'b661    0x16  Code  Gb  stm32l4xx_hal_rtc.o [1]
+RTC_EnterInitMode        0x801'b62b    0x36  Code  Gb  stm32l4xx_hal_rtc.o [1]
+Region$$Table$$Base      0x802'f380           --   Gb  - Linker created -
+Region$$Table$$Limit     0x802'f3ac           --   Gb  - Linker created -
+SB1                      0x802'cb58   0x100  Data  Lc  des.o [1]
+SB2                      0x802'cc58   0x100  Data  Lc  des.o [1]
+SB3                      0x802'cd58   0x100  Data  Lc  des.o [1]
+SB4                      0x802'ce58   0x100  Data  Lc  des.o [1]
+SB5                      0x802'cf58   0x100  Data  Lc  des.o [1]
+SB6                      0x802'd058   0x100  Data  Lc  des.o [1]
+SB7                      0x802'd158   0x100  Data  Lc  des.o [1]
+SB8                      0x802'd258   0x100  Data  Lc  des.o [1]
+SENSOR_IO_Init           0x801'b283     0x4  Code  Gb  stm32l475e_iot01.o [1]
+SENSOR_IO_Read           0x801'b29f    0x22  Code  Gb  stm32l475e_iot01.o [1]
+SENSOR_IO_ReadMultiple   0x801'b2c1     0xe  Code  Gb  stm32l475e_iot01.o [1]
+SENSOR_IO_Write          0x801'b287    0x18  Code  Gb  stm32l475e_iot01.o [1]
+SPI3_IRQHandler          0x801'a2ed     0x6  Code  Gb  main.o [1]
+SPI_2linesRxISR_16BIT    0x801'9465    0x44  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_2linesRxISR_16BITCRC
+                         0x801'94a9    0x1c  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_2linesRxISR_8BIT     0x801'936d    0x78  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_2linesRxISR_8BITCRC
+                         0x801'93e5    0x2e  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_2linesTxISR_16BIT    0x801'94c9    0x3a  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_2linesTxISR_8BIT     0x801'9415    0x4e  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_CloseRxTx_ISR        0x801'9809    0x64  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_CloseRx_ISR          0x801'988d    0x4a  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_CloseTx_ISR          0x801'98e7    0x42  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_DMAAbortOnError      0x801'935d    0x10  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_EndRxTransaction     0x801'976b    0x4e  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_EndRxTxTransaction   0x801'97d3    0x2a  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_RxISR_16BIT          0x801'95a3    0x4c  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_RxISR_16BITCRC       0x801'9583    0x1c  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_RxISR_8BIT           0x801'9539    0x4a  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_RxISR_8BITCRC        0x801'9517    0x22  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_TxISR_16BIT          0x801'960b    0x1c  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_TxISR_8BIT           0x801'95f1    0x1a  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_WIFI_DeInit          0x801'9bfd     0xc  Code  Gb  es_wifi_io.o [1]
+SPI_WIFI_Delay           0x801'9d91     0x4  Code  Gb  es_wifi_io.o [1]
+SPI_WIFI_DelayUs         0x801'9d95    0x46  Code  Lc  es_wifi_io.o [1]
+SPI_WIFI_ISR             0x801'9df3     0xe  Code  Gb  es_wifi_io.o [1]
+SPI_WIFI_Init            0x801'9acf    0x6e  Code  Gb  es_wifi_io.o [1]
+SPI_WIFI_MspInit         0x801'99b5   0x104  Code  Gb  es_wifi_io.o [1]
+SPI_WIFI_ReceiveData     0x801'9c2f    0xbc  Code  Gb  es_wifi_io.o [1]
+SPI_WIFI_ResetModule     0x801'9b3d    0xac  Code  Gb  es_wifi_io.o [1]
+SPI_WIFI_SendData        0x801'9cf5    0x9c  Code  Gb  es_wifi_io.o [1]
+SPI_WaitFifoStateUntilTimeout
+                         0x801'96c3    0x7e  Code  Lc  stm32l4xx_hal_spi.o [1]
+SPI_WaitFlagStateUntilTimeout
+                         0x801'963b    0x88  Code  Lc  stm32l4xx_hal_spi.o [1]
+SVC_Handler              0x802'f10f     0x2  Code  Gb  stm32l4xx_it.o [1]
+SysTick_Handler          0x802'f115     0xe  Code  Gb  stm32l4xx_it.o [1]
+SystemCoreClock         0x2000'025c     0x4  Data  Gb  system_stm32l4xx.o [1]
+SystemInit               0x802'e1d9    0x3a  Code  Gb  system_stm32l4xx.o [1]
+UART_AdvFeatureConfig    0x801'c615    0xc6  Code  Gb  stm32l4xx_hal_uart.o [1]
+UART_CheckIdleState      0x801'c6db    0x5a  Code  Gb  stm32l4xx_hal_uart.o [1]
+UART_SetConfig           0x801'c35d   0x27c  Code  Gb  stm32l4xx_hal_uart.o [1]
+UART_WaitOnFlagUntilTimeout
+                         0x801'c735    0x58  Code  Gb  stm32l4xx_hal_uart.o [1]
+UsageFault_Handler       0x802'f10d     0x2  Code  Gb  stm32l4xx_it.o [1]
+WIFI_CloseClientConnection
+                         0x801'f079    0x12  Code  Gb  wifi.o [1]
+WIFI_Connect             0x801'efc7    0x22  Code  Gb  wifi.o [1]
+WIFI_GetHostAddress      0x801'f01f    0x10  Code  Gb  wifi.o [1]
+WIFI_GetIP_Address       0x801'eff5    0x20  Code  Gb  wifi.o [1]
+WIFI_GetMAC_Address      0x801'efe9     0xc  Code  Gb  wifi.o [1]
+WIFI_GetModuleFwRevision
+                         0x801'f117     0x8  Code  Gb  wifi.o [1]
+WIFI_GetModuleID         0x801'f11f     0x6  Code  Gb  wifi.o [1]
+WIFI_GetModuleName       0x801'f12d     0x8  Code  Gb  wifi.o [1]
+WIFI_Init                0x801'ef91    0x36  Code  Gb  wifi.o [1]
+WIFI_OpenClientConnection
+                         0x801'f02f    0x4a  Code  Gb  wifi.o [1]
+WIFI_ReceiveData         0x801'f0d9     0xa  Code  Gb  wifi.o [1]
+WIFI_ReceiveDataFrom     0x801'f0ed    0x20  Code  Gb  wifi.o [1]
+WIFI_SendData            0x801'f09b     0xc  Code  Gb  wifi.o [1]
+WIFI_SendDataTo          0x801'f0b7    0x22  Code  Gb  wifi.o [1]
+_Encoding_8859_1_Mbrlen
+                         0x800'7961     0x2  Code  Gb  xencoding_8859_1.o [2]
+_Encoding_8859_1_Mbtowc
+                         0x800'7959     0x8  Code  Gb  xencoding_8859_1.o [2]
+_Encoding_8859_1_Wctomb
+                         0x800'7947    0x12  Code  Gb  xencoding_8859_1.o [2]
+_FProut                  0x802'f3f9    0x18  Code  Gb  xfprout.o [2]
+_GenldFull               0x801'2b91   0x274  Code  Lc  xprintffull.o [2]
+_GetN                    0x802'2bb5    0x22  Code  Lc  xscanffull.o [2]
+_GetfldFull              0x802'2def   0x12e  Code  Lc  xscanffull.o [2]
+_GetfloatFull            0x802'3455   0x540  Code  Lc  xscanffull.o [2]
+_GetintFull              0x802'3231   0x21e  Code  Lc  xscanffull.o [2]
+_GetstrFull              0x802'2f61   0x2cc  Code  Lc  xscanffull.o [2]
+_LdtobFull               0x801'278d   0x3d6  Code  Lc  xprintffull.o [2]
+_LitobFull               0x801'263d   0x10a  Code  Lc  xprintffull.o [2]
+_LocaleC_isalpha         0x801'3763     0xc  Code  Gb  xlocale_c.o [2]
+_LocaleC_islower         0x801'375d     0x4  Code  Gb  xlocale_c.o [2]
+_LocaleC_isspace         0x801'3779    0x14  Code  Gb  xlocale_c.o [2]
+_LocaleC_isupper         0x801'3761     0x2  Code  Gb  xlocale_c.o [2]
+_LocaleC_tolower         0x801'378d     0xc  Code  Gb  xlocale_c.o [2]
+_Locale_lconv           0x2000'0180    0x38  Data  Lc  xlocale_c.o [2]
+_PrintfFull              0x801'1f71   0x1aa  Code  Gb  xprintffull.o [2]
+_Prout                   0x802'f411    0x16  Code  Gb  xprout.o [2]
+_PutcharsFull            0x801'2e05    0x2e  Code  Lc  xprintffull.o [2]
+_PutfldFull              0x801'21ad   0x2d4  Code  Lc  xprintffull.o [2]
+_PutstrFull              0x801'2577    0xc6  Code  Lc  xprintffull.o [2]
+_PuttxtFull              0x801'2481    0xf6  Code  Lc  xprintffull.o [2]
+_Randinit               0x2000'0244     0x1  Data  Gb  rand.o [2]
+_Randseed               0x2000'0248     0x4  Data  Gb  rand.o [2]
+_SNProut                 0x800'7c3f    0x1a  Code  Gb  xsnprout.o [2]
+_SProut                  0x800'a23b     0xa  Code  Gb  xsprout.o [2]
+_SScin                   0x800'7c1b    0x1e  Code  Gb  xsscin.o [2]
+_ScanfFull               0x802'2bf1   0x1e6  Code  Gb  xscanffull.o [2]
+_Strtok_ssave           0x2000'0d5c     0x4  Data  Lc  strtok.o [2]
+_UngetN                  0x802'2bd7    0x1a  Code  Lc  xscanffull.o [2]
+__ICFEDIT_intvec_start__ {Abs}
+                         0x800'0000          Data  Gb  <internal module>
+__ICFEDIT_region_FIXED_LOC_start__ {Abs}
+                         0x806'4000          Data  Gb  <internal module>
+__NVIC_SetPriority       0x801'a05d    0x1a  Code  Lc  stm32l4xx_hal_cortex.o [1]
+__aeabi_cdcmple          0x801'3b19          Code  Gb  DblCmpLe.o [3]
+__aeabi_cdrcmple         0x801'3b49          Code  Gb  DblCmpGe.o [3]
+__aeabi_d2f              0x802'4c61          Code  Gb  DblToFlt.o [3]
+__aeabi_d2iz             0x801'3cb5          Code  Gb  DblToS32.o [3]
+__aeabi_d2uiz            0x801'4041          Code  Gb  DblToU32.o [3]
+__aeabi_dadd             0x801'408d          Code  Gb  DblAdd.o [3]
+__aeabi_ddiv             0x801'3df9          Code  Gb  DblDiv.o [3]
+__aeabi_dmul             0x801'3905          Code  Gb  DblMul.o [3]
+__aeabi_dsub             0x801'3d15          Code  Gb  DblSub.o [3]
+__aeabi_f2d              0x802'0451          Code  Gb  FltToDbl.o [3]
+__aeabi_i2d              0x801'3cf1          Code  Gb  S32ToDbl.o [3]
+__aeabi_ldiv0            0x801'4085          Code  Gb  I64DivZer.o [4]
+__aeabi_memclr           0x800'7c15          Code  Gb  ABImemclr.o [4]
+__aeabi_memclr4          0x800'7c39          Code  Gb  ABImemclr4.o [4]
+__aeabi_memset4          0x800'f7bd          Code  Gb  ABImemset48.o [4]
+__aeabi_memset8          0x800'f7bd          Code  Gb  ABImemset48.o [4]
+__aeabi_ui2d             0x801'4069          Code  Gb  U32ToDbl.o [3]
+__cmain                  0x802'f3ad          Code  Gb  cmain.o [4]
+__data_GetMemChunk       0x801'573d    0x2c  Code  Gb  xgetmemchunk.o [2]
+__data_GetMemChunk::start
+                        0x2000'0d64     0x4  Data  Lc  xgetmemchunk.o [2]
+__exit                   0x801'4209    0x14  Code  Gb  exit.o [5]
+__firewall_ROM_start {Abs}
+                         0x806'7800          Data  Gb  <internal module>
+__iar_Fail_s             0x801'3861    0x1c  Code  Gb  xfail_s.o [2]
+__iar_Mbcurmax           0x801'38f9     0xa  Code  Gb  xmbcurmax.o [2]
+__iar_Memchr             0x801'38a1          Code  Gb  memchr.o [4]
+__iar_Memset4_word       0x800'f7c5          Code  Gb  ABImemset48.o [4]
+__iar_Memset8_word       0x800'f7c5          Code  Gb  ABImemset48.o [4]
+__iar_Stdin             0x2000'00a8    0x48  Data  Gb  xfiles.o [2]
+__iar_Stdout            0x2000'00f0    0x48  Data  Gb  xfiles.o [2]
+__iar_Sto64              0x802'4a75   0x194  Code  Gb  strto64.o [3]
+__iar_Stoflt             0x802'4e31   0x1c4  Code  Gb  iar_Stoflt.o [2]
+__iar_Stollx             0x802'44e5    0x96  Code  Gb  iar_Stollx.o [2]
+__iar_Stopfx             0x802'4d0d   0x122  Code  Gb  iar_Stopfx.o [2]
+__iar_Stoullx            0x802'4585   0x1a4  Code  Gb  iar_Stoullx.o [2]
+__iar_Stoulx             0x802'0011   0x13a  Code  Gb  iar_Stoulx.o [2]
+__iar_Stoxflt            0x802'4ff5   0x1e6  Code  Gb  iar_Stoxflt.o [2]
+__iar_Stoxflt::digits    0x802'51e0    0x18  Data  Lc  iar_Stoxflt.o [2]
+__iar_Stoxflt::vals      0x802'51f8    0x18  Data  Lc  iar_Stoxflt.o [2]
+__iar_Strchr             0x801'3539          Code  Gb  strchr.o [4]
+__iar_dadd               0x801'3d25          Code  Gb  DblSub.o [3]
+__iar_data_init3         0x802'f281    0x28  Code  Gb  data_init.o [4]
+__iar_dlcalloc           0x801'56f1    0x3e  Code  Gb  dlmalloc.o [2]
+__iar_dlfree             0x801'51fb   0x4f6  Code  Gb  dlmalloc.o [2]
+__iar_dlmalloc           0x801'4f45   0x2b6  Code  Gb  dlmalloc.o [2]
+__iar_dsub               0x801'409d          Code  Gb  DblAdd.o [3]
+__iar_dsubStart          0x801'40af          Code  Gb  DblAdd.o [3]
+__iar_frexp              0x801'3ab5          Code  Gb  frexp.o [3]
+__iar_frexpl             0x801'3ab5          Code  Gb  frexp.o [3]
+__iar_globLocale        0x2000'0138    0x48  Data  Lc  xlocale_c.o [2]
+__iar_global_Locale      0x801'3799     0x4  Code  Gb  xlocale_c.o [2]
+__iar_init_vfp           0x802'f35d          Code  Gb  fpinit_M.o [3]
+__iar_ldexp64            0x801'3b79          Code  Gb  ldexp.o [3]
+__iar_packbits_init3     0x802'd9d5    0x9c  Code  Gb  packbits_init.o [4]
+__iar_program_start      0x802'f445          Code  Gb  cstartup_M.o [4]
+__iar_scalbln64          0x801'3b79          Code  Gb  ldexp.o [3]
+__iar_scalbn64           0x801'3b79          Code  Gb  ldexp.o [3]
+__iar_small_Memcpy       0x800'39f1          Code  Gb  ABImemcpy_small.o [4]
+__iar_small_Memset       0x800'a229          Code  Gb  ABImemset_small.o [4]
+__iar_small_Memset_word
+                         0x800'a229          Code  Gb  ABImemset_small.o [4]
+__iar_small_memcmp       0x800'7929          Code  Gb  memcmp_small.o [4]
+__iar_small_memcpy       0x800'39ed          Code  Gb  ABImemcpy_small.o [4]
+__iar_small_memcpy4      0x800'39ed          Code  Gb  ABImemcpy_small.o [4]
+__iar_small_memcpy8      0x800'39ed          Code  Gb  ABImemcpy_small.o [4]
+__iar_small_memmove      0x800'5e5d          Code  Gb  ABImemmove_small.o [4]
+__iar_small_memmove4     0x800'5e5d          Code  Gb  ABImemmove_small.o [4]
+__iar_small_memmove8     0x800'5e5d          Code  Gb  ABImemmove_small.o [4]
+__iar_small_memset       0x800'a229          Code  Gb  ABImemset_small.o [4]
+__iar_small_strlen       0x800'39d9          Code  Gb  strlen_small.o [4]
+__iar_small_strncpy      0x802'1d19          Code  Gb  strncpy_small.o [4]
+__iar_small_uldivmod     0x801'3655          Code  Gb  I64DivMod_small.o [4]
+__iar_softfp___iar_frexp64
+                         0x801'3aa9          Code  Gb  frexp.o [3]
+__iar_softfp_frexp       0x801'3aa9          Code  Gb  frexp.o [3]
+__iar_softfp_frexpl      0x801'3aa9          Code  Gb  frexp.o [3]
+__iar_zero_init3         0x800'5e7b    0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init         0x802'f3cb     0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000          Data  Gb  startup_stm32l475xx.o [1]
+_aws_iot_mqtt_deserialize_suback
+                         0x801'ea33    0x92  Code  Lc  aws_iot_mqtt_client_subscribe.o [1]
+_aws_iot_mqtt_get_free_message_handler_index
+                         0x801'eac5    0x16  Code  Lc  aws_iot_mqtt_client_subscribe.o [1]
+_aws_iot_mqtt_handle_disconnect
+                         0x801'ed75    0x36  Code  Lc  aws_iot_mqtt_client_yield.o [1]
+_aws_iot_mqtt_internal_connect
+                         0x801'e3ad   0x118  Code  Lc  aws_iot_mqtt_client_connect.o [1]
+_aws_iot_mqtt_internal_deliver_message
+                         0x802'0e37    0xc4  Code  Lc  aws_iot_mqtt_client_common_internal.o [1]
+_aws_iot_mqtt_internal_disconnect
+                         0x801'e527    0x52  Code  Gb  aws_iot_mqtt_client_connect.o [1]
+_aws_iot_mqtt_internal_publish
+                         0x801'e73b    0x9e  Code  Lc  aws_iot_mqtt_client_publish.o [1]
+_aws_iot_mqtt_internal_read_packet
+                         0x802'0d2f   0x108  Code  Lc  aws_iot_mqtt_client_common_internal.o [1]
+_aws_iot_mqtt_internal_resubscribe
+                         0x801'ec03    0xa2  Code  Lc  aws_iot_mqtt_client_subscribe.o [1]
+_aws_iot_mqtt_internal_serialize_publish
+                         0x801'e615    0xb4  Code  Lc  aws_iot_mqtt_client_publish.o [1]
+_aws_iot_mqtt_internal_subscribe
+                         0x801'eadb    0xb4  Code  Lc  aws_iot_mqtt_client_subscribe.o [1]
+_aws_iot_mqtt_internal_yield
+                         0x801'edab   0x162  Code  Lc  aws_iot_mqtt_client_yield.o [1]
+_aws_iot_mqtt_serialize_connect
+                         0x801'e235   0x170  Code  Lc  aws_iot_mqtt_client_connect.o [1]
+_aws_iot_mqtt_serialize_subscribe
+                         0x801'e97d    0xb6  Code  Lc  aws_iot_mqtt_client_subscribe.o [1]
+_call_main               0x802'f3b9          Code  Gb  cmain.o [4]
+_exit                    0x802'f3d5          Code  Gb  cexit.o [4]
+_gLocale_mblen           0x801'383f     0x4  Code  Gb  xlocale_c.o [2]
+_gLocale_mblenInt        0x801'37c1    0x2c  Code  Gb  xlocale_c.o [2]
+_gLocale_mbtowc          0x801'3843     0xc  Code  Gb  xlocale_c.o [2]
+_gLocale_mbtowcInt       0x801'37ed    0x42  Code  Gb  xlocale_c.o [2]
+_gLocale_wctomb          0x801'384f     0x4  Code  Gb  xlocale_c.o [2]
+_gLocale_wctombInt       0x801'383b     0x4  Code  Gb  xlocale_c.o [2]
+_gm_                    0x2000'0908   0x1d8  Data  Lc  dlmalloc.o [2]
+_iot_tls_set_connect_params
+                         0x802'04cd    0x1c  Code  Gb  aws_network_st_wrapper.o [1]
+_iot_tls_verify_cert     0x802'04a9    0x1e  Code  Lc  aws_network_st_wrapper.o [1]
+_main                    0x802'f3c7          Code  Gb  cmain.o [4]
+abort                    0x801'4087     0x6  Code  Gb  abort.o [2]
+add32                    0x801'147b    0x14  Code  Lc  ecp_curves.o [1]
+add64                    0x801'13a7    0x30  Code  Lc  ecp_curves.o [1]
+add_count               0x2000'0d38     0x4  Data  Lc  ecp.o [1]
+add_segment              0x801'45e5   0x1f2  Code  Lc  dlmalloc.o [2]
+aes_128_ccm_info         0x802'b4f8    0x1c  Data  Lc  cipher_wrap.o [1]
+aes_128_ecb_info         0x802'b420    0x1c  Data  Lc  cipher_wrap.o [1]
+aes_128_gcm_info         0x802'b48c    0x1c  Data  Lc  cipher_wrap.o [1]
+aes_192_ccm_info         0x802'b514    0x1c  Data  Lc  cipher_wrap.o [1]
+aes_192_ecb_info         0x802'b43c    0x1c  Data  Lc  cipher_wrap.o [1]
+aes_192_gcm_info         0x802'b4a8    0x1c  Data  Lc  cipher_wrap.o [1]
+aes_256_ccm_info         0x802'b530    0x1c  Data  Lc  cipher_wrap.o [1]
+aes_256_ecb_info         0x802'b458    0x1c  Data  Lc  cipher_wrap.o [1]
+aes_256_gcm_info         0x802'b4c4    0x1c  Data  Lc  cipher_wrap.o [1]
+aes_crypt_ecb_wrap       0x802'c88d     0x4  Code  Lc  cipher_wrap.o [1]
+aes_ctx_alloc            0x802'c899    0x1e  Code  Lc  cipher_wrap.o [1]
+aes_ctx_free             0x802'c8b7     0xa  Code  Lc  cipher_wrap.o [1]
+aes_info                 0x802'b408    0x18  Data  Lc  cipher_wrap.o [1]
+aes_setkey_dec_wrap      0x802'c891     0x4  Code  Lc  cipher_wrap.o [1]
+aes_setkey_enc_wrap      0x802'c895     0x4  Code  Lc  cipher_wrap.o [1]
+app_needs_device_keypair
+                         0x801'ba61     0x4  Code  Gb  aws_subscribe_publish_sensor_values.o [1]
+atoi                     0x802'0151     0x2  Code  Gb  iar_Stoulx.o [2]
+aws_iot_is_autoreconnect_enabled
+                         0x801'e207     0x6  Code  Gb  aws_iot_mqtt_client.o [1]
+aws_iot_mqtt_attempt_reconnect
+                         0x801'e5bf    0x44  Code  Gb  aws_iot_mqtt_client_connect.o [1]
+aws_iot_mqtt_autoreconnect_set_status
+                         0x801'e20d     0xa  Code  Gb  aws_iot_mqtt_client.o [1]
+aws_iot_mqtt_connect     0x801'e4c5    0x62  Code  Gb  aws_iot_mqtt_client_connect.o [1]
+aws_iot_mqtt_disconnect
+                         0x801'e579    0x40  Code  Gb  aws_iot_mqtt_client_connect.o [1]
+aws_iot_mqtt_get_client_state
+                         0x801'e051     0x8  Code  Gb  aws_iot_mqtt_client.o [1]
+aws_iot_mqtt_get_next_packet_id
+                         0x801'e1dd    0x16  Code  Gb  aws_iot_mqtt_client.o [1]
+aws_iot_mqtt_init        0x801'e101    0xd4  Code  Gb  aws_iot_mqtt_client.o [1]
+aws_iot_mqtt_internal_cycle_read
+                         0x802'0efd    0xd4  Code  Gb  aws_iot_mqtt_client_common_internal.o [1]
+aws_iot_mqtt_internal_decode_remaining_length_from_buffer
+                         0x802'0b97    0x30  Code  Gb  aws_iot_mqtt_client_common_internal.o [1]
+aws_iot_mqtt_internal_deserialize_ack
+                         0x801'e903    0x72  Code  Gb  aws_iot_mqtt_client_publish.o [1]
+aws_iot_mqtt_internal_deserialize_publish
+                         0x801'e84f    0xb4  Code  Gb  aws_iot_mqtt_client_publish.o [1]
+aws_iot_mqtt_internal_get_final_packet_length_from_remaining_length
+                         0x802'0bc7    0x22  Code  Gb  aws_iot_mqtt_client_common_internal.o [1]
+aws_iot_mqtt_internal_init_header
+                         0x802'0c51    0x88  Code  Gb  aws_iot_mqtt_client_common_internal.o [1]
+aws_iot_mqtt_internal_read_char
+                         0x802'0c13     0xc  Code  Gb  aws_iot_mqtt_client_common_internal.o [1]
+aws_iot_mqtt_internal_read_uint16_t
+                         0x802'0be9    0x12  Code  Gb  aws_iot_mqtt_client_common_internal.o [1]
+aws_iot_mqtt_internal_send_packet
+                         0x802'0cd9    0x56  Code  Gb  aws_iot_mqtt_client_common_internal.o [1]
+aws_iot_mqtt_internal_serialize_ack
+                         0x801'e6c9    0x68  Code  Gb  aws_iot_mqtt_client_publish.o [1]
+aws_iot_mqtt_internal_serialize_zero
+                         0x802'102d    0x50  Code  Gb  aws_iot_mqtt_client_common_internal.o [1]
+aws_iot_mqtt_internal_wait_for_read
+                         0x802'0fd1    0x5a  Code  Gb  aws_iot_mqtt_client_common_internal.o [1]
+aws_iot_mqtt_internal_write_char
+                         0x802'0c1f     0xc  Code  Gb  aws_iot_mqtt_client_common_internal.o [1]
+aws_iot_mqtt_internal_write_len_to_buffer
+                         0x802'0b7d    0x1a  Code  Gb  aws_iot_mqtt_client_common_internal.o [1]
+aws_iot_mqtt_internal_write_uint_16
+                         0x802'0bfb    0x18  Code  Gb  aws_iot_mqtt_client_common_internal.o [1]
+aws_iot_mqtt_internal_write_utf8_string
+                         0x802'0c2b    0x24  Code  Gb  aws_iot_mqtt_client_common_internal.o [1]
+aws_iot_mqtt_is_client_connected
+                         0x801'e1f3    0x14  Code  Gb  aws_iot_mqtt_client.o [1]
+aws_iot_mqtt_publish     0x801'e7d9    0x76  Code  Gb  aws_iot_mqtt_client_publish.o [1]
+aws_iot_mqtt_resubscribe
+                         0x801'ecb9    0x52  Code  Gb  aws_iot_mqtt_client_subscribe.o [1]
+aws_iot_mqtt_set_client_state
+                         0x801'e059    0x18  Code  Gb  aws_iot_mqtt_client.o [1]
+aws_iot_mqtt_set_connect_params
+                         0x801'e071    0x90  Code  Gb  aws_iot_mqtt_client.o [1]
+aws_iot_mqtt_subscribe   0x801'eb8f    0x74  Code  Gb  aws_iot_mqtt_client_subscribe.o [1]
+aws_iot_mqtt_yield       0x801'ef11    0x6e  Code  Gb  aws_iot_mqtt_client_yield.o [1]
+base64_dec_map           0x802'ddb4    0x80  Data  Lc  base64.o [1]
+block_cipher_df          0x802'1dd7   0x116  Code  Lc  ctr_drbg.o [1]
+brainpoolP256r1_a        0x802'a55c    0x20  Data  Lc  ecp_curves.o [1]
+brainpoolP256r1_b        0x802'a57c    0x20  Data  Lc  ecp_curves.o [1]
+brainpoolP256r1_gx       0x802'a59c    0x20  Data  Lc  ecp_curves.o [1]
+brainpoolP256r1_gy       0x802'a5bc    0x20  Data  Lc  ecp_curves.o [1]
+brainpoolP256r1_n        0x802'a5dc    0x20  Data  Lc  ecp_curves.o [1]
+brainpoolP256r1_p        0x802'a53c    0x20  Data  Lc  ecp_curves.o [1]
+brainpoolP384r1_a        0x802'8c24    0x30  Data  Lc  ecp_curves.o [1]
+brainpoolP384r1_b        0x802'8c54    0x30  Data  Lc  ecp_curves.o [1]
+brainpoolP384r1_gx       0x802'8c84    0x30  Data  Lc  ecp_curves.o [1]
+brainpoolP384r1_gy       0x802'8cb4    0x30  Data  Lc  ecp_curves.o [1]
+brainpoolP384r1_n        0x802'8ce4    0x30  Data  Lc  ecp_curves.o [1]
+brainpoolP384r1_p        0x802'8bf4    0x30  Data  Lc  ecp_curves.o [1]
+brainpoolP512r1_a        0x802'8d54    0x40  Data  Lc  ecp_curves.o [1]
+brainpoolP512r1_b        0x802'8d94    0x40  Data  Lc  ecp_curves.o [1]
+brainpoolP512r1_gx       0x802'8dd4    0x40  Data  Lc  ecp_curves.o [1]
+brainpoolP512r1_gy       0x802'8e14    0x40  Data  Lc  ecp_curves.o [1]
+brainpoolP512r1_n        0x802'8e54    0x40  Data  Lc  ecp_curves.o [1]
+brainpoolP512r1_p        0x802'8d14    0x40  Data  Lc  ecp_curves.o [1]
+button_flags            0x2000'0d68     0x1  Data  Lc  main.o [1]
+cPTopicName             0x2000'0008    0x50  Data  Lc  aws_subscribe_publish_sensor_values.o [1]
+cSTopicName             0x2000'0058    0x50  Data  Lc  aws_subscribe_publish_sensor_values.o [1]
+carry64                  0x801'13d7    0x20  Code  Lc  ecp_curves.o [1]
+ccm_aes_info             0x802'b4e0    0x18  Data  Lc  cipher_wrap.o [1]
+ccm_aes_setkey_wrap      0x802'c8cb     0xa  Code  Lc  cipher_wrap.o [1]
+ccm_auth_crypt           0x800'c719   0x1f8  Code  Lc  ccm.o [1]
+ccm_ctx_alloc            0x802'c861    0x18  Code  Lc  cipher_wrap.o [1]
+ccm_ctx_free             0x802'c879     0x8  Code  Lc  cipher_wrap.o [1]
+checkIoTDeviceConfig     0x801'd77b    0x1a  Code  Gb  iot_flash_config.o [1]
+checkTLSDeviceConfig     0x801'd6ad    0x18  Code  Gb  iot_flash_config.o [1]
+checkTLSRootCA           0x801'd693    0x1a  Code  Gb  iot_flash_config.o [1]
+checkWiFiCredentials     0x801'd345    0x56  Code  Gb  iot_flash_config.o [1]
+ciphersuite_definitions
+                         0x802'b7fc   0x1e0  Data  Lc  ssl_ciphersuites.o [1]
+ciphersuite_preference   0x802'ae6c   0x28c  Data  Lc  ssl_ciphersuites.o [1]
+cloud_device_enter_credentials
+                         0x801'b9f1    0x70  Code  Gb  aws_subscribe_publish_sensor_values.o [1]
+cloud_device_enter_credentials::__func__
+                         0x801'bf34    0x20  Data  Lc  aws_subscribe_publish_sensor_values.o [1]
+cmddata_rdy_rising_event
+                        0x2000'0bc4     0x4  Data  Lc  es_wifi_io.o [1]
+console_uart            0x2000'0ae0    0x78  Data  Lc  main.o [1]
+countdown_ms             0x802'0b39     0xa  Code  Gb  aws_timer.o [1]
+countdown_sec            0x802'0b59     0xe  Code  Gb  aws_timer.o [1]
+ctr_drbg_update_internal
+                         0x802'1eed    0x5a  Code  Lc  ctr_drbg.o [1]
+dbl_count               0x2000'0d3c     0x4  Data  Lc  ecp.o [1]
+ddiv                     0x802'4801    0xc4  Code  Lc  strto64.o [3]
+debug_print_line_by_line
+                         0x800'4183    0x54  Code  Lc  debug.o [1]
+debug_print_pk           0x800'40d9    0x8e  Code  Lc  debug.o [1]
+debug_send_line          0x800'3d4d    0x10  Code  Lc  debug.o [1]
+debug_threshold         0x2000'0d44     0x4  Data  Lc  debug.o [1]
+derive_mpi               0x802'80ed    0x4e  Code  Lc  ecdsa.o [1]
+des3_crypt_ecb_wrap      0x802'c8dd     0x8  Code  Lc  cipher_wrap.o [1]
+des3_ctx_alloc           0x802'c923    0x16  Code  Lc  cipher_wrap.o [1]
+des3_ctx_free            0x802'c94d     0xa  Code  Lc  cipher_wrap.o [1]
+des3_set2key             0x802'60c3    0x58  Code  Lc  des.o [1]
+des3_set2key_dec_wrap    0x802'c8ed     0x4  Code  Lc  cipher_wrap.o [1]
+des3_set2key_enc_wrap    0x802'c8f1     0x4  Code  Lc  cipher_wrap.o [1]
+des3_set3key             0x802'6143    0x58  Code  Lc  des.o [1]
+des3_set3key_dec_wrap    0x802'c8f5     0x4  Code  Lc  cipher_wrap.o [1]
+des3_set3key_enc_wrap    0x802'c8f9     0x4  Code  Lc  cipher_wrap.o [1]
+des_crypt_ecb_wrap       0x802'c8d5     0x8  Code  Lc  cipher_wrap.o [1]
+des_ctx_alloc            0x802'c8fd    0x1c  Code  Lc  cipher_wrap.o [1]
+des_ctx_free             0x802'c919     0xa  Code  Lc  cipher_wrap.o [1]
+des_ecb_info             0x802'b564    0x1c  Data  Lc  cipher_wrap.o [1]
+des_ede3_ecb_info        0x802'b5cc    0x1c  Data  Lc  cipher_wrap.o [1]
+des_ede3_info            0x802'b5b4    0x18  Data  Lc  cipher_wrap.o [1]
+des_ede_ecb_info         0x802'b598    0x1c  Data  Lc  cipher_wrap.o [1]
+des_ede_info             0x802'b580    0x18  Data  Lc  cipher_wrap.o [1]
+des_info                 0x802'b54c    0x18  Data  Lc  cipher_wrap.o [1]
+des_setkey_dec_wrap      0x802'c8e5     0x4  Code  Lc  cipher_wrap.o [1]
+des_setkey_enc_wrap      0x802'c8e9     0x4  Code  Lc  cipher_wrap.o [1]
+dialog_ask               0x801'b679    0x30  Code  Gb  cloud.o [1]
+digits                   0x802'e460    0x28  Data  Lc  iar_Stoulx.o [2]
+digits                   0x802'e4b0    0x28  Data  Lc  iar_Stoullx.o [2]
+disconnectCallbackHandler
+                         0x801'ba65    0x26  Code  Lc  aws_subscribe_publish_sensor_values.o [1]
+dmul                     0x802'4739    0xc6  Code  Lc  strto64.o [3]
+ecdsa_alloc_wrap         0x802'ae39    0x12  Code  Lc  pk_wrap.o [1]
+ecdsa_can_do             0x802'addd     0xc  Code  Lc  pk_wrap.o [1]
+ecdsa_free_wrap          0x802'ae4b     0xa  Code  Lc  pk_wrap.o [1]
+ecdsa_sign_wrap          0x802'ae1d    0x1c  Code  Lc  pk_wrap.o [1]
+ecdsa_signature_to_asn1
+                         0x802'84bb    0x60  Code  Lc  ecdsa.o [1]
+ecdsa_verify_wrap        0x802'ade9    0x1a  Code  Lc  pk_wrap.o [1]
+eckey_alloc_wrap         0x802'ad8b    0x12  Code  Lc  pk_wrap.o [1]
+eckey_can_do             0x802'ace9    0x12  Code  Lc  pk_wrap.o [1]
+eckey_check_pair         0x802'ad87     0x4  Code  Lc  pk_wrap.o [1]
+eckey_debug              0x802'adbd    0x10  Code  Lc  pk_wrap.o [1]
+eckey_free_wrap          0x802'ada7     0x8  Code  Lc  pk_wrap.o [1]
+eckey_get_bitlen         0x802'acfb     0x4  Code  Lc  pk_wrap.o [1]
+eckey_sign_wrap          0x802'ad39    0x42  Code  Lc  pk_wrap.o [1]
+eckey_verify_wrap        0x802'acff    0x3a  Code  Lc  pk_wrap.o [1]
+eckeydh_can_do           0x802'adcd    0x10  Code  Lc  pk_wrap.o [1]
+ecp_add_mixed            0x800'ad2b   0x32e  Code  Lc  ecp.o [1]
+ecp_check_pubkey_sw      0x800'bb5f   0x10e  Code  Lc  ecp.o [1]
+ecp_comb_fixed           0x800'b209    0x7e  Code  Lc  ecp.o [1]
+ecp_double_add_mxz       0x800'b633   0x310  Code  Lc  ecp.o [1]
+ecp_double_jac           0x800'a949   0x33a  Code  Lc  ecp.o [1]
+ecp_get_type             0x800'a2ab    0x14  Code  Lc  ecp.o [1]
+ecp_group_load           0x801'0fe5    0x84  Code  Lc  ecp_curves.o [1]
+ecp_mod_koblitz          0x801'1d69   0x100  Code  Lc  ecp_curves.o [1]
+ecp_mod_p192             0x801'13f9    0x6e  Code  Lc  ecp_curves.o [1]
+ecp_mod_p192k1           0x801'1e8d     0xc  Code  Lc  ecp_curves.o [1]
+ecp_mod_p192k1::Rp      0x2000'0224     0x8  Data  Lc  ecp_curves.o [1]
+ecp_mod_p224             0x801'14d1   0x13a  Code  Lc  ecp_curves.o [1]
+ecp_mod_p224k1           0x801'1eb9     0xc  Code  Lc  ecp_curves.o [1]
+ecp_mod_p224k1::Rp      0x2000'022c     0x8  Data  Lc  ecp_curves.o [1]
+ecp_mod_p255             0x801'1cd9    0x7e  Code  Lc  ecp_curves.o [1]
+ecp_mod_p256             0x801'160d   0x264  Code  Lc  ecp_curves.o [1]
+ecp_mod_p256k1           0x801'1f01     0xc  Code  Lc  ecp_curves.o [1]
+ecp_mod_p256k1::Rp      0x2000'0234     0x8  Data  Lc  ecp_curves.o [1]
+ecp_mod_p384             0x801'192d   0x33c  Code  Lc  ecp_curves.o [1]
+ecp_mod_p521             0x801'1c75    0x62  Code  Lc  ecp_curves.o [1]
+ecp_modp                 0x800'a5d3    0x76  Code  Lc  ecp.o [1]
+ecp_mpi_load             0x801'0fd9     0xc  Code  Lc  ecp_curves.o [1]
+ecp_mpi_set1::one       0x2000'024c     0x4  Data  Lc  ecp_curves.o [1]
+ecp_mul_comb             0x800'b459   0x130  Code  Lc  ecp.o [1]
+ecp_mul_comb_core        0x800'b3c5    0x94  Code  Lc  ecp.o [1]
+ecp_mul_mxz              0x800'b9a5   0x12e  Code  Lc  ecp.o [1]
+ecp_normalize_jac        0x800'a659    0x9a  Code  Lc  ecp.o [1]
+ecp_normalize_jac_many   0x800'a707   0x1d6  Code  Lc  ecp.o [1]
+ecp_precompute_comb      0x800'b287    0xe0  Code  Lc  ecp.o [1]
+ecp_randomize_jac        0x800'b0eb    0xd4  Code  Lc  ecp.o [1]
+ecp_randomize_mxz        0x800'b589    0x80  Code  Lc  ecp.o [1]
+ecp_safe_invert_jac      0x800'a90d    0x3c  Code  Lc  ecp.o [1]
+ecp_select_comb          0x800'b367    0x5e  Code  Lc  ecp.o [1]
+ecp_supported_curves     0x802'da70    0x90  Data  Lc  ecp.o [1]
+ecp_supported_grp_id    0x2000'0d28     0xc  Data  Lc  ecp.o [1]
+enterPemString           0x801'd457    0x62  Code  Gb  iot_flash_config.o [1]
+enterPemString::__func__
+                         0x801'd874    0x10  Data  Lc  iot_flash_config.o [1]
+entropy_gather_internal
+                         0x802'2137    0x72  Code  Lc  entropy.o [1]
+entropy_update           0x802'20f5    0x42  Code  Lc  entropy.o [1]
+exit                     0x802'f3cf     0x4  Code  Gb  exit.o [2]
+fgetc                    0x801'a2b1    0x22  Code  Gb  main.o [1]
+fix_negative             0x801'14a7    0x28  Code  Lc  ecp_curves.o [1]
+fprintf                  0x802'2785    0x3c  Code  Gb  fprintf.o [2]
+fputc                    0x801'a295    0x1c  Code  Gb  main.o [1]
+free                     0x801'ef8b     0x4  Code  Gb  heaptramp0.o [2]
+gcm_aes_info             0x802'b474    0x18  Data  Lc  cipher_wrap.o [1]
+gcm_aes_setkey_wrap      0x802'c8c1     0xa  Code  Lc  cipher_wrap.o [1]
+gcm_ctx_alloc            0x802'c845    0x12  Code  Lc  cipher_wrap.o [1]
+gcm_ctx_free             0x802'c857     0xa  Code  Lc  cipher_wrap.o [1]
+gcm_gen_table            0x800'c02b   0x146  Code  Lc  gcm.o [1]
+gcm_mult                 0x800'c1bb   0x14c  Code  Lc  gcm.o [1]
+getInputString           0x801'd2ed    0x58  Code  Gb  iot_flash_config.o [1]
+getIoTDeviceConfig       0x801'd73b    0x1c  Code  Gb  iot_flash_config.o [1]
+getServerAddress         0x801'd71d    0x1e  Code  Gb  iot_flash_config.o [1]
+getTLSKeys               0x801'd795    0x72  Code  Gb  iot_flash_config.o [1]
+getchar                  0x801'ce85     0x6  Code  Gb  getchar.o [2]
+hI2cHandler             0x2000'0c18    0x4c  Data  Gb  stm32l475e_iot01.o [1]
+has_timer_expired        0x802'0b25    0x14  Code  Gb  aws_timer.o [1]
+hnet                    0x2000'0d4c     0x4  Data  Gb  main.o [1]
+hrng                    0x2000'0cc8     0xc  Data  Gb  main.o [1]
+hrtc                    0x2000'0ca4    0x24  Data  Gb  main.o [1]
+hspi                    0x2000'0b58    0x64  Data  Gb  es_wifi_io.o [1]
+http_request             0x802'c5ec    0x2c  Data  Lc  timedate.o [1]
+init_mparams             0x801'4237    0x32  Code  Lc  dlmalloc.o [2]
+init_sensors             0x801'de79    0x48  Code  Gb  sensors_data.o [1]
+init_sensors::__func__   0x801'dfb0    0x10  Data  Lc  sensors_data.o [1]
+init_timer               0x802'0b77     0x6  Code  Gb  aws_timer.o [1]
+init_top                 0x801'4269    0x36  Code  Lc  dlmalloc.o [2]
+internal_close           0x801'fe81    0x4e  Code  Lc  net_tls_mbedtls.o [1]
+iotClientConnectParamsDefault
+                         0x802'ea0c    0x38  Data  Gb  aws_iot_mqtt_client.o [1]
+iotClientInitParamsDefault
+                         0x802'ec28    0x30  Data  Gb  aws_iot_mqtt_client.o [1]
+iot_tls_connect          0x802'0539   0x36e  Code  Gb  aws_network_st_wrapper.o [1]
+iot_tls_connect::__func__
+                         0x802'0a98    0x10  Data  Lc  aws_network_st_wrapper.o [1]
+iot_tls_destroy          0x802'0a49    0x40  Code  Gb  aws_network_st_wrapper.o [1]
+iot_tls_disconnect       0x802'09c1    0x48  Code  Gb  aws_network_st_wrapper.o [1]
+iot_tls_disconnect::__func__
+                         0x802'0b00    0x14  Data  Lc  aws_network_st_wrapper.o [1]
+iot_tls_init             0x802'04e9    0x4c  Code  Gb  aws_network_st_wrapper.o [1]
+iot_tls_is_connected     0x802'0535     0x4  Code  Gb  aws_network_st_wrapper.o [1]
+iot_tls_read             0x802'0945    0x7a  Code  Gb  aws_network_st_wrapper.o [1]
+iot_tls_write            0x802'08b1    0x8a  Code  Gb  aws_network_st_wrapper.o [1]
+iot_tls_write::__func__
+                         0x802'0af0    0x10  Data  Lc  aws_network_st_wrapper.o [1]
+isalpha                  0x802'4c4d    0x14  Code  Gb  isalpha.o [2]
+isspace                  0x802'27c1    0x14  Code  Gb  isspace.o [2]
+issue15                 0x2000'0d48     0x4  Data  Gb  es_wifi.o [1]
+lUserConfigPtr          0x2000'0250     0x4  Data  Gb  iot_flash_config.o [1]
+last4                    0x802'df18    0x80  Data  Lc  gcm.o [1]
+ldexp                    0x801'3b79          Code  Gb  ldexp.o [3]
+ldexpl                   0x801'3b79          Code  Gb  ldexp.o [3]
+ledstate                0x2000'0004     0x4  Data  Lc  aws_subscribe_publish_sensor_values.o [1]
+left_ms                  0x802'0b43    0x16  Code  Gb  aws_timer.o [1]
+localeconv               0x801'3853     0x4  Code  Gb  xlocale_c.o [2]
+main                     0x801'a145    0xe4  Code  Gb  main.o [1]
+mbedtls_aes_crypt_ecb    0x802'446f    0x18  Code  Gb  aes.o [1]
+mbedtls_aes_free         0x802'3a61    0x18  Code  Gb  aes.o [1]
+mbedtls_aes_init         0x802'3a59     0x8  Code  Gb  aes.o [1]
+mbedtls_aes_setkey_dec   0x802'3bfb    0xd6  Code  Gb  aes.o [1]
+mbedtls_aes_setkey_enc   0x802'3a79   0x158  Code  Gb  aes.o [1]
+mbedtls_asn1_get_alg     0x800'cce1    0x7c  Code  Gb  asn1parse.o [1]
+mbedtls_asn1_get_alg_null
+                         0x800'cd5d    0x2a  Code  Gb  asn1parse.o [1]
+mbedtls_asn1_get_bitstring
+                         0x800'cbf5    0x4a  Code  Gb  asn1parse.o [1]
+mbedtls_asn1_get_bitstring_null
+                         0x800'cc3f    0x28  Code  Gb  asn1parse.o [1]
+mbedtls_asn1_get_bool    0x800'cb65    0x28  Code  Gb  asn1parse.o [1]
+mbedtls_asn1_get_int     0x800'cb8d    0x3c  Code  Gb  asn1parse.o [1]
+mbedtls_asn1_get_len     0x800'caa1    0x9e  Code  Gb  asn1parse.o [1]
+mbedtls_asn1_get_mpi     0x800'cbcf    0x1c  Code  Gb  asn1parse.o [1]
+mbedtls_asn1_get_sequence_of
+                         0x800'cc67    0x74  Code  Gb  asn1parse.o [1]
+mbedtls_asn1_get_tag     0x800'cb3f    0x26  Code  Gb  asn1parse.o [1]
+mbedtls_asn1_write_len   0x802'8881    0xa0  Code  Gb  asn1write.o [1]
+mbedtls_asn1_write_mpi   0x802'8939    0x62  Code  Gb  asn1write.o [1]
+mbedtls_asn1_write_tag   0x802'8921    0x18  Code  Gb  asn1write.o [1]
+mbedtls_base64_decode    0x801'3551   0x100  Code  Gb  base64.o [1]
+mbedtls_calloc          0x2000'023c     0x4  Data  Gb  platform.o [1]
+mbedtls_ccm_auth_decrypt
+                         0x800'c9a9    0x62  Code  Gb  ccm.o [1]
+mbedtls_ccm_encrypt_and_tag
+                         0x800'c975    0x34  Code  Gb  ccm.o [1]
+mbedtls_ccm_free         0x800'c707    0x12  Code  Gb  ccm.o [1]
+mbedtls_ccm_init         0x800'c6bb     0x6  Code  Gb  ccm.o [1]
+mbedtls_ccm_setkey       0x800'c6c1    0x46  Code  Gb  ccm.o [1]
+mbedtls_cipher_auth_decrypt
+                         0x800'3ca1    0x7a  Code  Gb  cipher.o [1]
+mbedtls_cipher_auth_encrypt
+                         0x800'3c2d    0x74  Code  Gb  cipher.o [1]
+mbedtls_cipher_crypt     0x800'3beb    0x42  Code  Gb  cipher.o [1]
+mbedtls_cipher_definitions
+                         0x802'e170    0x68  Data  Gb  cipher_wrap.o [1]
+mbedtls_cipher_finish    0x800'3bad    0x3a  Code  Gb  cipher.o [1]
+mbedtls_cipher_free      0x800'3a53    0x26  Code  Gb  cipher.o [1]
+mbedtls_cipher_get_cipher_mode
+                         0x800'0189     0xe  Code  Lc  ssl_tls.o [1]
+mbedtls_cipher_info_from_type
+                         0x800'3a05    0x1c  Code  Gb  cipher.o [1]
+mbedtls_cipher_info_from_values
+                         0x800'3a21    0x2c  Code  Gb  cipher.o [1]
+mbedtls_cipher_init      0x800'3a4d     0x6  Code  Gb  cipher.o [1]
+mbedtls_cipher_reset     0x800'3b25    0x14  Code  Gb  cipher.o [1]
+mbedtls_cipher_set_iv    0x800'3aed    0x34  Code  Gb  cipher.o [1]
+mbedtls_cipher_setkey    0x800'3aa3    0x4a  Code  Gb  cipher.o [1]
+mbedtls_cipher_setup     0x800'3a79    0x2a  Code  Gb  cipher.o [1]
+mbedtls_cipher_update    0x800'3b39    0x74  Code  Gb  cipher.o [1]
+mbedtls_ctr_drbg_free    0x802'1db3    0x24  Code  Gb  ctr_drbg.o [1]
+mbedtls_ctr_drbg_init    0x802'1d49     0x8  Code  Gb  ctr_drbg.o [1]
+mbedtls_ctr_drbg_random
+                         0x802'2079     0xc  Code  Gb  ctr_drbg.o [1]
+mbedtls_ctr_drbg_random_with_add
+                         0x802'1fb9    0x9e  Code  Gb  ctr_drbg.o [1]
+mbedtls_ctr_drbg_reseed
+                         0x802'1f47    0x72  Code  Gb  ctr_drbg.o [1]
+mbedtls_ctr_drbg_seed    0x802'1da3    0x10  Code  Gb  ctr_drbg.o [1]
+mbedtls_ctr_drbg_seed_entropy_len
+                         0x802'1d51    0x52  Code  Gb  ctr_drbg.o [1]
+mbedtls_debug_print_buf
+                         0x800'3e0b    0xf8  Code  Gb  debug.o [1]
+mbedtls_debug_print_crt
+                         0x800'41d9    0x90  Code  Gb  debug.o [1]
+mbedtls_debug_print_ecp
+                         0x800'3f23    0x58  Code  Gb  debug.o [1]
+mbedtls_debug_print_mpi
+                         0x800'3f91   0x134  Code  Gb  debug.o [1]
+mbedtls_debug_print_msg
+                         0x800'3d5d    0x52  Code  Gb  debug.o [1]
+mbedtls_debug_print_ret
+                         0x800'3daf    0x50  Code  Gb  debug.o [1]
+mbedtls_debug_set_threshold
+                         0x800'3d45     0x8  Code  Gb  debug.o [1]
+mbedtls_des3_crypt_ecb   0x802'63ab   0x382  Code  Gb  des.o [1]
+mbedtls_des3_free        0x802'5d75     0xe  Code  Gb  des.o [1]
+mbedtls_des3_init        0x802'5d6d     0x8  Code  Gb  des.o [1]
+mbedtls_des3_set2key_dec
+                         0x802'6125     0xa  Code  Gb  des.o [1]
+mbedtls_des3_set2key_enc
+                         0x802'611b     0xa  Code  Gb  des.o [1]
+mbedtls_des3_set3key_dec
+                         0x802'61bd    0x10  Code  Gb  des.o [1]
+mbedtls_des3_set3key_enc
+                         0x802'61af     0xe  Code  Gb  des.o [1]
+mbedtls_des_crypt_ecb    0x802'61cd   0x1de  Code  Gb  des.o [1]
+mbedtls_des_free         0x802'5d61     0xc  Code  Gb  des.o [1]
+mbedtls_des_init         0x802'5d5b     0x6  Code  Gb  des.o [1]
+mbedtls_des_setkey       0x802'5d83   0x304  Code  Gb  des.o [1]
+mbedtls_des_setkey_dec   0x802'6091    0x32  Code  Gb  des.o [1]
+mbedtls_des_setkey_enc   0x802'6087     0xa  Code  Gb  des.o [1]
+mbedtls_ecdh_calc_secret
+                         0x800'7d7f    0x5c  Code  Gb  ecdh.o [1]
+mbedtls_ecdh_compute_shared
+                         0x800'7c65    0x5c  Code  Gb  ecdh.o [1]
+mbedtls_ecdh_free        0x800'7cc9    0x48  Code  Gb  ecdh.o [1]
+mbedtls_ecdh_gen_public
+                         0x800'7c59     0xc  Code  Gb  ecdh.o [1]
+mbedtls_ecdh_init        0x800'7cc1     0x8  Code  Gb  ecdh.o [1]
+mbedtls_ecdh_make_public
+                         0x800'7d39    0x36  Code  Gb  ecdh.o [1]
+mbedtls_ecdh_read_params
+                         0x800'7d11    0x28  Code  Gb  ecdh.o [1]
+mbedtls_ecdsa_free       0x802'865d     0x4  Code  Gb  ecdsa.o [1]
+mbedtls_ecdsa_from_keypair
+                         0x802'8621    0x38  Code  Gb  ecdsa.o [1]
+mbedtls_ecdsa_info       0x802'ef58    0x30  Data  Gb  pk_wrap.o [1]
+mbedtls_ecdsa_init       0x802'8659     0x4  Code  Gb  ecdsa.o [1]
+mbedtls_ecdsa_read_signature
+                         0x802'856b    0x9c  Code  Gb  ecdsa.o [1]
+mbedtls_ecdsa_sign       0x802'813b   0x18e  Code  Gb  ecdsa.o [1]
+mbedtls_ecdsa_sign_det   0x802'82c9    0xa2  Code  Gb  ecdsa.o [1]
+mbedtls_ecdsa_verify     0x802'836b   0x146  Code  Gb  ecdsa.o [1]
+mbedtls_ecdsa_write_signature
+                         0x802'851b    0x50  Code  Gb  ecdsa.o [1]
+mbedtls_eckey_info       0x802'eef8    0x30  Data  Gb  pk_wrap.o [1]
+mbedtls_eckeydh_info     0x802'ef28    0x30  Data  Gb  pk_wrap.o [1]
+mbedtls_ecp_check_privkey
+                         0x800'bdb9    0x64  Code  Gb  ecp.o [1]
+mbedtls_ecp_check_pub_priv
+                         0x800'bf3b    0xb2  Code  Gb  ecp.o [1]
+mbedtls_ecp_check_pubkey
+                         0x800'bd63    0x4a  Code  Gb  ecp.o [1]
+mbedtls_ecp_copy         0x800'a3b1    0x2c  Code  Gb  ecp.o [1]
+mbedtls_ecp_curve_info_from_grp_id
+                         0x800'a275    0x1a  Code  Gb  ecp.o [1]
+mbedtls_ecp_curve_info_from_tls_id
+                         0x800'a28f    0x1c  Code  Gb  ecp.o [1]
+mbedtls_ecp_gen_keypair
+                         0x800'bf25    0x16  Code  Gb  ecp.o [1]
+mbedtls_ecp_gen_keypair_base
+                         0x800'be23    0xfc  Code  Gb  ecp.o [1]
+mbedtls_ecp_group_copy   0x800'a3dd     0x8  Code  Gb  ecp.o [1]
+mbedtls_ecp_group_free   0x800'a329    0x6a  Code  Gb  ecp.o [1]
+mbedtls_ecp_group_init   0x800'a2df     0xc  Code  Gb  ecp.o [1]
+mbedtls_ecp_group_load   0x801'1069   0x2be  Code  Gb  ecp_curves.o [1]
+mbedtls_ecp_grp_id_list
+                         0x800'a245    0x30  Code  Gb  ecp.o [1]
+mbedtls_ecp_grp_id_list::init_done
+                        0x2000'0d34     0x4  Data  Lc  ecp.o [1]
+mbedtls_ecp_is_zero      0x800'a40d    0x12  Code  Gb  ecp.o [1]
+mbedtls_ecp_keypair_free
+                         0x800'a393    0x1e  Code  Gb  ecp.o [1]
+mbedtls_ecp_keypair_init
+                         0x800'a2eb    0x1e  Code  Gb  ecp.o [1]
+mbedtls_ecp_mul          0x800'bae9    0x68  Code  Gb  ecp.o [1]
+mbedtls_ecp_mul_shortcuts
+                         0x800'bc93    0x6a  Code  Lc  ecp.o [1]
+mbedtls_ecp_muladd       0x800'bcfd    0x66  Code  Gb  ecp.o [1]
+mbedtls_ecp_point_free   0x800'a309    0x20  Code  Gb  ecp.o [1]
+mbedtls_ecp_point_init   0x800'a2bf    0x20  Code  Gb  ecp.o [1]
+mbedtls_ecp_point_read_binary
+                         0x800'a4c1    0x6a  Code  Gb  ecp.o [1]
+mbedtls_ecp_point_write_binary
+                         0x800'a41f    0xa2  Code  Gb  ecp.o [1]
+mbedtls_ecp_set_zero     0x800'a3e5    0x28  Code  Gb  ecp.o [1]
+mbedtls_ecp_tls_read_group
+                         0x800'a58b    0x48  Code  Gb  ecp.o [1]
+mbedtls_ecp_tls_read_point
+                         0x800'a531    0x2c  Code  Gb  ecp.o [1]
+mbedtls_ecp_tls_write_point
+                         0x800'a55d    0x2e  Code  Gb  ecp.o [1]
+mbedtls_entropy_add_source
+                         0x802'20c3    0x32  Code  Gb  entropy.o [1]
+mbedtls_entropy_free     0x802'20ad    0x16  Code  Gb  entropy.o [1]
+mbedtls_entropy_func     0x802'21a9    0xba  Code  Gb  entropy.o [1]
+mbedtls_entropy_init     0x802'2085    0x28  Code  Gb  entropy.o [1]
+mbedtls_free            0x2000'0240     0x4  Data  Gb  platform.o [1]
+mbedtls_gcm_auth_decrypt
+                         0x800'c631    0x60  Code  Gb  gcm.o [1]
+mbedtls_gcm_crypt_and_tag
+                         0x800'c5f9    0x38  Code  Gb  gcm.o [1]
+mbedtls_gcm_finish       0x800'c505    0xf4  Code  Gb  gcm.o [1]
+mbedtls_gcm_free         0x800'c691    0x14  Code  Gb  gcm.o [1]
+mbedtls_gcm_init         0x800'c023     0x8  Code  Gb  gcm.o [1]
+mbedtls_gcm_setkey       0x800'c171    0x4a  Code  Gb  gcm.o [1]
+mbedtls_gcm_starts       0x800'c307   0x114  Code  Gb  gcm.o [1]
+mbedtls_gcm_update       0x800'c429    0xdc  Code  Gb  gcm.o [1]
+mbedtls_hardware_poll    0x802'f0a9    0x30  Code  Gb  entropy_hardware_poll.o [1]
+mbedtls_hmac_drbg_free   0x802'8861    0x1e  Code  Gb  hmac_drbg.o [1]
+mbedtls_hmac_drbg_init   0x802'8661     0x6  Code  Gb  hmac_drbg.o [1]
+mbedtls_hmac_drbg_random
+                         0x802'8855     0xc  Code  Gb  hmac_drbg.o [1]
+mbedtls_hmac_drbg_random_with_add
+                         0x802'87a5    0xa8  Code  Gb  hmac_drbg.o [1]
+mbedtls_hmac_drbg_reseed
+                         0x802'8723    0x6a  Code  Gb  hmac_drbg.o [1]
+mbedtls_hmac_drbg_seed_buf
+                         0x802'86ef    0x34  Code  Gb  hmac_drbg.o [1]
+mbedtls_hmac_drbg_update
+                         0x802'8667    0x7c  Code  Gb  hmac_drbg.o [1]
+mbedtls_internal_aes_decrypt
+                         0x802'40b1   0x3be  Code  Gb  aes.o [1]
+mbedtls_internal_aes_encrypt
+                         0x802'3cd1   0x3e0  Code  Gb  aes.o [1]
+mbedtls_md               0x800'3845    0x16  Code  Gb  md.o [1]
+mbedtls_md5              0x802'700d    0x34  Code  Gb  md5.o [1]
+mbedtls_md5_clone        0x802'6771     0x6  Code  Gb  md5.o [1]
+mbedtls_md5_finish       0x802'6f51    0xbc  Code  Gb  md5.o [1]
+mbedtls_md5_free         0x802'675b    0x16  Code  Gb  md5.o [1]
+mbedtls_md5_info         0x802'ed18    0x30  Data  Gb  md_wrap.o [1]
+mbedtls_md5_init         0x802'6755     0x6  Code  Gb  md5.o [1]
+mbedtls_md5_process      0x802'6797   0x748  Code  Gb  md5.o [1]
+mbedtls_md5_starts       0x802'6777    0x20  Code  Gb  md5.o [1]
+mbedtls_md5_update       0x802'6edf    0x72  Code  Gb  md5.o [1]
+mbedtls_md_finish        0x800'382d    0x18  Code  Gb  md.o [1]
+mbedtls_md_free          0x800'3787    0x36  Code  Gb  md.o [1]
+mbedtls_md_get_name      0x800'39d1     0x6  Code  Gb  md.o [1]
+mbedtls_md_get_size      0x800'39c9     0x8  Code  Gb  md.o [1]
+mbedtls_md_hmac_finish   0x800'391d    0x54  Code  Gb  md.o [1]
+mbedtls_md_hmac_reset    0x800'3971    0x2a  Code  Gb  md.o [1]
+mbedtls_md_hmac_starts   0x800'385b    0xa0  Code  Gb  md.o [1]
+mbedtls_md_hmac_update   0x800'38fb    0x1c  Code  Gb  md.o [1]
+mbedtls_md_info_from_type
+                         0x800'3749    0x32  Code  Gb  md.o [1]
+mbedtls_md_init          0x800'377b     0xc  Code  Gb  md.o [1]
+mbedtls_md_setup         0x800'37bd    0x3c  Code  Gb  md.o [1]
+mbedtls_md_starts        0x800'37f9    0x18  Code  Gb  md.o [1]
+mbedtls_md_update        0x800'3815    0x18  Code  Gb  md.o [1]
+mbedtls_mpi_add_abs      0x800'ff7d    0xa4  Code  Gb  bignum.o [1]
+mbedtls_mpi_add_int      0x801'0153     0xe  Code  Gb  bignum.o [1]
+mbedtls_mpi_add_mpi      0x801'00d5    0x30  Code  Gb  bignum.o [1]
+mbedtls_mpi_bitlen       0x800'faf1    0x2e  Code  Gb  bignum.o [1]
+mbedtls_mpi_cmp_abs      0x800'fe4f    0x70  Code  Gb  bignum.o [1]
+mbedtls_mpi_cmp_int      0x800'ff55    0x28  Code  Gb  bignum.o [1]
+mbedtls_mpi_cmp_mpi      0x800'febf    0x90  Code  Gb  bignum.o [1]
+mbedtls_mpi_copy         0x800'f8f5    0x4c  Code  Gb  bignum.o [1]
+mbedtls_mpi_div_mpi      0x801'0549   0x2c4  Code  Gb  bignum.o [1]
+mbedtls_mpi_exp_mod      0x801'097f   0x29a  Code  Gb  bignum.o [1]
+mbedtls_mpi_fill_random
+                         0x801'0d33    0x34  Code  Gb  bignum.o [1]
+mbedtls_mpi_free         0x800'f819    0x24  Code  Gb  bignum.o [1]
+mbedtls_mpi_gcd          0x801'0c2f    0xec  Code  Gb  bignum.o [1]
+mbedtls_mpi_get_bit      0x800'fa55    0x20  Code  Gb  bignum.o [1]
+mbedtls_mpi_grow         0x800'f83d    0x48  Code  Gb  bignum.o [1]
+mbedtls_mpi_init         0x800'f80b     0xe  Code  Gb  bignum.o [1]
+mbedtls_mpi_inv_mod      0x801'0d67   0x250  Code  Gb  bignum.o [1]
+mbedtls_mpi_lsb          0x800'fac3    0x2e  Code  Gb  bignum.o [1]
+mbedtls_mpi_lset         0x800'fa1f    0x36  Code  Gb  bignum.o [1]
+mbedtls_mpi_mod_mpi      0x801'0847    0x60  Code  Gb  bignum.o [1]
+mbedtls_mpi_mul_int      0x801'0531    0x18  Code  Gb  bignum.o [1]
+mbedtls_mpi_mul_mpi      0x801'0467    0xc2  Code  Gb  bignum.o [1]
+mbedtls_mpi_read_binary
+                         0x800'fc7d    0x74  Code  Gb  bignum.o [1]
+mbedtls_mpi_read_string
+                         0x800'fb63   0x10e  Code  Gb  bignum.o [1]
+mbedtls_mpi_safe_cond_assign
+                         0x800'f941    0x5e  Code  Gb  bignum.o [1]
+mbedtls_mpi_safe_cond_swap
+                         0x800'f99f    0x72  Code  Gb  bignum.o [1]
+mbedtls_mpi_set_bit      0x800'fa75    0x4e  Code  Gb  bignum.o [1]
+mbedtls_mpi_shift_l      0x800'fd39    0x8e  Code  Gb  bignum.o [1]
+mbedtls_mpi_shift_r      0x800'fdcd    0x82  Code  Gb  bignum.o [1]
+mbedtls_mpi_shrink       0x800'f885    0x60  Code  Gb  bignum.o [1]
+mbedtls_mpi_size         0x800'fb1f     0xc  Code  Gb  bignum.o [1]
+mbedtls_mpi_sub_abs      0x801'0065    0x68  Code  Gb  bignum.o [1]
+mbedtls_mpi_sub_int      0x801'0161     0xe  Code  Gb  bignum.o [1]
+mbedtls_mpi_sub_mpi      0x801'0105    0x32  Code  Gb  bignum.o [1]
+mbedtls_mpi_write_binary
+                         0x800'fcf1    0x48  Code  Gb  bignum.o [1]
+mbedtls_mpi_zeroize      0x800'f7f9    0x12  Code  Lc  bignum.o [1]
+mbedtls_net_recv         0x802'c0d5    0x30  Code  Gb  mbedtls_net.o [1]
+mbedtls_net_recv::__func__
+                         0x802'c1ec    0x14  Data  Lc  mbedtls_net.o [1]
+mbedtls_net_recv_blocking
+                         0x802'c105    0x8e  Code  Gb  mbedtls_net.o [1]
+mbedtls_net_recv_blocking::__func__
+                         0x802'c210    0x1c  Data  Lc  mbedtls_net.o [1]
+mbedtls_net_send         0x802'c195    0x30  Code  Gb  mbedtls_net.o [1]
+mbedtls_net_send::__func__
+                         0x802'c240    0x14  Data  Lc  mbedtls_net.o [1]
+mbedtls_oid_get_attr_short_name
+                         0x800'd5e9    0x2c  Code  Gb  oid.o [1]
+mbedtls_oid_get_cipher_alg
+                         0x800'd755    0x2a  Code  Gb  oid.o [1]
+mbedtls_oid_get_ec_grp   0x800'd707    0x28  Code  Gb  oid.o [1]
+mbedtls_oid_get_extended_key_usage
+                         0x800'd647    0x2c  Code  Gb  oid.o [1]
+mbedtls_oid_get_md_alg   0x800'd77f    0x2a  Code  Gb  oid.o [1]
+mbedtls_oid_get_oid_by_md
+                         0x800'd7a9    0x18  Code  Gb  oid.o [1]
+mbedtls_oid_get_pk_alg   0x800'd6dd    0x2a  Code  Gb  oid.o [1]
+mbedtls_oid_get_pkcs12_pbe_alg
+                         0x800'd7c1    0x3a  Code  Gb  oid.o [1]
+mbedtls_oid_get_sig_alg
+                         0x800'd6b9    0x1e  Code  Gb  oid.o [1]
+mbedtls_oid_get_sig_alg_desc
+                         0x800'd6a1    0x18  Code  Gb  oid.o [1]
+mbedtls_oid_get_x509_ext_type
+                         0x800'd615    0x2a  Code  Gb  oid.o [1]
+mbedtls_pem_free         0x800'e4e3    0x26  Code  Gb  pem.o [1]
+mbedtls_pem_init         0x800'e3e5     0xc  Code  Gb  pem.o [1]
+mbedtls_pem_read_buffer
+                         0x800'e3f1    0xf2  Code  Gb  pem.o [1]
+mbedtls_pk_can_do        0x800'79ef    0x14  Code  Gb  pk.o [1]
+mbedtls_pk_debug         0x800'7b9b    0x20  Code  Gb  pk.o [1]
+mbedtls_pk_encrypt       0x800'7b49    0x22  Code  Gb  pk.o [1]
+mbedtls_pk_free          0x800'7983    0x26  Code  Gb  pk.o [1]
+mbedtls_pk_get_bitlen    0x800'7b87    0x14  Code  Gb  pk.o [1]
+mbedtls_pk_get_len       0x800'796d     0xc  Code  Lc  pk.o [1]
+mbedtls_pk_get_name      0x800'7be1    0x14  Code  Gb  pk.o [1]
+mbedtls_pk_get_type      0x800'7bf5    0x14  Code  Gb  pk.o [1]
+mbedtls_pk_info_from_type
+                         0x800'79a9    0x22  Code  Gb  pk.o [1]
+mbedtls_pk_init          0x800'7979     0xa  Code  Gb  pk.o [1]
+mbedtls_pk_parse_key     0x800'e0a9   0x1d0  Code  Gb  pkparse.o [1]
+mbedtls_pk_parse_subpubkey
+                         0x800'db41   0x120  Code  Gb  pkparse.o [1]
+mbedtls_pk_setup         0x800'79cb    0x24  Code  Gb  pk.o [1]
+mbedtls_pk_sign          0x800'7b01    0x48  Code  Gb  pk.o [1]
+mbedtls_pk_verify        0x800'7a21    0x3c  Code  Gb  pk.o [1]
+mbedtls_pk_verify_ext    0x800'7a5d    0xa4  Code  Gb  pk.o [1]
+mbedtls_pkcs12_derivation
+                         0x801'309f   0x184  Code  Gb  pkcs12.o [1]
+mbedtls_pkcs12_pbe       0x801'2fb5    0xc0  Code  Gb  pkcs12.o [1]
+mbedtls_pkcs12_pbe_sha1_rc4_128
+                         0x801'2fb1     0x4  Code  Gb  pkcs12.o [1]
+mbedtls_pkcs5_pbes2      0x801'32e1   0x14c  Code  Gb  pkcs5.o [1]
+mbedtls_pkcs5_pbkdf2_hmac
+                         0x801'342d    0xd6  Code  Gb  pkcs5.o [1]
+mbedtls_platform_set_calloc_free
+                         0x802'1d39     0xa  Code  Gb  platform.o [1]
+mbedtls_ripemd160        0x801'69a9    0x34  Code  Gb  ripemd160.o [1]
+mbedtls_ripemd160_clone
+                         0x801'5785     0x6  Code  Gb  ripemd160.o [1]
+mbedtls_ripemd160_finish
+                         0x801'68d7    0xd2  Code  Gb  ripemd160.o [1]
+mbedtls_ripemd160_free   0x801'576f    0x16  Code  Gb  ripemd160.o [1]
+mbedtls_ripemd160_info   0x802'ed48    0x30  Data  Gb  md_wrap.o [1]
+mbedtls_ripemd160_init   0x801'5769     0x6  Code  Gb  ripemd160.o [1]
+mbedtls_ripemd160_process
+                         0x801'57bd  0x1090  Code  Gb  ripemd160.o [1]
+mbedtls_ripemd160_starts
+                         0x801'578b    0x1c  Code  Gb  ripemd160.o [1]
+mbedtls_ripemd160_update
+                         0x801'6865    0x72  Code  Gb  ripemd160.o [1]
+mbedtls_rsa_check_privkey
+                         0x800'e5c9   0x1e8  Code  Gb  rsa.o [1]
+mbedtls_rsa_check_pub_priv
+                         0x800'e7b1    0x36  Code  Gb  rsa.o [1]
+mbedtls_rsa_check_pubkey
+                         0x800'e573    0x56  Code  Gb  rsa.o [1]
+mbedtls_rsa_free         0x800'f731    0x70  Code  Gb  rsa.o [1]
+mbedtls_rsa_info         0x802'eec8    0x30  Data  Gb  pk_wrap.o [1]
+mbedtls_rsa_init         0x800'e553    0x18  Code  Gb  rsa.o [1]
+mbedtls_rsa_pkcs1_decrypt
+                         0x800'f023    0x44  Code  Gb  rsa.o [1]
+mbedtls_rsa_pkcs1_encrypt
+                         0x800'ed7b    0x3a  Code  Gb  rsa.o [1]
+mbedtls_rsa_pkcs1_sign   0x800'f341    0x2e  Code  Gb  rsa.o [1]
+mbedtls_rsa_pkcs1_verify
+                         0x800'f6f1    0x2c  Code  Gb  rsa.o [1]
+mbedtls_rsa_private      0x800'e8fd   0x1f0  Code  Gb  rsa.o [1]
+mbedtls_rsa_public       0x800'e7e7    0x62  Code  Gb  rsa.o [1]
+mbedtls_rsa_rsaes_oaep_decrypt
+                         0x800'edb5   0x16c  Code  Gb  rsa.o [1]
+mbedtls_rsa_rsaes_oaep_encrypt
+                         0x800'eba5   0x10e  Code  Gb  rsa.o [1]
+mbedtls_rsa_rsaes_pkcs1_v15_decrypt
+                         0x800'ef21   0x102  Code  Gb  rsa.o [1]
+mbedtls_rsa_rsaes_pkcs1_v15_encrypt
+                         0x800'ecb3    0xc8  Code  Gb  rsa.o [1]
+mbedtls_rsa_rsassa_pkcs1_v15_sign
+                         0x800'f1c9   0x178  Code  Gb  rsa.o [1]
+mbedtls_rsa_rsassa_pkcs1_v15_verify
+                         0x800'f555   0x190  Code  Gb  rsa.o [1]
+mbedtls_rsa_rsassa_pss_sign
+                         0x800'f06d   0x152  Code  Gb  rsa.o [1]
+mbedtls_rsa_rsassa_pss_verify
+                         0x800'f51f    0x36  Code  Gb  rsa.o [1]
+mbedtls_rsa_rsassa_pss_verify_ext
+                         0x800'f379   0x192  Code  Gb  rsa.o [1]
+mbedtls_rsa_set_padding
+                         0x800'e56b     0x8  Code  Gb  rsa.o [1]
+mbedtls_sha1             0x801'89a9    0x32  Code  Gb  sha1.o [1]
+mbedtls_sha1_clone       0x801'7a19     0x6  Code  Gb  sha1.o [1]
+mbedtls_sha1_finish      0x801'88d7    0xd2  Code  Gb  sha1.o [1]
+mbedtls_sha1_free        0x801'7a03    0x16  Code  Gb  sha1.o [1]
+mbedtls_sha1_info        0x802'ed78    0x30  Data  Gb  md_wrap.o [1]
+mbedtls_sha1_init        0x801'79fd     0x6  Code  Gb  sha1.o [1]
+mbedtls_sha1_process     0x801'7a45   0xdf8  Code  Gb  sha1.o [1]
+mbedtls_sha1_starts      0x801'7a1f    0x26  Code  Gb  sha1.o [1]
+mbedtls_sha1_update      0x801'8865    0x72  Code  Gb  sha1.o [1]
+mbedtls_sha224_info      0x802'eda8    0x30  Data  Gb  md_wrap.o [1]
+mbedtls_sha256           0x800'4e07    0x36  Code  Gb  sha256.o [1]
+mbedtls_sha256_clone     0x800'4415     0x6  Code  Gb  sha256.o [1]
+mbedtls_sha256_finish    0x800'4cef   0x118  Code  Gb  sha256.o [1]
+mbedtls_sha256_free      0x800'43ff    0x16  Code  Gb  sha256.o [1]
+mbedtls_sha256_info      0x802'edd8    0x30  Data  Gb  md_wrap.o [1]
+mbedtls_sha256_init      0x800'43f9     0x6  Code  Gb  sha256.o [1]
+mbedtls_sha256_process   0x800'4485   0x7ec  Code  Gb  sha256.o [1]
+mbedtls_sha256_starts    0x800'441b    0x6a  Code  Gb  sha256.o [1]
+mbedtls_sha256_update    0x800'4c7d    0x72  Code  Gb  sha256.o [1]
+mbedtls_sha384_info      0x802'ee08    0x30  Data  Gb  md_wrap.o [1]
+mbedtls_sha512           0x800'5e1d    0x36  Code  Gb  sha512.o [1]
+mbedtls_sha512_clone     0x800'4ea5     0x6  Code  Gb  sha512.o [1]
+mbedtls_sha512_finish    0x800'5b3f   0x2a8  Code  Gb  sha512.o [1]
+mbedtls_sha512_free      0x800'4e8f    0x16  Code  Gb  sha512.o [1]
+mbedtls_sha512_info      0x802'ee38    0x30  Data  Gb  md_wrap.o [1]
+mbedtls_sha512_init      0x800'4e89     0x6  Code  Gb  sha512.o [1]
+mbedtls_sha512_process   0x800'4f79   0x9ce  Code  Gb  sha512.o [1]
+mbedtls_sha512_starts    0x800'4eab    0xce  Code  Gb  sha512.o [1]
+mbedtls_sha512_update    0x800'5ab9    0x86  Code  Gb  sha512.o [1]
+mbedtls_ssl_check_cert_usage
+                         0x800'34b7    0x72  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_check_curve
+                         0x800'3481    0x18  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_check_sig_hash
+                         0x800'349f    0x18  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_ciphersuite_from_id
+                         0x800'4391    0x16  Code  Gb  ssl_ciphersuites.o [1]
+mbedtls_ssl_close_notify
+                         0x800'3147    0x6c  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_conf_authmode
+                         0x800'2b31     0xa  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_conf_ca_chain
+                         0x800'2ba1     0x6  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_conf_cert_profile
+                         0x800'2b5f     0x4  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_conf_dbg     0x800'2b47     0x6  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_conf_endpoint
+                         0x800'2b1d     0xa  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_conf_own_cert
+                         0x800'2b9d     0x4  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_conf_read_timeout
+                         0x800'2b5b     0x4  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_conf_rng     0x800'2b41     0x6  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_conf_transport
+                         0x800'2b27     0xa  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_conf_verify
+                         0x800'2b3b     0x6  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_config_defaults
+                         0x800'3329    0xa6  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_config_free
+                         0x800'33cf    0x1c  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_config_init
+                         0x800'3321     0x2  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_derive_keys
+                         0x800'0355   0x4a0  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_fetch_input
+                         0x800'0fdb   0x10c  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_flush_output
+                         0x800'1189    0xe8  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_free         0x800'3259    0xc0  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_get_ciphersuite_name
+                         0x800'43b5    0x10  Code  Gb  ssl_ciphersuites.o [1]
+mbedtls_ssl_get_ciphersuite_sig_pk_alg
+                         0x800'43c5    0x2a  Code  Gb  ssl_ciphersuites.o [1]
+mbedtls_ssl_get_max_frag_len
+                         0x800'2c55    0x26  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_get_record_expansion
+                         0x800'2c05    0x50  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_get_verify_result
+                         0x800'2bf1    0x14  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_handle_message_type
+                         0x800'18f9    0x9e  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_handshake    0x800'2ca9    0x4c  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_handshake_client_step
+                         0x800'9cd9   0x194  Code  Gb  ssl_cli.o [1]
+mbedtls_ssl_handshake_free
+                         0x800'31e7    0x46  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_handshake_step
+                         0x800'2c7b    0x28  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_handshake_wrapup
+                         0x800'2579    0xbe  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_hash_from_md_alg
+                         0x800'3455    0x2c  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_list_ciphersuites
+                         0x800'4355    0x3c  Code  Gb  ssl_ciphersuites.o [1]
+mbedtls_ssl_md_alg_from_hash
+                         0x800'3429    0x2c  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_optimize_checksum
+                         0x800'22ef    0x1e  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_own_cert     0x800'019d    0x1e  Code  Lc  ssl_tls.o [1]
+mbedtls_ssl_own_key      0x800'7de1    0x1e  Code  Lc  ssl_cli.o [1]
+mbedtls_ssl_parse_certificate
+                         0x800'1c8d   0x3ba  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_parse_change_cipher_spec
+                         0x800'21c9    0xa6  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_parse_finished
+                         0x800'27ed    0xfa  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_pk_alg_from_sig
+                         0x800'3417    0x10  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_prepare_handshake_record
+                         0x800'141d    0x7c  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_read         0x800'2e15   0x238  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_read_record
+                         0x800'165d    0x84  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_read_record_layer
+                         0x800'1729   0x122  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_read_version
+                         0x800'352f     0xa  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_renegotiate
+                         0x800'2d51    0x52  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_safer_memcmp
+                         0x800'7dff    0x1c  Code  Lc  ssl_cli.o [1]
+mbedtls_ssl_send_alert_message
+                         0x800'19c9    0x7a  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_session_free
+                         0x800'322d    0x26  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_set_bio      0x800'2b4d     0xe  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_set_hostname
+                         0x800'2ba7    0x44  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_setup        0x800'2a5d    0xa0  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_sig_from_pk
+                         0x800'33f9    0x1e  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_transform_free
+                         0x800'31b3    0x34  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_update_handshake_status
+                         0x800'14b9    0x1a  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_write        0x800'30c5    0x82  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_write_certificate
+                         0x800'1aa9   0x14a  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_write_change_cipher_spec
+                         0x800'2135    0x4a  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_write_finished
+                         0x800'26d5    0xba  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_write_record
+                         0x800'129d   0x12e  Code  Gb  ssl_tls.o [1]
+mbedtls_ssl_write_version
+                         0x800'3529     0x6  Code  Gb  ssl_tls.o [1]
+mbedtls_x509_crl_free    0x802'2699    0x84  Code  Gb  x509_crl.o [1]
+mbedtls_x509_crl_parse   0x802'2609    0x90  Code  Gb  x509_crl.o [1]
+mbedtls_x509_crl_parse_der
+                         0x802'2375   0x284  Code  Gb  x509_crl.o [1]
+mbedtls_x509_crt_amazon_suite
+                         0x802'0b14    0x10  Data  Gb  aws_network_st_wrapper.o [1]
+mbedtls_x509_crt_check_extended_key_usage
+                         0x800'6f95    0x4c  Code  Gb  x509_crt.o [1]
+mbedtls_x509_crt_check_key_usage
+                         0x800'6f61    0x30  Code  Gb  x509_crt.o [1]
+mbedtls_x509_crt_free    0x800'781f    0xca  Code  Gb  x509_crt.o [1]
+mbedtls_x509_crt_info    0x800'69a1   0x38e  Code  Gb  x509_crt.o [1]
+mbedtls_x509_crt_init    0x800'7817     0x8  Code  Gb  x509_crt.o [1]
+mbedtls_x509_crt_is_revoked
+                         0x800'6ffd    0x38  Code  Gb  x509_crt.o [1]
+mbedtls_x509_crt_parse   0x800'6577    0xd4  Code  Gb  x509_crt.o [1]
+mbedtls_x509_crt_parse_der
+                         0x800'64df    0x98  Code  Gb  x509_crt.o [1]
+mbedtls_x509_crt_profile_default
+                         0x800'7918    0x10  Data  Gb  x509_crt.o [1]
+mbedtls_x509_crt_profile_suiteb
+                         0x802'e334    0x10  Data  Gb  x509_crt.o [1]
+mbedtls_x509_crt_verify_info
+                         0x800'6ef7    0x6a  Code  Gb  x509_crt.o [1]
+mbedtls_x509_crt_verify_with_profile
+                         0x800'7651   0x19e  Code  Gb  x509_crt.o [1]
+mbedtls_x509_dn_gets     0x800'd321    0xce  Code  Gb  x509.o [1]
+mbedtls_x509_get_alg     0x800'cdd5     0x6  Code  Gb  x509.o [1]
+mbedtls_x509_get_alg_null
+                         0x800'cdcd     0x8  Code  Gb  x509.o [1]
+mbedtls_x509_get_ext     0x800'd2d1    0x50  Code  Gb  x509.o [1]
+mbedtls_x509_get_name    0x800'd02f    0x70  Code  Gb  x509.o [1]
+mbedtls_x509_get_rsassa_pss_params
+                         0x800'cde3   0x1a4  Code  Gb  x509.o [1]
+mbedtls_x509_get_serial
+                         0x800'cd8d    0x40  Code  Gb  x509.o [1]
+mbedtls_x509_get_sig     0x800'd223    0x36  Code  Gb  x509.o [1]
+mbedtls_x509_get_sig_alg
+                         0x800'd259    0x78  Code  Gb  x509.o [1]
+mbedtls_x509_get_time    0x800'd1d1    0x46  Code  Gb  x509.o [1]
+mbedtls_x509_key_size_helper
+                         0x800'd515    0x1e  Code  Gb  x509.o [1]
+mbedtls_x509_serial_gets
+                         0x800'd3f9    0x80  Code  Gb  x509.o [1]
+mbedtls_x509_sig_alg_gets
+                         0x800'd479    0x9c  Code  Gb  x509.o [1]
+mbedtls_x509_time_is_future
+                         0x800'd541     0x4  Code  Gb  x509.o [1]
+mbedtls_x509_time_is_past
+                         0x800'd53d     0x4  Code  Gb  x509.o [1]
+mbedtls_zeroize          0x800'ca8d    0x12  Code  Lc  asn1parse.o [1]
+mbedtls_zeroize          0x800'c6a9    0x12  Code  Lc  ccm.o [1]
+mbedtls_zeroize          0x802'5d49    0x12  Code  Lc  des.o [1]
+mbedtls_zeroize          0x800'c011    0x12  Code  Lc  gcm.o [1]
+mbedtls_zeroize          0x800'3735    0x12  Code  Lc  md.o [1]
+mbedtls_zeroize          0x801'2eb9    0x12  Code  Lc  pkcs12.o [1]
+mbedtls_zeroize          0x800'e541    0x12  Code  Lc  rsa.o [1]
+mbedtls_zeroize          0x800'01bb    0x12  Code  Lc  ssl_tls.o [1]
+mbedtls_zeroize          0x802'2269    0x12  Code  Lc  x509_crl.o [1]
+mbedtls_zeroize          0x800'5eb5    0x12  Code  Lc  x509_crt.o [1]
+md5_clone_wrap           0x802'c283     0x4  Code  Lc  md_wrap.o [1]
+md5_ctx_alloc            0x802'c261    0x18  Code  Lc  md_wrap.o [1]
+md5_ctx_free             0x802'c279     0xa  Code  Lc  md_wrap.o [1]
+md5_finish_wrap          0x802'c25d     0x4  Code  Lc  md_wrap.o [1]
+md5_padding              0x802'e7a4    0x40  Data  Lc  md5.o [1]
+md5_process_wrap         0x802'c287     0x4  Code  Lc  md_wrap.o [1]
+md5_starts_wrap          0x802'c255     0x4  Code  Lc  md_wrap.o [1]
+md5_update_wrap          0x802'c259     0x4  Code  Lc  md_wrap.o [1]
+memchr                   0x801'38a1          Code  Gb  memchr.o [4]
+mfl_code_to_length      0x2000'01e8    0x14  Data  Lc  ssl_tls.o [1]
+mgf_mask                 0x800'eb21    0x84  Code  Lc  rsa.o [1]
+mparams                 0x2000'0d10    0x18  Data  Lc  dlmalloc.o [2]
+mpi_get_digit            0x800'fb2b    0x38  Code  Lc  bignum.o [1]
+mpi_montmul              0x801'08ad    0xb2  Code  Lc  bignum.o [1]
+mpi_montred              0x801'095f    0x20  Code  Lc  bignum.o [1]
+mpi_mul_hlp              0x801'018f   0x270  Code  Lc  bignum.o [1]
+mpi_sub_hlp              0x801'0021    0x44  Code  Lc  bignum.o [1]
+mul_count               0x2000'0d40     0x4  Data  Lc  ecp.o [1]
+my_debug                 0x802'0499    0x10  Code  Lc  aws_network_st_wrapper.o [1]
+my_debug                 0x801'fe71    0x10  Code  Lc  net_tls_mbedtls.o [1]
+ndigs                    0x802'e438    0x28  Data  Lc  iar_Stoulx.o [2]
+ndigs                    0x802'e488    0x28  Data  Lc  iar_Stoullx.o [2]
+net_deinit               0x801'cf13    0x3a  Code  Gb  net.o [1]
+net_deinit::__func__     0x801'd1e4     0xc  Data  Lc  net.o [1]
+net_get_ip_address       0x801'cf4d    0x38  Code  Gb  net.o [1]
+net_get_ip_address::__func__
+                         0x801'd1f0    0x14  Data  Lc  net.o [1]
+net_get_mac_address      0x801'cf85    0x44  Code  Gb  net.o [1]
+net_get_mac_address::__func__
+                         0x801'd204    0x14  Data  Lc  net.o [1]
+net_if_deinit            0x802'bae9     0x4  Code  Gb  wifi_net.o [1]
+net_if_init              0x802'b9dd   0x102  Code  Gb  wifi_net.o [1]
+net_init                 0x801'cea1    0x72  Code  Gb  net.o [1]
+net_init::__func__       0x801'd1a8     0xc  Data  Lc  net.o [1]
+net_sock_close           0x801'd17f     0xa  Code  Gb  net.o [1]
+net_sock_close_mbedtls   0x801'fd8d    0x64  Code  Gb  net_tls_mbedtls.o [1]
+net_sock_close_mbedtls::__func__
+                         0x801'ffe8    0x18  Data  Lc  net_tls_mbedtls.o [1]
+net_sock_close_tcp_wifi
+                         0x801'f679    0x1c  Code  Gb  net_tcp_wifi.o [1]
+net_sock_create          0x801'd001    0x48  Code  Gb  net.o [1]
+net_sock_create::__func__
+                         0x801'd218    0x10  Data  Lc  net.o [1]
+net_sock_create_mbedtls
+                         0x801'f77d    0xaa  Code  Gb  net_tls_mbedtls.o [1]
+net_sock_create_mbedtls::__func__
+                         0x801'fed0    0x18  Data  Lc  net_tls_mbedtls.o [1]
+net_sock_create_wifi     0x801'f159    0x9a  Code  Gb  net_tcp_wifi.o [1]
+net_sock_create_wifi::__func__
+                         0x801'f6c8    0x18  Data  Lc  net_tcp_wifi.o [1]
+net_sock_destroy         0x801'd189     0xa  Code  Gb  net.o [1]
+net_sock_destroy_mbedtls
+                         0x801'fe35    0x3c  Code  Gb  net_tls_mbedtls.o [1]
+net_sock_destroy_tcp_wifi
+                         0x801'f695    0x32  Code  Gb  net_tcp_wifi.o [1]
+net_sock_open            0x801'd05d     0x8  Code  Gb  net.o [1]
+net_sock_open_mbedtls    0x801'f831   0x3ee  Code  Gb  net_tls_mbedtls.o [1]
+net_sock_open_mbedtls::__func__
+                         0x801'fef8    0x18  Data  Lc  net_tls_mbedtls.o [1]
+net_sock_open_wifi       0x801'f1f5    0xc6  Code  Gb  net_tcp_wifi.o [1]
+net_sock_open_wifi::__func__
+                         0x801'f6f0    0x14  Data  Lc  net_tcp_wifi.o [1]
+net_sock_recv            0x801'd167     0xa  Code  Gb  net.o [1]
+net_sock_recv_mbedtls    0x801'fc2d    0x9c  Code  Gb  net_tls_mbedtls.o [1]
+net_sock_recv_mbedtls::__func__
+                         0x801'ffb8    0x18  Data  Lc  net_tls_mbedtls.o [1]
+net_sock_recv_tcp_wifi   0x801'f2bd   0x102  Code  Gb  net_tcp_wifi.o [1]
+net_sock_recv_tcp_wifi::__func__
+                         0x801'f704    0x18  Data  Lc  net_tcp_wifi.o [1]
+net_sock_recvfrom_udp_wifi
+                         0x801'f3c9   0x14e  Code  Gb  net_tcp_wifi.o [1]
+net_sock_recvfrom_udp_wifi::__func__
+                         0x801'f71c    0x1c  Data  Lc  net_tcp_wifi.o [1]
+net_sock_send            0x801'd171     0x8  Code  Gb  net.o [1]
+net_sock_send_mbedtls    0x801'fcd1    0x9c  Code  Gb  net_tls_mbedtls.o [1]
+net_sock_send_mbedtls::__func__
+                         0x801'ffd0    0x18  Data  Lc  net_tls_mbedtls.o [1]
+net_sock_send_tcp_wifi   0x801'f535    0x7e  Code  Gb  net_tcp_wifi.o [1]
+net_sock_send_tcp_wifi::__func__
+                         0x801'f738    0x18  Data  Lc  net_tcp_wifi.o [1]
+net_sock_sendto_udp_wifi
+                         0x801'f5b5    0xac  Code  Gb  net_tcp_wifi.o [1]
+net_sock_sendto_udp_wifi::__func__
+                         0x801'f760    0x1c  Data  Lc  net_tcp_wifi.o [1]
+net_sock_setopt          0x801'd065    0xfc  Code  Gb  net.o [1]
+net_timeout_left_ms      0x801'd193    0x14  Code  Gb  net.o [1]
+obuf                    0x2000'0bc8    0x50  Data  Lc  xfiles.o [2]
+oid_cipher_alg           0x802'e958    0x3c  Data  Lc  oid.o [1]
+oid_ecp_grp              0x802'd458    0xf0  Data  Lc  oid.o [1]
+oid_ext_key_usage        0x802'e090    0x70  Data  Lc  oid.o [1]
+oid_md_alg               0x802'dc20    0x8c  Data  Lc  oid.o [1]
+oid_pk_alg               0x802'e3e8    0x50  Data  Lc  oid.o [1]
+oid_pkcs12_pbe_alg       0x802'e994    0x3c  Data  Lc  oid.o [1]
+oid_sig_alg              0x802'c618   0x118  Data  Lc  oid.o [1]
+oid_sig_alg_from_asn1    0x800'd673    0x2e  Code  Lc  oid.o [1]
+oid_x509_ext             0x802'e018    0x78  Data  Lc  oid.o [1]
+oid_x520_attr_type       0x802'bf44   0x190  Data  Lc  oid.o [1]
+pFlash                  0x2000'0cd4    0x20  Data  Gb  stm32l4xx_hal_flash.o [1]
+pUsernameTemp           0x2000'0cf4    0x1c  Data  Lc  aws_iot_mqtt_client.o [1]
+pk_get_ecpubkey          0x800'dacb    0x26  Code  Lc  pkparse.o [1]
+pk_get_pk_alg            0x800'daf1    0x50  Code  Lc  pkparse.o [1]
+pk_group_from_specified
+                         0x800'd821   0x176  Code  Lc  pkparse.o [1]
+pk_group_id_from_group   0x800'd9a1    0xc4  Code  Lc  pkparse.o [1]
+pk_hashlen_helper        0x800'7a03    0x1e  Code  Lc  pk.o [1]
+pk_parse_key_pkcs1_der   0x800'dc61    0xd4  Code  Lc  pkparse.o [1]
+pk_parse_key_pkcs8_encrypted_der
+                         0x800'df79   0x12e  Code  Lc  pkparse.o [1]
+pk_parse_key_pkcs8_unencrypted_der
+                         0x800'dead    0xcc  Code  Lc  pkparse.o [1]
+pk_parse_key_sec1_der    0x800'dd49   0x15a  Code  Lc  pkparse.o [1]
+pk_use_ecparams          0x800'da65    0x66  Code  Lc  pkparse.o [1]
+pkcs12_fill_buffer       0x801'3075    0x2a  Code  Lc  pkcs12.o [1]
+pkcs12_pbe_derive_key_iv
+                         0x801'2ecb    0xe6  Code  Lc  pkcs12.o [1]
+pkcs5_parse_pbkdf2_params
+                         0x801'3239    0xa6  Code  Lc  pkcs5.o [1]
+platform_deinit          0x801'b881    0x20  Code  Gb  cloud.o [1]
+platform_init            0x801'b6f5   0x18c  Code  Gb  cloud.o [1]
+platform_init::__func__
+                         0x801'b97c    0x10  Data  Lc  cloud.o [1]
+pows                     0x802'e650    0x48  Data  Lc  strto64.o [3]
+prepend_alloc            0x801'429f   0x346  Code  Lc  dlmalloc.o [2]
+printf                   0x801'ce5d    0x28  Code  Gb  printf.o [2]
+publishCount            0x2000'0000     0x4  Data  Lc  aws_subscribe_publish_sensor_values.o [1]
+putchar                  0x802'f429     0xc  Code  Gb  putchar.o [2]
+ranmatch                 0x802'2f1d    0x44  Code  Lc  xscanffull.o [2]
+ripemd160_clone_wrap     0x802'c2bd     0x4  Code  Lc  md_wrap.o [1]
+ripemd160_ctx_alloc      0x802'c297    0x12  Code  Lc  md_wrap.o [1]
+ripemd160_ctx_free       0x802'c2a9     0x8  Code  Lc  md_wrap.o [1]
+ripemd160_finish_wrap    0x802'c293     0x4  Code  Lc  md_wrap.o [1]
+ripemd160_padding        0x802'e7e4    0x40  Data  Lc  ripemd160.o [1]
+ripemd160_process_wrap   0x802'c2c1     0x4  Code  Lc  md_wrap.o [1]
+ripemd160_starts_wrap    0x802'c28b     0x4  Code  Lc  md_wrap.o [1]
+ripemd160_update_wrap    0x802'c28f     0x4  Code  Lc  md_wrap.o [1]
+rsa_alloc_wrap           0x802'aca7    0x16  Code  Lc  pk_wrap.o [1]
+rsa_can_do               0x802'abd9    0x10  Code  Lc  pk_wrap.o [1]
+rsa_check_pair_wrap      0x802'aca3     0x4  Code  Lc  pk_wrap.o [1]
+rsa_debug                0x802'acc9    0x20  Code  Lc  pk_wrap.o [1]
+rsa_decrypt_wrap         0x802'ac51    0x28  Code  Lc  pk_wrap.o [1]
+rsa_encrypt_wrap         0x802'ac79    0x2a  Code  Lc  pk_wrap.o [1]
+rsa_free_wrap            0x802'acbd     0xa  Code  Lc  pk_wrap.o [1]
+rsa_get_bitlen           0x802'abe9     0x6  Code  Lc  pk_wrap.o [1]
+rsa_prepare_blinding     0x800'e849    0xb4  Code  Lc  rsa.o [1]
+rsa_sign_wrap            0x802'ac27    0x2a  Code  Lc  pk_wrap.o [1]
+rsa_verify_wrap          0x802'abef    0x38  Code  Lc  pk_wrap.o [1]
+scalbln                  0x801'3b79          Code  Gb  ldexp.o [3]
+scalblnl                 0x801'3b79          Code  Gb  ldexp.o [3]
+scalbn                   0x801'3b79          Code  Gb  ldexp.o [3]
+scalbnl                  0x801'3b79          Code  Gb  ldexp.o [3]
+scale                    0x801'2747    0x46  Code  Lc  xprintffull.o [2]
+sec_hand                0x2000'0d60     0x4  Data  Lc  xfail_s.o [2]
+secp192k1_a              0x802'a404     0x4  Data  Lc  ecp_curves.o [1]
+secp192k1_b              0x801'1ef0     0x4  Data  Lc  ecp_curves.o [1]
+secp192k1_gx             0x802'a408    0x18  Data  Lc  ecp_curves.o [1]
+secp192k1_gy             0x802'a420    0x18  Data  Lc  ecp_curves.o [1]
+secp192k1_n              0x801'1ed8    0x18  Data  Lc  ecp_curves.o [1]
+secp192k1_p              0x802'a3ec    0x18  Data  Lc  ecp_curves.o [1]
+secp192r1_b              0x802'a294    0x18  Data  Lc  ecp_curves.o [1]
+secp192r1_gx             0x802'a2ac    0x18  Data  Lc  ecp_curves.o [1]
+secp192r1_gy             0x802'a2c4    0x18  Data  Lc  ecp_curves.o [1]
+secp192r1_n              0x801'1364    0x18  Data  Lc  ecp_curves.o [1]
+secp192r1_p              0x802'a27c    0x18  Data  Lc  ecp_curves.o [1]
+secp224k1_a              0x802'a454     0x4  Data  Lc  ecp_curves.o [1]
+secp224k1_b              0x802'a458     0x4  Data  Lc  ecp_curves.o [1]
+secp224k1_gx             0x802'a45c    0x1c  Data  Lc  ecp_curves.o [1]
+secp224k1_gy             0x802'a478    0x1c  Data  Lc  ecp_curves.o [1]
+secp224k1_n              0x802'a494    0x20  Data  Lc  ecp_curves.o [1]
+secp224k1_p              0x802'a438    0x1c  Data  Lc  ecp_curves.o [1]
+secp224r1_b              0x802'a2fc    0x1c  Data  Lc  ecp_curves.o [1]
+secp224r1_gx             0x802'a318    0x1c  Data  Lc  ecp_curves.o [1]
+secp224r1_gy             0x802'a334    0x1c  Data  Lc  ecp_curves.o [1]
+secp224r1_n              0x802'a350    0x1c  Data  Lc  ecp_curves.o [1]
+secp224r1_p              0x802'a2dc    0x20  Data  Lc  ecp_curves.o [1]
+secp256k1_a              0x802'a4d4     0x4  Data  Lc  ecp_curves.o [1]
+secp256k1_b              0x802'a4d8     0x4  Data  Lc  ecp_curves.o [1]
+secp256k1_gx             0x802'a4dc    0x20  Data  Lc  ecp_curves.o [1]
+secp256k1_gy             0x802'a4fc    0x20  Data  Lc  ecp_curves.o [1]
+secp256k1_n              0x802'a51c    0x20  Data  Lc  ecp_curves.o [1]
+secp256k1_p              0x802'a4b4    0x20  Data  Lc  ecp_curves.o [1]
+secp256r1_b              0x802'a38c    0x20  Data  Lc  ecp_curves.o [1]
+secp256r1_gx             0x802'a3ac    0x20  Data  Lc  ecp_curves.o [1]
+secp256r1_gy             0x802'a3cc    0x20  Data  Lc  ecp_curves.o [1]
+secp256r1_n              0x801'1e98    0x20  Data  Lc  ecp_curves.o [1]
+secp256r1_p              0x802'a36c    0x20  Data  Lc  ecp_curves.o [1]
+secp384r1_b              0x802'89e0    0x30  Data  Lc  ecp_curves.o [1]
+secp384r1_gx             0x802'8a10    0x30  Data  Lc  ecp_curves.o [1]
+secp384r1_gy             0x802'8a40    0x30  Data  Lc  ecp_curves.o [1]
+secp384r1_n              0x802'8a70    0x30  Data  Lc  ecp_curves.o [1]
+secp384r1_p              0x802'89b0    0x30  Data  Lc  ecp_curves.o [1]
+secp521r1_b              0x802'8ae4    0x44  Data  Lc  ecp_curves.o [1]
+secp521r1_gx             0x802'8b28    0x44  Data  Lc  ecp_curves.o [1]
+secp521r1_gy             0x802'8b6c    0x44  Data  Lc  ecp_curves.o [1]
+secp521r1_n              0x802'8bb0    0x44  Data  Lc  ecp_curves.o [1]
+secp521r1_p              0x802'8aa0    0x44  Data  Lc  ecp_curves.o [1]
+segment_holding          0x801'421d    0x1a  Code  Lc  dlmalloc.o [2]
+setIoTDeviceConfig       0x801'd6e1    0x3c  Code  Gb  iot_flash_config.o [1]
+setIoTDeviceConfig::__func__
+                         0x801'd960    0x14  Data  Lc  iot_flash_config.o [1]
+setRTCTimeDateFromNetwork
+                         0x801'd975   0x322  Code  Gb  timedate.o [1]
+setRTCTimeDateFromNetwork::__func__
+                         0x801'dcf4    0x1c  Data  Lc  timedate.o [1]
+sha1_clone_wrap          0x802'c2ed     0x4  Code  Lc  md_wrap.o [1]
+sha1_ctx_alloc           0x802'c2d1    0x12  Code  Lc  md_wrap.o [1]
+sha1_ctx_free            0x802'c2f1     0xa  Code  Lc  md_wrap.o [1]
+sha1_finish_wrap         0x802'c2cd     0x4  Code  Lc  md_wrap.o [1]
+sha1_padding             0x802'e824    0x40  Data  Lc  sha1.o [1]
+sha1_process_wrap        0x802'c2fb     0x4  Code  Lc  md_wrap.o [1]
+sha1_starts_wrap         0x802'c2c5     0x4  Code  Lc  md_wrap.o [1]
+sha1_update_wrap         0x802'c2c9     0x4  Code  Lc  md_wrap.o [1]
+sha224_clone_wrap        0x802'c335     0x4  Code  Lc  md_wrap.o [1]
+sha224_ctx_alloc         0x802'c313    0x18  Code  Lc  md_wrap.o [1]
+sha224_ctx_free          0x802'c32b     0xa  Code  Lc  md_wrap.o [1]
+sha224_finish_wrap       0x802'c309     0x4  Code  Lc  md_wrap.o [1]
+sha224_process_wrap      0x802'c339     0x4  Code  Lc  md_wrap.o [1]
+sha224_starts_wrap       0x802'c2ff     0x6  Code  Lc  md_wrap.o [1]
+sha224_update_wrap       0x802'c305     0x4  Code  Lc  md_wrap.o [1]
+sha224_wrap              0x802'c30d     0x6  Code  Lc  md_wrap.o [1]
+sha256_padding           0x802'e864    0x40  Data  Lc  sha256.o [1]
+sha256_starts_wrap       0x802'c33d     0x6  Code  Lc  md_wrap.o [1]
+sha256_wrap              0x802'c343     0x6  Code  Lc  md_wrap.o [1]
+sha384_clone_wrap        0x802'c387     0x4  Code  Lc  md_wrap.o [1]
+sha384_ctx_alloc         0x802'c35d    0x18  Code  Lc  md_wrap.o [1]
+sha384_ctx_free          0x802'c37d     0xa  Code  Lc  md_wrap.o [1]
+sha384_finish_wrap       0x802'c353     0x4  Code  Lc  md_wrap.o [1]
+sha384_process_wrap      0x802'c38b     0x4  Code  Lc  md_wrap.o [1]
+sha384_starts_wrap       0x802'c349     0x6  Code  Lc  md_wrap.o [1]
+sha384_update_wrap       0x802'c34f     0x4  Code  Lc  md_wrap.o [1]
+sha384_wrap              0x802'c357     0x6  Code  Lc  md_wrap.o [1]
+sha512_padding           0x802'df98    0x80  Data  Lc  sha512.o [1]
+sha512_starts_wrap       0x802'c38f     0x6  Code  Lc  md_wrap.o [1]
+sha512_wrap              0x802'c395     0x6  Code  Lc  md_wrap.o [1]
+snprintf                 0x800'ca49    0x44  Code  Gb  snprintf.o [2]
+spi_rx_event            0x2000'0bbc     0x4  Data  Lc  es_wifi_io.o [1]
+spi_tx_event            0x2000'0bc0     0x4  Data  Lc  es_wifi_io.o [1]
+sprintf                  0x801'ed15    0x40  Code  Gb  sprintf.o [2]
+srand                    0x801'ce91     0xa  Code  Gb  rand.o [2]
+sscanf                   0x802'03c9    0x28  Code  Gb  sscanf.o [2]
+ssl_append_key_cert      0x800'2b63    0x36  Code  Lc  ssl_tls.o [1]
+ssl_calc_finished_tls_sha256
+                         0x800'2345    0xa0  Code  Lc  ssl_tls.o [1]
+ssl_calc_finished_tls_sha384
+                         0x800'242d    0x9e  Code  Lc  ssl_tls.o [1]
+ssl_calc_verify_tls_sha256
+                         0x800'096d    0x60  Code  Lc  ssl_tls.o [1]
+ssl_calc_verify_tls_sha384
+                         0x800'09e5    0x60  Code  Lc  ssl_tls.o [1]
+ssl_check_ctr_renegotiate
+                         0x800'2da9    0x54  Code  Lc  ssl_tls.o [1]
+ssl_decrypt_buf          0x800'0ce5   0x226  Code  Lc  ssl_tls.o [1]
+ssl_encrypt_buf          0x800'0a95   0x1e0  Code  Lc  ssl_tls.o [1]
+ssl_handshake_init       0x800'2981    0xc8  Code  Lc  ssl_tls.o [1]
+ssl_handshake_params_init
+                         0x800'292d    0x4c  Code  Lc  ssl_tls.o [1]
+ssl_parse_alpn_ext       0x800'876d    0x88  Code  Lc  ssl_cli.o [1]
+ssl_parse_certificate_request
+                         0x800'96e1   0x168  Code  Lc  ssl_cli.o [1]
+ssl_parse_new_session_ticket
+                         0x800'9b67   0x14c  Code  Lc  ssl_cli.o [1]
+ssl_parse_record_header
+                         0x800'14d3   0x132  Code  Lc  ssl_tls.o [1]
+ssl_parse_server_ecdh_params
+                         0x800'909d    0x96  Code  Lc  ssl_cli.o [1]
+ssl_parse_server_hello   0x800'8815   0x680  Code  Lc  ssl_cli.o [1]
+ssl_parse_server_key_exchange
+                         0x800'93c1   0x2fe  Code  Lc  ssl_cli.o [1]
+ssl_parse_signature_algorithm
+                         0x800'92e1    0xb8  Code  Lc  ssl_cli.o [1]
+ssl_preset_default_hashes
+                        0x2000'01b8    0x14  Data  Lc  ssl_tls.o [1]
+ssl_preset_suiteb_ciphersuites
+                        0x2000'01cc     0xc  Data  Lc  ssl_tls.o [1]
+ssl_preset_suiteb_curves
+                        0x2000'01e4     0x4  Data  Lc  ssl_tls.o [1]
+ssl_preset_suiteb_hashes
+                        0x2000'01d8     0xc  Data  Lc  ssl_tls.o [1]
+ssl_set_timer            0x800'01cd    0x2e  Code  Lc  ssl_tls.o [1]
+ssl_start_renegotiation
+                         0x800'2cff    0x52  Code  Lc  ssl_tls.o [1]
+ssl_update_checksum_sha256
+                         0x800'232d     0xa  Code  Lc  ssl_tls.o [1]
+ssl_update_checksum_sha384
+                         0x800'2339     0x4  Code  Lc  ssl_tls.o [1]
+ssl_update_checksum_start
+                         0x800'230d    0x1e  Code  Lc  ssl_tls.o [1]
+ssl_write_alpn_ext       0x800'8157    0xc6  Code  Lc  ssl_cli.o [1]
+ssl_write_certificate_verify
+                         0x800'99c5   0x17e  Code  Lc  ssl_cli.o [1]
+ssl_write_client_hello   0x800'821d   0x426  Code  Lc  ssl_cli.o [1]
+ssl_write_client_key_exchange
+                         0x800'987d   0x12c  Code  Lc  ssl_cli.o [1]
+ssl_write_encrypted_pms
+                         0x800'9179   0x11c  Code  Lc  ssl_cli.o [1]
+ssl_write_hostname_ext   0x800'7e1b    0x8c  Code  Lc  ssl_cli.o [1]
+ssl_write_real           0x800'305f    0x66  Code  Lc  ssl_tls.o [1]
+ssl_write_renegotiation_ext
+                         0x800'7ea7    0x80  Code  Lc  ssl_cli.o [1]
+ssl_write_session_ticket_ext
+                         0x800'80ad    0xa0  Code  Lc  ssl_cli.o [1]
+ssl_write_signature_algorithms_ext
+                         0x800'7f31    0xb0  Code  Lc  ssl_cli.o [1]
+ssl_write_supported_elliptic_curves_ext
+                         0x800'7fe1    0xba  Code  Lc  ssl_cli.o [1]
+strcat                   0x801'ed55    0x1e  Code  Gb  strcat.o [2]
+strchr                   0x801'3539          Code  Gb  strchr.o [4]
+strcmp                   0x802'015d          Code  Gb  strcmp.o [4]
+strcspn                  0x802'4ceb    0x22  Code  Gb  strcspn.o [2]
+strncmp                  0x802'03a1    0x28  Code  Gb  strncmp.o [2]
+strspn                   0x802'4cc9    0x22  Code  Gb  strspn.o [2]
+strstr                   0x800'e3b5    0x30  Code  Gb  strstr.o [2]
+strtok                   0x802'3a0d    0x4c  Code  Gb  strtok.o [2]
+strtoll                  0x802'457d     0x2  Code  Gb  iar_Stollx.o [2]
+strtoull                 0x802'4731     0x2  Code  Gb  iar_Stoullx.o [2]
+sub32                    0x801'148f    0x18  Code  Lc  ecp_curves.o [1]
+subscribe_publish_sensor_values
+                         0x801'bb69   0x35c  Code  Gb  aws_subscribe_publish_sensor_values.o [1]
+subscribe_publish_sensor_values::__func__
+                         0x801'bff8    0x20  Data  Lc  aws_subscribe_publish_sensor_values.o [1]
+supported_ciphersuites  0x2000'0c68    0x3c  Data  Lc  ssl_ciphersuites.o [1]
+supported_init          0x2000'0c64     0x4  Data  Lc  ssl_ciphersuites.o [1]
+sys_alloc                0x801'47dd   0x164  Code  Lc  dlmalloc.o [2]
+sys_trim                 0x801'4941    0x64  Code  Lc  dlmalloc.o [2]
+tls_prf_generic          0x800'0211   0x104  Code  Lc  ssl_tls.o [1]
+tls_prf_sha256           0x800'0325     0xa  Code  Lc  ssl_tls.o [1]
+tls_prf_sha384           0x800'032f     0x8  Code  Lc  ssl_tls.o [1]
+tmalloc_large            0x801'49b1   0x386  Code  Lc  dlmalloc.o [2]
+tmalloc_small            0x801'4d37   0x200  Code  Lc  dlmalloc.o [2]
+tolower                  0x802'27d5    0x14  Code  Gb  tolower.o [2]
+tsensor_drv             0x2000'0d54     0x4  Data  Lc  stm32l475e_iot01_tsensor.o [1]
+updateTLSCredentials     0x801'd545   0x132  Code  Gb  iot_flash_config.o [1]
+updateTLSCredentials::__func__
+                         0x801'd8cc    0x18  Data  Lc  iot_flash_config.o [1]
+updateWiFiCredentials    0x801'd39b    0xbc  Code  Gb  iot_flash_config.o [1]
+updateWiFiCredentials::__func__
+                         0x801'd828    0x18  Data  Lc  iot_flash_config.o [1]
+uwTick                  0x2000'0d58     0x4  Data  Gb  stm32l4xx_hal.o [1]
+version                  0x801'b9d4    0x1c  Data  Gb  cloud.o [1]
+vsnprintf                0x800'ca0d    0x3c  Code  Gb  vsnprint.o [2]
+wait_spi_tx_event        0x801'9c09    0x26  Code  Lc  es_wifi_io.o [1]
+wctob                    0x802'44a9    0x32  Code  Gb  wctob.o [2]
+x509_check_wildcard      0x800'715b    0x4e  Code  Lc  x509_crt.o [1]
+x509_crt_check_parent    0x800'7223    0x5c  Code  Lc  x509_crt.o [1]
+x509_crt_parse_der_core
+                         0x800'620d   0x2b6  Code  Lc  x509_crt.o [1]
+x509_crt_verify_child    0x800'745f   0x1e2  Code  Lc  x509_crt.o [1]
+x509_crt_verify_strings
+                         0x802'd650    0xa8  Data  Lc  x509_crt.o [1]
+x509_crt_verify_top      0x800'727f   0x1e0  Code  Lc  x509_crt.o [1]
+x509_crt_verifycrl       0x800'7035    0xf6  Code  Lc  x509_crt.o [1]
+x509_get_attr_type_value
+                         0x800'cf91    0x92  Code  Lc  x509.o [1]
+x509_get_crt_ext         0x800'6009   0x1e6  Code  Lc  x509_crt.o [1]
+x509_get_entries         0x802'227b    0xfa  Code  Lc  x509_crl.o [1]
+x509_get_subject_alt_name
+                         0x800'5f5f    0xaa  Code  Lc  x509_crt.o [1]
+x509_get_uid             0x800'5f29    0x36  Code  Lc  x509_crt.o [1]
+x509_info_cert_type      0x800'6685    0xd8  Code  Lc  x509_crt.o [1]
+x509_info_key_usage      0x800'67d1    0xf0  Code  Lc  x509_crt.o [1]
+x509_memcasecmp          0x800'712b    0x30  Code  Lc  x509_crt.o [1]
+x509_name_cmp            0x800'71a9    0x7a  Code  Lc  x509_crt.o [1]
+x509_parse_int           0x800'd09f    0x34  Code  Lc  x509.o [1]
+x509_parse_time          0x800'd0d5    0xf6  Code  Lc  x509.o [1]
+x509_profile_check_key   0x800'5eeb    0x3e  Code  Lc  x509_crt.o [1]
+x509_profile_check_md_alg
+                         0x800'5ec7    0x10  Code  Lc  x509_crt.o [1]
+x509_profile_check_pk_alg
+                         0x800'5ed7     0xe  Code  Lc  x509_crt.o [1]
+
+
+[1] = C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj
+[2] = dl7M_tlf.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  158 808 bytes of readonly  code memory
+   35 483 bytes of readonly  data memory
+   81 257 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
