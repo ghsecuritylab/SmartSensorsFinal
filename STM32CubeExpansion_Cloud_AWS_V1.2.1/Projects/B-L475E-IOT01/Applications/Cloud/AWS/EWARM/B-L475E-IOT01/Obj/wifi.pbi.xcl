@@ -1,77 +1,77 @@
-"C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\Src\wifi.c"
+"C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\Src\wifi.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\Src
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\Src
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM/../../../../../../Drivers/CMSIS/Device/ST/STM32L4xx/Include
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM/../../../../../../Drivers/CMSIS/Device/ST/STM32L4xx/Include
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM/../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM/../../../../../../Drivers/STM32L4xx_HAL_Driver/Inc
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM/../../../../../../Drivers/BSP/B-L475E-IOT01
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM/../../../../../../Drivers/BSP/B-L475E-IOT01
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM/../Inc
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM/../Inc
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\..\..\..\..\..\Common\AWS\Inc
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\..\..\..\..\..\Common\AWS\Inc
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\..\..\..\..\..\Common\Shared\Inc
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\..\..\..\..\..\Common\Shared\Inc
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Middlewares\Third_Party\AWS\include
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Middlewares\Third_Party\AWS\include
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\include
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\..\..\..\..\..\..\Middlewares\Third_Party\mbedTLS\include
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM/../../../../../../Drivers/BSP/Components/es_wifi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM/../../../../../../Drivers/BSP/Components/es_wifi
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM/../../../../../../Drivers/BSP/Components/hts221
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM/../../../../../../Drivers/BSP/Components/hts221
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM/../../../../../../Drivers/BSP/Components/lis3mdl
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM/../../../../../../Drivers/BSP/Components/lis3mdl
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM/../../../../../../Drivers/BSP/Components/lps22hb
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM/../../../../../../Drivers/BSP/Components/lps22hb
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM/../../../../../../Drivers/BSP/Components/lsm6dsl
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM/../../../../../../Drivers/BSP/Components/lsm6dsl
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM/../../../../../../Drivers/BSP/Components/vl53l0x
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM/../../../../../../Drivers/BSP/Components/vl53l0x
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\Core\Include
+H:\arm\CMSIS\Core\Include
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\DSP\Include
+H:\arm\CMSIS\DSP\Include
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc
+H:\arm\inc
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc\c
+H:\arm\inc\c
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Drivers\CMSIS\Device\ST\STM32L4xx\Include
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Drivers\STM32L4xx_HAL_Driver\Inc
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Drivers\STM32L4xx_HAL_Driver\Inc
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Drivers\BSP\B-L475E-IOT01
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Drivers\BSP\B-L475E-IOT01
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\Inc
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\Inc
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\Common\AWS\Inc
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\Common\AWS\Inc
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\Common\Shared\Inc
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\Common\Shared\Inc
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Middlewares\Third_Party\AWS\include
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Middlewares\Third_Party\AWS\include
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Middlewares\Third_Party\mbedTLS\include
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Middlewares\Third_Party\mbedTLS\include
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Drivers\BSP\Components\es_wifi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Drivers\BSP\Components\es_wifi
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Drivers\BSP\Components\hts221
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Drivers\BSP\Components\hts221
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Drivers\BSP\Components\lis3mdl
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Drivers\BSP\Components\lis3mdl
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Drivers\BSP\Components\lps22hb
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Drivers\BSP\Components\lps22hb
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Drivers\BSP\Components\lsm6dsl
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Drivers\BSP\Components\lsm6dsl
 -I
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Drivers\BSP\Components\vl53l0x
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Drivers\BSP\Components\vl53l0x
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\Core\Include
+H:\arm\CMSIS\Core\Include
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\DSP\Include
+H:\arm\CMSIS\DSP\Include
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=127
 -D__CHAR_MIN__=(-__CHAR_MAX__-1)
@@ -374,8 +374,8 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\CMSIS\DSP\Include
 -DUSE_MBED_TLS=1
 -DAWS=1
 -DUSE_WIFI=1
--D_DLIB_CONFIG_FILE_HEADER_NAME="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Config_Full.h"
--D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.2\\arm\\inc\\c\\DLib_Config_Full.h"
+-D_DLIB_CONFIG_FILE_HEADER_NAME="H:\\arm\\inc\\c\\DLib_Config_Full.h"
+-D_DLIB_CONFIG_FILE_STRING="H:\\arm\\inc\\c\\DLib_Config_Full.h"
 -D__VERSION__="IAR ANSI C/C++ Compiler V8.32.3.193/W32 for ARM"
 -D__ICCARM_OLD_DEFINED_VAARGS__=1
 -D__VA_STACK_ALIGN__=8

@@ -1,14 +1,14 @@
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\bin\armproc.dll" 
+"H:\arm\bin\armproc.dll" 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\bin\armstlink2.dll" 
+"H:\arm\bin\armstlink2.dll" 
 
-"C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Exe\B-L475E-IOT01.out" 
+"C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Exe\B-L475E-IOT01.out" 
 
---plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\bin\armbat.dll" 
+--plugin="H:\arm\bin\armbat.dll" 
 
---device_macro="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\config\debugger\ST\STM32L4xx.dmac" 
+--device_macro="H:\arm\config\debugger\ST\STM32L4xx.dmac" 
 
---flash_loader="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\config\flashloader\ST\FlashSTM32L4AxxG.board" 
+--flash_loader="H:\arm\config\flashloader\ST\FlashSTM32L4AxxG.board" 
 
 
 

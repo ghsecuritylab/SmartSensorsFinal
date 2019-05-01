@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\settings\Project.B-L475E-IOT01_AWS.general.xcl" --backend -f "C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\settings\Project.B-L475E-IOT01_AWS.driver.xcl" 
+"H:\\common\bin\cspybat" -f "C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\settings\Project.B-L475E-IOT01_AWS.general.xcl" --backend -f "C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\settings\Project.B-L475E-IOT01_AWS.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\settings\Project.B-L475E-IOT01_AWS.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\settings\Project.B-L475E-IOT01_AWS.driver.xcl" 
+"H:\\common\bin\cspybat" -f "C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\settings\Project.B-L475E-IOT01_AWS.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\settings\Project.B-L475E-IOT01_AWS.driver.xcl" 
 
 @echo off 
 :end

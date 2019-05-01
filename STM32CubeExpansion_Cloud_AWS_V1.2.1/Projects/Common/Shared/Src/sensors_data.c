@@ -48,20 +48,15 @@
 #include <stdio.h>
 #include "sensors_data.h"
 
-
 #include "stm32l4xx_hal.h"
 #include "stm32l475e_iot01.h"
 #include "stm32l475e_iot01_tsensor.h"
 #include "stm32l475e_iot01_hsensor.h"
-
-//We can remove everything below
 #include "stm32l475e_iot01_psensor.h"
 #include "stm32l475e_iot01_magneto.h"
 #include "stm32l475e_iot01_gyro.h"
 #include "stm32l475e_iot01_accelero.h"
 #include "vl53l0x_proximity.h"
-//end remove
-
 #include "msg.h"
 
 /* Private typedef -----------------------------------------------------------*/
@@ -131,36 +126,33 @@ int init_sensors(void)
   * @retval 0 in case of success
   *         -1 in case of failure
   */
+
+  // Sensor Values are in this function. Let's take out everything except Temp and Humid
 int PrepareSensorsData(char * Buffer, int Size, char * deviceID)
 {
 #if (defined(BLUEMIX) || defined(AWS) || defined(EXOSITEHTTP))
-  float    TEMPERATURE_Value, HUMIDITY_Value, FTemp, HTemp;
+  float    TEMPERATURE_Value, FTemp;
+  float    HUMIDITY_Value, HTemp;
   float    PRESSURE_Value;
-  int16_t  ACC_Value[3];
-  float    GYR_Value[3];
-  int16_t  MAG_Value[3];
+  int16_t  ACC_Value[3] = 0;
+  float    GYR_Value[3] = 0;
+  int16_t  MAG_Value[3] = 0;
   uint16_t PROXIMITY_Value;
 
   char * Buff = Buffer;
   int BuffSize = Size;
   int snprintfreturn = 0;
 
-  // Remove all sensor readings except Temperature and Humidity
   TEMPERATURE_Value = BSP_TSENSOR_ReadTemp();
   HUMIDITY_Value = BSP_HSENSOR_ReadHumidity();
+//  PRESSURE_Value = BSP_PSENSOR_ReadPressure();
+//  PROXIMITY_Value = VL53L0X_PROXIMITY_GetDistance();
+//  BSP_ACCELERO_AccGetXYZ(ACC_Value);
+//  BSP_GYRO_GetXYZ(GYR_Value);
+//  BSP_MAGNETO_GetXYZ(MAG_Value);
   
-  // This section will determine the temp/humidity in degrees F
   FTemp = (TEMPERATURE_Value * 9/5) + 32;
   HTemp = (HUMIDITY_Value * 9/5) + 32;
-  
-  PRESSURE_Value = BSP_PSENSOR_ReadPressure();
-  PROXIMITY_Value = VL53L0X_PROXIMITY_GetDistance();
-  BSP_ACCELERO_AccGetXYZ(ACC_Value);
-  BSP_GYRO_GetXYZ(GYR_Value);
-  BSP_MAGNETO_GetXYZ(MAG_Value);
-  // End Remove
-
-  
 
 #ifdef BLUEMIX
   snprintfreturn = snprintf( Buff, BuffSize, "{\"d\":{"
@@ -174,16 +166,10 @@ int PrepareSensorsData(char * Buffer, int Size, char * deviceID)
            GYR_Value[0], GYR_Value[1], GYR_Value[2],
            MAG_Value[0], MAG_Value[1], MAG_Value[2] );
 
-/*
-**  This is where the code displays out to the MQTT, let's get rid of everything
-**  except temperature and humidity (don't forget to get rid of the stuff
-**  after the comma.
-*/  
-  
 #elif defined(AWS)
   if (deviceID != NULL)
   {
-						snprintfreturn = snprintf( Buff, BuffSize, "{\"deviceId\":\"%s\","
+    snprintfreturn = snprintf( Buff, BuffSize, "{\"deviceId\":\"%s\","
              "\"temperature\": %.2f, \"humidity\": %.2f, \"pressure\": %.2f, \"proximity\": %d, "
              "\"acc_x\": %d, \"acc_y\": %d, \"acc_z\": %d, "
              "\"gyr_x\": %.0f, \"gyr_y\": %.0f, \"gyr_z\": %.0f, "
@@ -194,28 +180,20 @@ int PrepareSensorsData(char * Buffer, int Size, char * deviceID)
              ACC_Value[0], ACC_Value[1], ACC_Value[2],
              GYR_Value[0], GYR_Value[1], GYR_Value[2],
              MAG_Value[0], MAG_Value[1], MAG_Value[2] );
-	}
-
-/*
-**  This is where the code displays out to the MQTT, let's get rid of everything
-**  except temperature and humidity (don't forget to get rid of the stuff
-**  after the comma.
-*/  
-// !! This is where the output to MQTT is!
+  }
+  
+  //This is where data is sent to USART and AWS
   else
   {
+   ACC_Value[0] = 0;
+   GYR_Value[0] = 0;
+   MAG_Value[0] = 0;
   snprintfreturn = snprintf( Buff, BuffSize, "{\n \"state\": {\n  \"reported\": {\n"
-           "   \"temperature\": %.2f  degrees C, \n   \"temperature\": %.2f  degrees F, \n   \"humidity\":    %.2f  degrees C, \n   \"humidity\":    %.2f  degrees F"
+           "   \"temperature C\": %.2f,\n   \"temperature F\": %.2f,\n   \"humidity C\":    %.2f,\n   \"humidity F\":    %.2f"
            "  }\n }\n}",
-           TEMPERATURE_Value, FTemp, HUMIDITY_Value, HTemp );
+           TEMPERATURE_Value, FTemp, HUMIDITY_Value, HTemp);
+          
   }
-
-/*
-**  This is where the code displays out to the MQTT, let's get rid of everything
-**  except temperature and humidity (don't forget to get rid of the stuff
-**  after the comma.
-*/  
-  
 #elif defined(EXOSITEHTTP)
   snprintfreturn = snprintf( Buff, BuffSize, 
            "temperature=%.2f&"

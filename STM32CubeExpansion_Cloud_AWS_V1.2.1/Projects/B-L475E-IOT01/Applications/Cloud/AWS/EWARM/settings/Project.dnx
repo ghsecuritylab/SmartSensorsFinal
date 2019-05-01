@@ -20,7 +20,7 @@
         <stlinkfoundProbes />
     </StLinkDriver>
     <DebugChecksum>
-        <Checksum>1726312400</Checksum>
+        <Checksum>3069292136</Checksum>
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>
@@ -111,7 +111,8 @@
         <Category>_ 0</Category>
     </LogFile>
     <Aliases>
-        <Count>0</Count>
+        <A0>_ "C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Drivers\BSP\Components\vl53l0x\vl53l0x_api_strings.c" ""</A0>
+        <Count>1</Count>
         <SuppressDialog>0</SuppressDialog>
     </Aliases>
     <DriverProfiling>

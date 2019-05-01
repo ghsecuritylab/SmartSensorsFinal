@@ -1,164 +1,164 @@
-﻿C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\Project.pbd
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aes.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aesni.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\arc4.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\asn1parse.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\asn1write.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_iot_mqtt_client.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_iot_mqtt_client_common_internal.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_iot_mqtt_client_connect.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_iot_mqtt_client_publish.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_iot_mqtt_client_subscribe.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_iot_mqtt_client_unsubscribe.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_iot_mqtt_client_yield.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_network_st_wrapper.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_subscribe_publish_sensor_values.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_timer.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\base64.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\bignum.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\blowfish.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\camellia.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ccm.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\certs.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\cipher.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\cipher_wrap.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\cloud.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\cmac.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ctr_drbg.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\debug.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\des.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\dhm.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ecdh.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ecdsa.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ecjpake.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ecp.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ecp_curves.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\entropy.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\entropy_hardware_poll.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\entropy_poll.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\error.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\es_wifi.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\es_wifi_io.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\firewall_wrapper.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\flash_l4.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\gcm.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\havege.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\heap.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\hmac_drbg.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\hts221.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\http_util.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\iot_flash_config.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\lis3mdl.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\lps22hb.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\lsm6dsl.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\main.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\mbedtls_net.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\mbedtls_patch.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\md.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\md2.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\md4.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\md5.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\md_wrap.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\memory_buffer_alloc.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\net.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\net_tcp_wifi.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\net_tls_mbedtls.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\oid.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\padlock.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\pem.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\pk.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\pk_wrap.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\pkcs11.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\pkcs12.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\pkcs5.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\pkparse.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\pkwrite.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\platform.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\rfu.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ripemd160.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\rsa.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\sensors_data.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\sha1.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\sha256.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\sha512.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ssl_cache.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ssl_ciphersuites.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ssl_cli.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ssl_cookie.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ssl_srv.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ssl_ticket.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ssl_tls.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\STM32CubeRTCInterface.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l475e_iot01.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l475e_iot01_accelero.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l475e_iot01_gyro.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l475e_iot01_hsensor.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l475e_iot01_magneto.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l475e_iot01_psensor.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l475e_iot01_tsensor.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_can.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_cortex.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_crc.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_cryp.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_cryp_ex.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_dac.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_dac_ex.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_dfsdm.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_dma.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_flash.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_flash_ex.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_gpio.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_hash.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_hash_ex.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_i2c.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_i2c_ex.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_iwdg.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_lptim.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_msp.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_nand.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_nor.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_pwr.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_pwr_ex.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_qspi.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_rcc.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_rcc_ex.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_rng.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_rtc.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_rtc_ex.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_spi.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_spi_ex.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_sram.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_tim.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_tim_ex.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_uart.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_uart_ex.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_usart.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_wwdg.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_it.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_ll_fmc.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\system_stm32l4xx.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\threading.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\timedate.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\timing.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\timingSystem.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\version.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\version_features.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\vl53l0x_api.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\vl53l0x_api_calibration.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\vl53l0x_api_core.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\vl53l0x_api_ranging.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\vl53l0x_api_strings.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\vl53l0x_platform.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\vl53l0x_platform_log.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\vl53l0x_proximity.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\wifi.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\wifi_net.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\x509.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\x509_create.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\x509_crl.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\x509_crt.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\x509_csr.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\x509write_crt.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\x509write_csr.pbi
-C:\Users\macorbin\OneDrive - Itron\Documents\GitHub\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\xtea.pbi
+﻿C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\Project.pbd
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aes.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aesni.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\arc4.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\asn1parse.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\asn1write.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_iot_mqtt_client.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_iot_mqtt_client_common_internal.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_iot_mqtt_client_connect.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_iot_mqtt_client_publish.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_iot_mqtt_client_subscribe.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_iot_mqtt_client_unsubscribe.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_iot_mqtt_client_yield.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_network_st_wrapper.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_subscribe_publish_sensor_values.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\aws_timer.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\base64.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\bignum.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\blowfish.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\camellia.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ccm.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\certs.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\cipher.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\cipher_wrap.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\cloud.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\cmac.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ctr_drbg.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\debug.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\des.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\dhm.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ecdh.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ecdsa.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ecjpake.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ecp.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ecp_curves.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\entropy.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\entropy_hardware_poll.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\entropy_poll.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\error.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\es_wifi.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\es_wifi_io.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\firewall_wrapper.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\flash_l4.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\gcm.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\havege.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\heap.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\hmac_drbg.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\hts221.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\http_util.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\iot_flash_config.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\lis3mdl.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\lps22hb.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\lsm6dsl.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\main.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\mbedtls_net.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\mbedtls_patch.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\md.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\md2.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\md4.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\md5.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\md_wrap.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\memory_buffer_alloc.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\net.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\net_tcp_wifi.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\net_tls_mbedtls.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\oid.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\padlock.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\pem.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\pk.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\pk_wrap.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\pkcs11.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\pkcs12.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\pkcs5.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\pkparse.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\pkwrite.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\platform.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\rfu.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ripemd160.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\rsa.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\sensors_data.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\sha1.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\sha256.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\sha512.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ssl_cache.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ssl_ciphersuites.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ssl_cli.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ssl_cookie.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ssl_srv.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ssl_ticket.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\ssl_tls.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\STM32CubeRTCInterface.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l475e_iot01.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l475e_iot01_accelero.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l475e_iot01_gyro.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l475e_iot01_hsensor.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l475e_iot01_magneto.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l475e_iot01_psensor.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l475e_iot01_tsensor.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_can.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_cortex.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_crc.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_cryp.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_cryp_ex.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_dac.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_dac_ex.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_dfsdm.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_dma.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_flash.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_flash_ex.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_gpio.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_hash.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_hash_ex.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_i2c.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_i2c_ex.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_iwdg.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_lptim.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_msp.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_nand.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_nor.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_pwr.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_pwr_ex.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_qspi.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_rcc.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_rcc_ex.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_rng.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_rtc.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_rtc_ex.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_spi.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_spi_ex.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_sram.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_tim.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_tim_ex.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_uart.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_uart_ex.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_usart.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_hal_wwdg.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_it.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\stm32l4xx_ll_fmc.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\system_stm32l4xx.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\threading.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\timedate.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\timing.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\timingSystem.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\version.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\version_features.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\vl53l0x_api.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\vl53l0x_api_calibration.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\vl53l0x_api_core.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\vl53l0x_api_ranging.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\vl53l0x_api_strings.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\vl53l0x_platform.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\vl53l0x_platform_log.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\vl53l0x_proximity.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\wifi.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\wifi_net.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\x509.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\x509_create.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\x509_crl.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\x509_crt.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\x509_csr.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\x509write_crt.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\x509write_csr.pbi
+C:\Users\Marcus\Documents\GitHub\New folder\SmartSensorsFinal\STM32CubeExpansion_Cloud_AWS_V1.2.1\Projects\B-L475E-IOT01\Applications\Cloud\AWS\EWARM\B-L475E-IOT01\Obj\xtea.pbi
