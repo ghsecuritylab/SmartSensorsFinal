@@ -192,7 +192,7 @@ int PrepareSensorsData(char * Buffer, int Size, char * deviceID)
   // Function below was changed to only display Temperature and Humidity
   // ---------------------------------------------------------------------------------------
   snprintfreturn = snprintf( Buff, BuffSize, "{\n \"state\": {\n  \"reported\": {\n"
-           "   \"temperature C\": %.2f,\n   \"temperature F\": %.2f,\n   \"humidity C\":    %.2f"
+           "   \"temperature C\": %.2f,\n   \"temperature F\": %.2f,\n   \"humidity g/m^3\":   %.2f"
            "  }\n }\n}",
            TEMPERATURE_Value, FTemp, HUMIDITY_Value);
           
