@@ -55,11 +55,11 @@
 #include "stm32l475e_iot01_hsensor.h"
 
 //We can remove everything below
-//#include "stm32l475e_iot01_psensor.h"
-//#include "stm32l475e_iot01_magneto.h"
-//#include "stm32l475e_iot01_gyro.h"
-//#include "stm32l475e_iot01_accelero.h"
-//#include "vl53l0x_proximity.h"
+#include "stm32l475e_iot01_psensor.h"
+#include "stm32l475e_iot01_magneto.h"
+#include "stm32l475e_iot01_gyro.h"
+#include "stm32l475e_iot01_accelero.h"
+#include "vl53l0x_proximity.h"
 //end remove
 
 #include "msg.h"
@@ -94,32 +94,32 @@ int init_sensors(void)
     ret = -1;
   }
   
-//  if (PSENSOR_OK != BSP_PSENSOR_Init())
-//  {
-//    msg_error("BSP_PSENSOR_Init() returns %d\n", ret);
-//    ret = -1;
-//  }
-//  
-//  if (MAGNETO_OK != BSP_MAGNETO_Init())
-//  {
-//    msg_error("BSP_MAGNETO_Init() returns %d\n", ret);
-//    ret = -1;
-//  }
-//
-//  if (GYRO_OK != BSP_GYRO_Init())
-//  {
-//    msg_error("BSP_GYRO_Init() returns %d\n", ret);
-//    ret = -1;
-//  }
-//  
-//  if (ACCELERO_OK != BSP_ACCELERO_Init())
-//  {
-//    msg_error("BSP_ACCELERO_Init() returns %d\n", ret);
-//    ret = -1;
-//  }
-//  
-//  VL53L0X_PROXIMITY_Init();
-//  
+  if (PSENSOR_OK != BSP_PSENSOR_Init())
+  {
+    msg_error("BSP_PSENSOR_Init() returns %d\n", ret);
+    ret = -1;
+  }
+  
+  if (MAGNETO_OK != BSP_MAGNETO_Init())
+  {
+    msg_error("BSP_MAGNETO_Init() returns %d\n", ret);
+    ret = -1;
+  }
+
+  if (GYRO_OK != BSP_GYRO_Init())
+  {
+    msg_error("BSP_GYRO_Init() returns %d\n", ret);
+    ret = -1;
+  }
+  
+  if (ACCELERO_OK != BSP_ACCELERO_Init())
+  {
+    msg_error("BSP_ACCELERO_Init() returns %d\n", ret);
+    ret = -1;
+  }
+  
+  VL53L0X_PROXIMITY_Init();
+  
   return ret;
 }
 
@@ -135,11 +135,11 @@ int PrepareSensorsData(char * Buffer, int Size, char * deviceID)
 {
 #if (defined(BLUEMIX) || defined(AWS) || defined(EXOSITEHTTP))
   float    TEMPERATURE_Value, HUMIDITY_Value, FTemp, HTemp;
-  //float    PRESSURE_Value;
-//  int16_t  ACC_Value[3];
-//  float    GYR_Value[3];
-//  int16_t  MAG_Value[3];
-//  uint16_t PROXIMITY_Value;
+  float    PRESSURE_Value;
+  int16_t  ACC_Value[3];
+  float    GYR_Value[3];
+  int16_t  MAG_Value[3];
+  uint16_t PROXIMITY_Value;
 
   char * Buff = Buffer;
   int BuffSize = Size;
@@ -153,20 +153,26 @@ int PrepareSensorsData(char * Buffer, int Size, char * deviceID)
   FTemp = (TEMPERATURE_Value * 9/5) + 32;
   HTemp = (HUMIDITY_Value * 9/5) + 32;
   
-  //PRESSURE_Value = BSP_PSENSOR_ReadPressure();
-//  PROXIMITY_Value = VL53L0X_PROXIMITY_GetDistance();
-//  BSP_ACCELERO_AccGetXYZ(ACC_Value);
-//  BSP_GYRO_GetXYZ(GYR_Value);
-//  BSP_MAGNETO_GetXYZ(MAG_Value);
+  PRESSURE_Value = BSP_PSENSOR_ReadPressure();
+  PROXIMITY_Value = VL53L0X_PROXIMITY_GetDistance();
+  BSP_ACCELERO_AccGetXYZ(ACC_Value);
+  BSP_GYRO_GetXYZ(GYR_Value);
+  BSP_MAGNETO_GetXYZ(MAG_Value);
   // End Remove
 
   
 
 #ifdef BLUEMIX
   snprintfreturn = snprintf( Buff, BuffSize, "{\"d\":{"
-           "\"temperature\": %.2f, \"temperature\": %.2f, \"humidity\": %.2f, \"humidity\": %.2f"
+           "\"temperature\": %.2f, \"humidity\": %.2f, \"pressure\": %.2f, \"proximity\": %d, "
+           "\"acc_x\": %d, \"acc_y\": %d, \"acc_z\": %d, "
+           "\"gyr_x\": %.0f, \"gyr_y\": %.0f, \"gyr_z\": %.0f, "
+           "\"mag_x\": %d, \"mag_y\": %d, \"mag_z\": %d"
              "}}",
-           TEMPERATURE_Value, FTemp, HUMIDITY_Value, HTemp );
+           TEMPERATURE_Value, HUMIDITY_Value, PRESSURE_Value, PROXIMITY_Value,
+           ACC_Value[0], ACC_Value[1], ACC_Value[2],
+           GYR_Value[0], GYR_Value[1], GYR_Value[2],
+           MAG_Value[0], MAG_Value[1], MAG_Value[2] );
 
 /*
 **  This is where the code displays out to the MQTT, let's get rid of everything
@@ -177,12 +183,17 @@ int PrepareSensorsData(char * Buffer, int Size, char * deviceID)
 #elif defined(AWS)
   if (deviceID != NULL)
   {
-    snprintfreturn = snprintf( Buff, BuffSize, "{\"deviceId\":\"%s\","
-             "\"temperature\": %.2f, \"temperature\": %.2f, \"humidity\": %.2f, \"humidity\": %.2f"
+ Buff, BuffSize, "{\"deviceId\":\"%s\","
+             "\"temperature\": %.2f, \"humidity\": %.2f, \"pressure\": %.2f, \"proximity\": %d, "
+             "\"acc_x\": %d, \"acc_y\": %d, \"acc_z\": %d, "
+             "\"gyr_x\": %.0f, \"gyr_y\": %.0f, \"gyr_z\": %.0f, "
+             "\"mag_x\": %d, \"mag_y\": %d, \"mag_z\": %d"
              "}",
              deviceID,
-             TEMPERATURE_Value, FTemp, HUMIDITY_Value, HTemp );
-  }
+             TEMPERATURE_Value, HUMIDITY_Value, PRESSURE_Value, PROXIMITY_Value,
+             ACC_Value[0], ACC_Value[1], ACC_Value[2],
+             GYR_Value[0], GYR_Value[1], GYR_Value[2],
+             MAG_Value[0], MAG_Value[1], MAG_Value[2] );  }
 
 /*
 **  This is where the code displays out to the MQTT, let's get rid of everything
@@ -206,12 +217,23 @@ int PrepareSensorsData(char * Buffer, int Size, char * deviceID)
   
 #elif defined(EXOSITEHTTP)
   snprintfreturn = snprintf( Buff, BuffSize, 
-           "temperature=%.2f °C&"
-           "temperature=%.2f °F&"
-           "humidity=%.2f& °C"
-           "humidity=%.2f& °F"
-           ,
-           TEMPERATURE_Value, FTemp, HUMIDITY_Value, HTemp );
+           "temperature=%.2f&"
+           "humidity=%.2f&"
+           "pressure=%.2f&"
+           "proximity=%d&"
+           "acc_x=%d&"
+           "acc_y=%d&"
+           "acc_z=%d&"
+           "gyr_x=%.0f&"
+           "gyr_y=%.0f&"
+           "gyr_z=%.0f&"
+           "mag_x=%d&"
+           "mag_y=%d&"
+           "mag_z=%d",
+           TEMPERATURE_Value, HUMIDITY_Value, PRESSURE_Value, PROXIMITY_Value,
+           ACC_Value[0], ACC_Value[1], ACC_Value[2],
+           GYR_Value[0], GYR_Value[1], GYR_Value[2],
+           MAG_Value[0], MAG_Value[1], MAG_Value[2] );
 #endif
 
   /* Check total size to be less than buffer size
